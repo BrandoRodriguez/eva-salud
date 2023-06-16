@@ -1,1 +1,1 @@
-export * from "./card/Specialty"
+export * from "./cards/Specialty"
