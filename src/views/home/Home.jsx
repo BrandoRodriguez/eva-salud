@@ -1,6 +1,6 @@
 import styles from "./Home.module.css";
 import { Layout } from "../../layouts/Layout";
-import { Hero, HeaderSecction, Products } from "../../components";
+import { Hero, HeaderSecction, Products, Application } from "../../components";
 
 const Home = () => {
   return (
@@ -13,6 +13,7 @@ const Home = () => {
           <HeaderSecction />
           <Products />
         </section>
+        <Application/>
       </main>
     </Layout>
   );
