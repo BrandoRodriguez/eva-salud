@@ -137,7 +137,7 @@
 .search {
   position: relative;
   border-radius: 24px;
-  background: rgba(35, 34, 99, 0.5);
+  background: rgba(35, 34, 99, 0.4);
   box-shadow: 0 40px 30px rgba(35, 34, 99, 0.02),
     0 16px 10px rgba(35, 34, 99, 0.02), 0 0 15px rgba(35, 34, 99, 0.02);
   width: 100%;
