@@ -1,0 +1,37 @@
+.fundation {
+    display: grid;
+    grid-template-rows: 1fr;
+    margin-bottom: var(--section-margin-mobile);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cards_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 35px;
+}
+
+@media (min-width: 1024px) {
+
+	.fundation {
+        grid-template-rows: auto 1fr;
+        margin-bottom: var(--section-margin-desktop);
+    }
+    
+    .content {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .cards_container {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 16px;
+    }
+
+
+}

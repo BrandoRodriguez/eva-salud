@@ -129,3 +129,29 @@ export const TestimonialText = {
 		]
 	}
 }
+
+export const FundationText = {
+	es: {
+        title: "Creando conexión humana a través de la experiencia digital",
+        description: "“No podemos adivinar el futuro, pero podemos ayudar a construirlo”",
+        buttons: [
+            {
+                text: "Ver proyectos solidarios",
+            }
+        ],
+        cards: [
+            {
+                title: "Eva Plus",
+                description: "A través del programa Eva Plus, todos los clientes de Eva Salud obtendrán servicios gratuitos en otras compañías de nuestro grupo."
+            },
+            {
+                title: "Fundación Universo Accesible",
+                description: "Eva Seguros apuesta por un mundo más justo colaborando con la fundación Universo Accesible y su proyecto Universo Santi."
+            },
+            {
+                title: "Plant For The Planet",
+                description: "En Eva trabajamos por un mundo más verde, por eso EVA, como empresa colaboradora de Plant For The Planet plantará un árbol por cada cliente nuevo."
+            }
+        ]
+    }
+}

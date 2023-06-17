@@ -8,6 +8,7 @@ import {
   About,
   Application,
 } from "../../components";
+import Fundation from "@UI/Fundation/Fundation";
 
 const Home = () => {
   return (
@@ -40,6 +41,7 @@ const Home = () => {
           <Application />
         </section>
         <Testimonial />
+        <Fundation/>
       </main>
     </Layout>
   );

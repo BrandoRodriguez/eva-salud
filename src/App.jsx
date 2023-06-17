@@ -1,9 +1,11 @@
-import { LanguageProvider } from "@context/LanguageContext/LanguageProvider";
-import Home from "./views/home/Home";
+import { BrowserRouter } from "react-router-dom";
+import Router from "./router";
 
 function App() {
   return (
-    <Home />
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
   );
 }
 
