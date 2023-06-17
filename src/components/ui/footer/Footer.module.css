@@ -1,8 +1,7 @@
 .footer {
-  background-color: var(--secondary-500);
+  /* background-color: var(--secondary-500); */
   margin-top: 100px;
   position: relative;
-  overflow: hidden;
 }
 
 .footer>svg {
@@ -54,13 +53,13 @@
 
 .introduction p {
   font-size: 16px;
-  color: white;
+  color: var(--black);
   padding-right: 27px;
 }
 
 .introduction label {
   font-size: 12px;
-  color: white;
+  color: var(--black);
 }
 
 .socials {
@@ -88,7 +87,7 @@
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.2px;
-  color: var(--white);
+  color: var(--black);
 }
 
 .wellness {
@@ -126,13 +125,13 @@
 
 .app p,
 .app label {
-  color: var(--white);
+  color: var(--black);
   font-size: 16px;
 }
 
 .newsletter {
   padding: 28px 36px;
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--secondary-500);
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -199,7 +198,7 @@
 .menu p {
   width: auto;
   font-size: 14px;
-  color: var(--white);
+  color: var(--black);
   font-weight: 400;
 }
 
@@ -207,7 +206,7 @@
 .bottombar div {
   display: flex;
   justify-content: space-between;
-  color: var(--white);
+  color: var(--black);
 }
 
 .bottombar div {

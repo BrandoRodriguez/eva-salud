@@ -51,7 +51,7 @@
 
   /* Others */
   --white: #ffffff;
-  --black: #000000;
+  --black: #212121;
   --dashboard-background: #f1f5f9;
 }
 
@@ -125,7 +125,6 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   position: relative;
-  overflow: hidden;
 }
 
 @media (min-width: 1245px) {

@@ -35,7 +35,7 @@ export const Footer = () => {
 
   return (
     <footer className={styles.footer}>
-      <Shape />
+      {/* <Shape /> */}
       <div className={`${styles.content} container`}>
         <div className={styles.detail}>
           <div className={styles.introduction}>
@@ -99,7 +99,7 @@ export const Footer = () => {
             return <p key={index}>{item}</p>;
           })}
         </nav>
-        <div className={styles.bottombar}>
+        {/* <div className={styles.bottombar}>
           <div>
             <span>
               <Tel />
@@ -119,7 +119,7 @@ export const Footer = () => {
             </span>
           </div>
           <p>{content.copyright}</p>
-        </div>
+        </div> */}
       </div>
     </footer>
   );
