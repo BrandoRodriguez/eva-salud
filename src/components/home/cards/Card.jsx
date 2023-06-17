@@ -60,6 +60,7 @@ export const AboutCard = ({
       <div className={styles.content}>
         <h2 className={styles.specialty}>{title}</h2>
         <span className={styles.category}>{description}</span>
+        <button className={styles.viewCenter}>Entérate cómo</button>
       </div>
     </div>
   );
