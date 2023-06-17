@@ -1,0 +1,47 @@
+
+.Appsection {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(460px, 1fr));
+    gap: 15px;
+}
+.appImage {
+    background: url("./images/application/app.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.appDescription {
+    font-size: var(--h4-size);
+    display: grid;
+    gap: 20px;
+    width: 85%;
+
+}
+
+.appDescription b{
+    color: var(--primary-500);
+}
+
+.featureApp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.featureApp span{
+    width: 90%;
+    display: grid;
+    gap: 10px;
+}
+
+.featureApp span p:first-child{
+    color: var(--grey-900);
+    font-weight: var(--bold);
+    font-size: var(--body-xlarge-size);
+}
+
+.textFeature{
+    color: var(--grey-900);
+    font-weight: var(--regular);
+    font-size: var(--body-large-size);
+}

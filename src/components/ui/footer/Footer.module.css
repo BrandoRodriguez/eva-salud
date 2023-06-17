@@ -1,13 +1,14 @@
 .footer {
   background-color: #232263;
   clip-path: ellipse(80% 76% at 50% 75%);
+  margin-top: 100px;
 }
 
 .content {
-    width: 1245px;
-    margin: auto;
-    padding-top: 6em;
-    padding-bottom: 1em;
+  width: 1245px;
+  margin: auto;
+  padding-top: 6em;
+  padding-bottom: 1em;
 }
 
 .detail {
@@ -22,8 +23,8 @@
 
 
 .detail div {
-    width: 16em;
-  }
+  width: 16em;
+}
 
 .introduction {
   display: flex;
@@ -118,13 +119,13 @@
 }
 
 .newsletterText {
-    color: var(--white);
-    display: grid;
-    gap: 5px;
+  color: var(--white);
+  display: grid;
+  gap: 5px;
 }
 
-.newsletterText h4{
- font-size: var(--h4-size);
+.newsletterText h4 {
+  font-size: var(--h4-size);
 }
 
 .newsletterForm {
@@ -164,31 +165,32 @@
 }
 
 .menu {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(9, auto);
-    gap: 10px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(9, auto);
+  gap: 10px;
 }
 
-.menu p{
-    width: auto;
-    font-size: 14px;
-    color: var(--white);
-    margin: 3em 0px;
+.menu p {
+  width: auto;
+  font-size: 14px;
+  color: var(--white);
+  margin: 3em 0px;
 }
 
-.bottombar , .bottombar div{
-    display: flex;
-    justify-content: space-between;
-    color: var(--white);
+.bottombar,
+.bottombar div {
+  display: flex;
+  justify-content: space-between;
+  color: var(--white);
 }
 
 .bottombar div {
-    width: 770px;
+  width: 770px;
 }
 
 .bottombar span {
-    margin: 0px 5px;
-    display: flex;
-    align-items: center;
+  margin: 0px 5px;
+  display: flex;
+  align-items: center;
 }
