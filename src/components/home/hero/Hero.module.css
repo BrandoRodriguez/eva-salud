@@ -1,7 +1,7 @@
 .background {
   background: url("./background_hero.png");
   width: 100%;
-  height: 720px;
+  height: 45rem;
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -35,19 +35,18 @@
 
 .presentation h1 {
   font-weight: 400;
-  font-size: 64px;
-  text-align: center;
-  letter-spacing: 0.2px;
+  font-size: 1.75rem;
   color: var(--white);
+  letter-spacing: 0.01em;
+  text-align: center;
 }
 
 .presentation h2 {
-  font-weight: 400;
-  font-size: 22px;
+  color: var(--white);
   text-align: center;
   letter-spacing: 0.2px;
-  color: var(--white);
-  padding: 0 22%;
+  font-weight: 400;
+  font-size: 1rem;
 }
 
 .chiplist {
@@ -106,10 +105,119 @@
   gap: 15px;
 }
 
+@media(max-width: 1245px) {
+  .cardlist {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  }
 
-@media (max-width: 1024px) {
+  .background {
+    height: 40rem;
+  }
+}
+
+@media(max-width: 1100px) {
+  .cardlist {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  }
+
+  /* .background {
+    height: 37rem;
+  } */
+}
+
+@media (max-width: 960px) {
   .cardlist {
     grid-template-columns: repeat(auto-fill, minmax(142.5px, 1fr));
     width: 930px;
+  }
+
+  .background {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 21.563rem;
+    left: 0;
+    top: 0;
+    background: var(--secondary-500);
+  }
+
+  .content {
+    display: block;
+    gap: 32px;
+    padding-top: 16px;
+  }
+
+  .group {
+    display: block;
+    gap: 24px;
+    justify-content: center;
+  }
+
+  .explore h3 {
+    font-size: 20px;
+    color: var(--secondary-500);
+    padding: 0 11%;
+    font-weight: 600;
+  }
+
+  .explore ::before {
+    background: var(--secondary-500);
+    width: 40px;
+  }
+
+  .explore ::after {
+    background: var(--secondary-500);
+    width: 40px;
+  }
+
+  .presentation {
+    padding-bottom: 24px;
+  }
+
+  .ctn_search,
+  .ctn_chiplist,
+  .ctn_explore {
+    padding-bottom: 24px;
+  }
+
+  .ctn_chiplist {
+    display: none;
+  }
+}
+
+
+@media (min-width: 400px) {
+  .presentation h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 640px) {
+  .presentation h1 {
+    font-size: 2.5rem;
+  }
+
+  .presentation h2 {
+    padding: 0 22%;
+  }
+}
+
+@media (min-width: 960px) {
+  .presentation h1 {
+    font-size: 3rem;
+  }
+
+  .presentation h2 {
+    font-size: 1.125rem;
+  }
+}
+
+@media (min-width: 1245px) {
+  .presentation h1 {
+    font-size: 4rem;
+  }
+
+  .presentation h2 {
+    font-size: 1.375rem;
   }
 }
