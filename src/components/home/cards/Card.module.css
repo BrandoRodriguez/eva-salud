@@ -154,3 +154,15 @@
   font-size: 26px;
   letter-spacing: 0.005em;
 }
+
+@media (max-width: 1024px) {
+  .aboutCard .content {
+    padding-left: 26px;
+    padding-bottom: 26px;
+  }
+
+  .aboutCard .category {
+    font-size: 24px;
+  }
+
+}
