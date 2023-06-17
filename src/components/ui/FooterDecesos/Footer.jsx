@@ -22,7 +22,7 @@ const Footer = () => {
 
 					<div className={styles.logo_container}>
 						{/* {getLogo(language)} */}
-						<EvaSalud />
+						<EvaSalud type={'footer'}/>
 					</div>
 
 					<div className={styles.social}>
