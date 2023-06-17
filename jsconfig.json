@@ -1,0 +1,29 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+
+			"@UI/*": [
+				"./src/components/ui/*"
+			],
+			"@mocks/*": [
+				"./src/mocks/*"
+			],
+			"@views/*": [
+				"./src/views/*"
+			],
+			"@context/*": [
+				"./src/context/*"
+			],
+			"@utils/*": [
+				"./src/utils/*"
+			]
+		}
+	},
+	"include": [
+		"./src/**/*"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}
