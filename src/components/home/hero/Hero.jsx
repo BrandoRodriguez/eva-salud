@@ -35,10 +35,12 @@ export const Hero = () => {
             <h3>{content.card_title}</h3>
           </div>
         </div>
-        <div className={styles.cardlist}>
-          {content.cards.map((item, index) => (
-            <CardSmall key={index} {...item} />
-          ))}
+        <div className={styles.scroll}>
+          <div className={styles.cardlist}>
+            {content.cards.map((item, index) => (
+              <CardSmall key={index} {...item} />
+            ))}
+          </div>
         </div>
       </div>
     </>
