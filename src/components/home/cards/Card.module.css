@@ -98,6 +98,29 @@
   color: var(--white);
 }
 
+@media (max-width: 1024px) {
+  .cardproduct .content {
+    padding-left: 26px;
+    padding-bottom: 26px;
+  }
+
+  .cardproduct .specialty {
+    font-size: 24px;
+  }
+
+  .cardproduct .category {
+    font-size: 18px;
+  }
+
+  .ctn_price {
+    font-size: 14px;
+  }
+
+  .cardproduct .price {
+    font-size: 24px;
+  }
+}
+
 .aboutCard {
   aspect-ratio: 0.8709677419354839;
   background-repeat: no-repeat;
