@@ -1,4 +1,4 @@
-.card {
+.cardsmall {
   aspect-ratio: 0.7259325441143623;
   background-repeat: no-repeat;
   background-size: cover;
@@ -45,4 +45,13 @@
   .category {
     font-size: 12px;
   }
+}
+
+.cardproduct {
+  aspect-ratio: 0.8709677419354839;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  filter: drop-shadow(0px 15px 40px rgba(35, 34, 99, 0.15));
+  position: relative;
 }

@@ -1,7 +1,7 @@
 import styles from "./header.module.css";
 import {
   Logo,
-  Search,
+  SearchPrimary,
   Phone,
   ButtonPrimarySmall,
   ButtonSecondarySmall,
@@ -9,22 +9,22 @@ import {
 
 export const Header = () => {
   return (
-    <header className={styles.header}>
-      <nav>
+    <header className={`${styles.header} container`}>
+      <nav className={styles.navegation}>
         <Logo />
-        <ul>
+        <ul className={styles.link}>
           <li>Inicio</li>
           <li>Especialidades</li>
           <li>Centros destacados</li>
           <li>Atención al cliente</li>
         </ul>
-        <div>
-          <Search />
+        <div className={styles.group}>
+          <SearchPrimary />
           <Phone />
         </div>
-        <div>
-          <ButtonPrimarySmall />
-          <ButtonSecondarySmall />
+        <div className={styles.group}>
+          <ButtonSecondarySmall name={"Iniciar sesión"} />
+          <ButtonPrimarySmall name={"Registrarse"} />
         </div>
       </nav>
     </header>

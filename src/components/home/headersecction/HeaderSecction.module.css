@@ -1,0 +1,26 @@
+.headersecction {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.group {
+  width: 421px;
+  display: grid;
+  gap: 10px;
+}
+
+.headersecction h2 {
+  font-weight: 500;
+  font-size: 45px;
+  letter-spacing: 0.005em;
+  color: var(--secondary-500);
+  line-height: 45px;
+  margin-left: -5px;
+}
+
+.headersecction p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #1F1F1F;
+}

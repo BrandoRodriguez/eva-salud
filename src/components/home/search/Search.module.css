@@ -1,0 +1,189 @@
+.svgIcon,
+.text {
+  position: relative;
+}
+
+.svgIcon {
+  width: 1.25rem;
+  height: 1.25rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.text {
+  flex: 1;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+  font-weight: 500;
+}
+
+.imputSearch {
+  flex: 1;
+  border-radius: 16px;
+  background-color: #f6f8fb;
+  display: flex;
+  flex-direction: row;
+  padding: 0.88rem 0.75rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  font-size: 0.88rem;
+  height: 3rem;
+}
+
+.label,
+.text1 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+
+.label {
+  letter-spacing: 0.08em;
+  line-height: 0.88rem;
+  text-transform: uppercase;
+}
+
+.text1 {
+  font-size: 0.88rem;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+  color: var(--secondary-500);
+}
+
+.div,
+.formAction,
+.imputLocation {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.div {
+  flex: 1;
+  flex-direction: column;
+}
+
+.formAction,
+.imputLocation {
+  flex-direction: row;
+}
+
+.imputLocation {
+  flex: 1;
+  border-radius: 1rem;
+  background-color: #f6f8fb;
+  height: 3rem;
+  padding: 0.5rem 1rem 0.5rem 0.75rem;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.svgIcon3 {
+  position: relative;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.imputSpecialties {
+  align-self: stretch;
+  flex: 1;
+  border-radius: 1rem;
+  background-color: #f6f8fb;
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem 1rem 0.5rem 0.75rem;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  height: 3rem;
+}
+
+.searchIcon {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.text3 {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+}
+
+.button,
+.search {
+  display: flex;
+  flex-direction: row;
+}
+
+.button {
+  /* flex: 1; */
+  border-radius: 16px;
+  background-color: var(--primary-500);
+  padding: 0.75rem 1.25rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  color: #fff;
+  height: 3rem;
+  border: none;
+  cursor: pointer;
+}
+
+.search {
+  position: relative;
+  border-radius: 24px;
+  background: rgba(35, 34, 99, 0.5);
+  box-shadow: 0 40px 30px rgba(35, 34, 99, 0.02),
+    0 16px 10px rgba(35, 34, 99, 0.02), 0 0 15px rgba(35, 34, 99, 0.02);
+  width: 100%;
+  padding: 1rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1rem;
+  text-align: left;
+  font-size: 0.63rem;
+  color: #757575;
+  width: 920px;
+}
+
+@media screen and (max-width: 1200px) {
+  .search {
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 960px) {
+
+  .button,
+  .imputLocation,
+  .imputSearch,
+  .imputSpecialties {
+    flex: unset;
+    align-self: stretch;
+  }
+
+  .search {
+    flex-direction: column;
+    background-color: var(--white);
+  }
+}
+
+@media screen and (max-width: 420px) {
+
+  .button,
+  .imputLocation,
+  .imputSearch,
+  .imputSpecialties {
+    flex: unset;
+    align-self: stretch;
+  }
+
+  .search {
+    flex-direction: column;
+  }
+}

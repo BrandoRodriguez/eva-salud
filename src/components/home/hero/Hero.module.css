@@ -1,0 +1,107 @@
+.background {
+  background: url("./background_hero.png");
+  width: 100%;
+  height: 720px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  z-index: -3;
+  background-position: top;
+}
+
+.background svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.content {
+  display: grid;
+  gap: 32px;
+  padding-top: 32px;
+}
+
+.group {
+  display: grid;
+  gap: 24px;
+  justify-content: center;
+}
+
+.presentation {
+  display: grid;
+  gap: 15px;
+}
+
+.presentation h1 {
+  font-weight: 400;
+  font-size: 64px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: var(--white);
+}
+
+.presentation h2 {
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: var(--white);
+  padding: 0 22%;
+}
+
+.chiplist {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  width: 786px;
+}
+
+.ctn_search,
+.ctn_chiplist,
+.ctn_explore {
+  display: flex;
+  justify-content: center;
+}
+
+.explore {
+  position: relative;
+  width: 862px;
+}
+
+.explore h3 {
+  font-weight: 500;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: var(--white);
+  padding: 0 32%;
+}
+
+.explore ::before {
+  content: "";
+  width: 250px;
+  height: 1px;
+  background: var(--white);
+  opacity: 0.34;
+  position: absolute;
+  left: 0;
+  top: 18px;
+}
+
+.explore ::after {
+  content: "";
+  width: 250px;
+  height: 1px;
+  background: var(--white);
+  opacity: 0.34;
+  position: absolute;
+  right: 0;
+  top: 18px;
+}
+
+.cardlist {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(195px, 1fr));
+  gap: 15px;
+}

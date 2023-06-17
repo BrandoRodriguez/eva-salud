@@ -1,0 +1,13 @@
+.fullpage {
+  display: grid;
+  gap: 100px;
+}
+
+.hero {
+  background: transparent;
+}
+
+.products {
+  display: grid;
+  gap: 50px;
+}

@@ -1,4 +1,5 @@
 import styles from "./Button.module.css";
+import { Arrow } from "../../../components";
 
 export const ButtonPrimary = () => {
   return <div>Button</div>;
@@ -8,9 +9,17 @@ export const ButtonSecondary = () => {
   return <div>Button</div>;
 };
 
-export const ButtonPrimarySmall = () => {
-  return <div className={styles.buttonprimarysmall}>Button</div>;
+export const ButtonArrow = ({ name = "Button" }) => {
+  return (
+    <div className={styles.buttonarrow}>
+      {name} <Arrow />
+    </div>
+  );
 };
-export const ButtonSecondarySmall = () => {
-  return <div className={styles.buttonsecondarysmall}>Button</div>;
+
+export const ButtonPrimarySmall = ({ name = "Button" }) => {
+  return <div className={styles.buttonprimarysmall}>{name}</div>;
+};
+export const ButtonSecondarySmall = ({ name = "Button" }) => {
+  return <div className={styles.buttonsecondarysmall}>{name}</div>;
 };

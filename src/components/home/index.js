@@ -1,1 +1,5 @@
-export * from "./cards/Specialty"
+export * from "./cards/Card"
+export * from "./hero/Hero"
+export * from "./headersecction/HeaderSecction"
+export * from "./products/Products"
+export * from "./chip/Chip"
