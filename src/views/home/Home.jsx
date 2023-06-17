@@ -29,7 +29,7 @@ const Home = () => {
           />
           <Products />
         </section>
-        <section className={styles.about}>
+        {/* <section className={styles.about}>
           <HeaderSecction
             title={content.about.title}
             description={content.about.description}
@@ -39,9 +39,8 @@ const Home = () => {
         <section className={styles.application}>
           <Application />
         </section>
-
         <Testimonial />
-        <Fundation />
+        <Fundation /> */}
       </main>
     </Layout>
   );
