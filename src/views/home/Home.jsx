@@ -1,5 +1,6 @@
 import { Layout } from "../../layouts/Layout";
 import { Hero, HeaderSecction, Products } from "../../components";
+import styles from './Home.module.css'
 
 const Home = () => {
   return (
