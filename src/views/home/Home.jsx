@@ -36,11 +36,11 @@ const Home = () => {
           />
           <About />
         </section>
-        {/* <section className={styles.application}>
+        <section className={styles.application}>
           <Application />
         </section>
         <Testimonial />
-        <Fundation /> */}
+        <Fundation />
       </main>
     </Layout>
   );
