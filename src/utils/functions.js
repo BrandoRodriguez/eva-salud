@@ -27,8 +27,39 @@ export function getLanguage(language = 'es') {
 		domainIndex = 2
 		language = 'en'
 	}
-	
+
 	domain = domain.replace('www.', '')
 
 	return { language, url, domainIndex, domain }
 }
+
+export const processBoldText = (text) => {
+	let elements = [];
+	let startComment, endComment;
+
+	while (text.length > 0) {
+		startComment = text.indexOf('/*');
+		endComment = text.indexOf('*/');
+
+		if (startComment !== -1) {
+			let beforeComment = text.slice(0, startComment).trim();
+			let insideComment = text.slice(startComment + 2, endComment).trim();
+
+			if (beforeComment) {
+				elements.push({ type: 'text', content: beforeComment });
+			}
+			if (insideComment) {
+				elements.push({ type: 'span', content: insideComment });
+			}
+
+			text = text.slice(endComment + 2);
+		} else {
+			if (text.trim()) {
+				elements.push({ type: 'text', content: text.trim() });
+			}
+			break;
+		}
+	}
+
+	return elements;
+};

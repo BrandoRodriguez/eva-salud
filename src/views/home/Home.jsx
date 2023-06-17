@@ -1,6 +1,7 @@
 import styles from "./Home.module.css";
 import { Layout } from "../../layouts/Layout";
 import Testimonial from "@UI/testimonial/Testimonial";
+import Fundation from "@UI/Fundation/Fundation";
 import {
   Hero,
   HeaderSecction,
@@ -8,9 +9,14 @@ import {
   About,
   Application,
 } from "../../components";
-import Fundation from "@UI/Fundation/Fundation";
+import { HeaderSectionText } from "@mocks/Pages/Home";
+import { useLanguage } from "@context/LanguageContext/useLanguage";
 
 const Home = () => {
+
+  const {language} = useLanguage()
+  const content = HeaderSectionText[language]
+
   return (
     <Layout>
       <main className={styles.fullpage}>
@@ -19,21 +25,15 @@ const Home = () => {
         </section>
         {/* <section className={styles.products}>
           <HeaderSecction
-            title={"Pruebas médicas más populares en Madrid"}
-            description={
-              "“Tu bienestar nos mueve, Encuentra la especialidad adecuada para una vida plena”"
-            }
+            title={content.products.title}
+            description={content.products.description}
           />
           <Products />
         </section>
         <section className={styles.about}>
           <HeaderSecction
-            title={
-              "Beneficios para una vida más fácil al pertenecer a Eva Salud"
-            }
-            description={
-              "“Tu bienestar nos mueve, Encuentra la especialidad adecuada para una vida plena”"
-            }
+            title={content.about.title}
+            description={content.about.description}
           />
           <About />
         </section>
