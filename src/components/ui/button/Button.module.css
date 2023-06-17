@@ -28,3 +28,13 @@
   align-items: center;
   cursor: pointer;
 }
+
+.buttonarrow {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.005em;
+  color: var(--primary-500);
+}

@@ -10,7 +10,7 @@ export const Hero = () => {
   const content = HeroText[language]
 
   return (
-    <div className={styles.hero}>
+    <>
       <div className={styles.background}>
         <Shape />
       </div>
@@ -50,6 +50,6 @@ export const Hero = () => {
           ))}
         </div>
       </div>
-    </div>
+    </>
   );
 };
