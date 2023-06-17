@@ -1,3 +1,4 @@
+import styles from "./Home.module.css"
 import { Layout } from "../../layouts/Layout";
 import { Hero, HeaderSecction, Products, Application } from "../../components";
 
