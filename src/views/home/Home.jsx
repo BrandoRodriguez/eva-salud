@@ -17,7 +17,7 @@ const Home = () => {
         <section className={styles.hero}>
           <Hero />
         </section>
-        <section className={styles.products}>
+        {/* <section className={styles.products}>
           <HeaderSecction
             title={"Pruebas médicas más populares en Madrid"}
             description={
@@ -39,9 +39,11 @@ const Home = () => {
         </section>
         <section className={styles.application}>
           <Application />
-        </section>
-        <Testimonial />
-        <Fundation/>
+        </section> */}
+
+        {/* <Testimonial />
+        <Fundation/> */}
+
       </main>
     </Layout>
   );
