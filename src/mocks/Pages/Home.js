@@ -101,8 +101,6 @@ export const HeroText = {
 			},
 		]
 	}
-
-
 }
 
 export const TestimonialText = {
@@ -125,6 +123,77 @@ export const TestimonialText = {
 				name: 'Fernando Rubio',
 				city: 'Salamanca',
 				description: '"Por fin un sitio en el que comparar múltiples seguros agrarios. La cantidad de opciones es inmejorable"'
+			}
+		]
+	},
+	en: {
+		subtitle: "Our customers' opinion is very important",
+		title: 'What our customers say about us',
+		description: 'Clear accounts, long friendships. Having clarity and knowledge is essential. Not only for the quotation process but so you have the confidence that you are getting exactly what you chose.',
+		cards: [
+			{
+				name: 'Antonio García Arguedas',
+				city: 'Girona',
+				description: '"I am used to renewing my insurance automatically and without comparing, I have undoubtedly wasted a lot of money"'
+			},
+			{
+				name: 'Lucía Sánchez',
+				city: 'Madrid',
+				description: '"I was looking for a cheap and comprehensive insurance for my car, I found it with compare your policy"'
+			},
+			{
+				name: 'Fernando Rubio',
+				city: 'Salamanca',
+				description: '"Finally a site where I can compare multiple agricultural insurances. The amount of options is unbeatable"'
+			}
+		]
+	}
+}
+
+export const FundationText = {
+	es: {
+		title: "Creando conexión humana a través de la experiencia digital",
+		description: "“No podemos adivinar el futuro, pero podemos ayudar a construirlo”",
+		buttons: [
+			{
+				text: "Ver proyectos solidarios",
+			}
+		],
+		cards: [
+			{
+				title: "Eva Plus",
+				description: "A través del programa Eva Plus, todos los clientes de Eva Salud obtendrán servicios gratuitos en otras compañías de nuestro grupo."
+			},
+			{
+				title: "Fundación Universo Accesible",
+				description: "Eva Seguros apuesta por un mundo más justo colaborando con la fundación Universo Accesible y su proyecto Universo Santi."
+			},
+			{
+				title: "Plant For The Planet",
+				description: "En Eva trabajamos por un mundo más verde, por eso EVA, como empresa colaboradora de Plant For The Planet plantará un árbol por cada cliente nuevo."
+			}
+		]
+	},
+	en: {
+		title: "Creating human connection through digital experience",
+		description: "\"We can't guess the future, but we can help build it\"",
+		buttons: [
+			{
+				text: "View solidarity projects",
+			}
+		],
+		cards: [
+			{
+				title: "Eva Plus",
+				description: "Through the Eva Plus program, all Eva Health customers will receive free services from other companies in our group."
+			},
+			{
+				title: "Accessible Universe Foundation",
+				description: "Eva Insurance is committed to a fairer world by collaborating with the Accessible Universe Foundation and its Universe Santi project."
+			},
+			{
+				title: "Plant For The Planet",
+				description: "At Eva, we work for a greener world, which is why EVA, as a collaborating company of Plant For The Planet, will plant a tree for each new customer."
 			}
 		]
 	}

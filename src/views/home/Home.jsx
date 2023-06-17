@@ -8,6 +8,7 @@ import {
   About,
   Application,
 } from "../../components";
+import Fundation from "@UI/Fundation/Fundation";
 
 const Home = () => {
   return (
@@ -39,7 +40,10 @@ const Home = () => {
         <section className={styles.application}>
           <Application />
         </section>
+
         <Testimonial />
+        <Fundation/>
+
       </main>
     </Layout>
   );

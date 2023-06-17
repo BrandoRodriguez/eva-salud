@@ -4,7 +4,7 @@
 }
 
 .hero {
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .products {
@@ -15,4 +15,10 @@
 .about {
   display: grid;
   gap: 50px;
+}
+
+@media (max-width: 968px) {
+  .hero {
+    overflow: hidden;
+  }
 }
