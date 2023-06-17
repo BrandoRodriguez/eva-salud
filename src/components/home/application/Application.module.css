@@ -107,8 +107,12 @@
     width: 85%;
   }
 
-  ._featureApp span p:first-child {
+  .featureApp span p:first-child {
     font-size: 17px;
+  }
+
+  .textFeature {
+    font-size: 16px;
   }
 
   .openApp {
@@ -119,7 +123,7 @@
     border: none;
     color: var(--white);
     font-size: 16px;
-    font-weight: var(--medium);
+    font-weight: var(--bold);
     letter-spacing: 0.2px;
   }
 }

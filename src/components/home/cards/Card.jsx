@@ -45,6 +45,7 @@ export const CardProduct = ({
         <div className={styles.ctn_price}>
           <span className={styles.price}>{price}</span> / {content.concept}
         </div>
+          <button className={styles.viewCenter}>Entérate cómo</button>
       </div>
     </div>
   );
