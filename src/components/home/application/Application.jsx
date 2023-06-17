@@ -21,7 +21,7 @@ export const Application = () => {
                 </div>
                 <div className={styles.appDescription}>
 
-                    <h1>
+                    <h2>
 
                         {
                             processBoldText(content.title).map(({ type, content }, index) => {
@@ -35,7 +35,7 @@ export const Application = () => {
                             })
                         }
 
-                    </h1>
+                    </h2>
 
 
                     <div className={styles.featureApp}>
