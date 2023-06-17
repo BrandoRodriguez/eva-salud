@@ -8,7 +8,7 @@
 	font-size: 16px;
 	font-weight: 600;
 	border-radius: var(--buttons-border-radius);
-	border: 1px solid var(--green-primary);
+	border: 1px solid var(--primary-500);;
 	box-shadow: 20px 25px 60px rgba(0, 152, 58, 0.15);
 	width: 100%;
 	padding: 10px;
@@ -18,7 +18,7 @@
 }
 
 .green_button {
-	background-color: var(--green-primary);
+	background-color: var(--primary-500);;
 	color: var(--white-primary);
 }
 
@@ -44,14 +44,14 @@
 
 	.white_button:hover {
 		transition: 0.2s ease-in;
-		background-color: var(--green-primary);
+		background-color: var(--primary-500);;
 		color: var(--white-primary);
 	}
 	
 	.green_button:hover {
 		transition: 0.2s ease-in;
 		background-color: var(--white-primary);
-		color: var(--green-primary);
+		color: var(--primary-500);;
 	}
 
 	.disabled:hover {

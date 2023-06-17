@@ -6,7 +6,7 @@
     height: 30px;
     font-size: 16px;
     font-weight: 600;
-    color: var(--green-primary);
+    color: var(--primary-500);;
 }
 
 .white_button:hover svg {

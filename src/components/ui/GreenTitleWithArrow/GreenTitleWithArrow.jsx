@@ -14,7 +14,7 @@ const GreenTitleWithArrow = ({ children, href, onClick }) => {
                 to={href}
             >
                 {children}
-                <Arrow_right width={17} height={17} fill={'var(--green-primary'} />
+                <Arrow_right width={17} height={17} />
             </Link>
         ) : (
             <button
@@ -22,7 +22,7 @@ const GreenTitleWithArrow = ({ children, href, onClick }) => {
                 onClick={onClick}
             >
                 {children}
-                <Arrow_right width={17} height={17} fill={'var(--green-primary'} />
+                <Arrow_right width={17} height={17} />
             </button>
         )
     )
