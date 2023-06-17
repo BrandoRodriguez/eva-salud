@@ -3,3 +3,12 @@
   grid-template-columns: repeat(auto-fill, minmax(405px, 1fr));
   gap: 15px;
 }
+
+@media (max-width: 960px) {
+  .products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 15px;
+    width: 1245px;
+  }
+}

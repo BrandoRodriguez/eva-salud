@@ -3,13 +3,14 @@
   gap: 100px;
 }
 
-.hero {
+.section_hero {
   /* overflow: hidden; */
 }
 
-.products {
+.section_products {
   display: grid;
   gap: 50px;
+
 }
 
 .about {
@@ -17,8 +18,17 @@
   gap: 50px;
 }
 
-@media (max-width: 968px) {
-  .hero {
+@media (max-width: 960px) {
+  .section_hero {
     overflow: hidden;
+  }
+
+  .fullpage {
+    gap: 24px;
+  }
+
+  .section_products {
+    overflow: hidden;
+    display: block;
   }
 }

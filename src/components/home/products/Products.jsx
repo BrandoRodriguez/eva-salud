@@ -21,10 +21,12 @@ const products = [
 
 export const Products = () => {
   return (
-    <div className={`${styles.products} container`}>
-      {products.map((product, index) => (
-        <CardProduct key={index} {...product} />
-      ))}
+    <div className="">
+      <div className={styles.products}>
+        {products.map((product, index) => (
+          <CardProduct key={index} {...product} />
+        ))}
+      </div>
     </div>
   );
 };

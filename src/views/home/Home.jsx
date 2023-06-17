@@ -14,10 +14,10 @@ const Home = () => {
   return (
     <Layout>
       <main className={styles.fullpage}>
-        <section className={styles.hero}>
+        <section className={styles.section_hero}>
           <Hero />
         </section>
-        {/* <section className={styles.products}>
+        <section className={`${styles.section_products} container`}>
           <HeaderSecction
             title={"Pruebas médicas más populares en Madrid"}
             description={
@@ -26,7 +26,7 @@ const Home = () => {
           />
           <Products />
         </section>
-        <section className={styles.about}>
+        {/* <section className={styles.about}>
           <HeaderSecction
             title={
               "Beneficios para una vida más fácil al pertenecer a Eva Salud"
@@ -43,7 +43,6 @@ const Home = () => {
 
         {/* <Testimonial />
         <Fundation/> */}
-
       </main>
     </Layout>
   );
