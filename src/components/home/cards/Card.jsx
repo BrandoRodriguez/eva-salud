@@ -1,13 +1,13 @@
-import styles from "./Specialty.module.css";
+import styles from "./Card.module.css";
 
-export const Specialty = ({
+export const CardSmall = ({
   image = "./oftalmologia.png",
   specialty = "Consulta de oftalmología",
   category = "Oftalmología",
 }) => {
   return (
     <div
-      className={styles.card}
+      className={styles.cardsmall}
       style={{
         backgroundImage: `url(${image})`,
       }}

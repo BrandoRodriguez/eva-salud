@@ -1,8 +1,13 @@
 import styles from "./Home.module.css";
 import { Layout } from "../../layouts/Layout";
+import { Hero } from "../../components";
 
 const Home = () => {
-  return <Layout></Layout>;
+  return (
+    <Layout>
+      <Hero />
+    </Layout>
+  );
 };
 
 export default Home;

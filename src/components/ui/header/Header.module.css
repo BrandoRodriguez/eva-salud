@@ -1,0 +1,30 @@
+.header {
+  padding-top: 24px;
+}
+
+.navegation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.group svg {
+  cursor: pointer;
+}

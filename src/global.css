@@ -106,3 +106,17 @@ body {
   letter-spacing: 0.2px;
   font-family: var(--noto-sans);
 }
+
+.container {
+  width: 100%;
+  /* padding-left: 15px;
+  padding-right: 15px; */
+  position: relative;
+}
+
+@media (min-width: 1245px) {
+  .container {
+    max-width: 1245px;
+    margin: auto;
+  }
+}

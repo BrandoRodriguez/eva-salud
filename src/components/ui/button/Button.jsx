@@ -8,9 +8,9 @@ export const ButtonSecondary = () => {
   return <div>Button</div>;
 };
 
-export const ButtonPrimarySmall = () => {
-  return <div className={styles.buttonprimarysmall}>Button</div>;
+export const ButtonPrimarySmall = ({ name = "Button" }) => {
+  return <div className={styles.buttonprimarysmall}>{name}</div>;
 };
-export const ButtonSecondarySmall = () => {
-  return <div className={styles.buttonsecondarysmall}>Button</div>;
+export const ButtonSecondarySmall = ({ name = "Button" }) => {
+  return <div className={styles.buttonsecondarysmall}>{name}</div>;
 };
