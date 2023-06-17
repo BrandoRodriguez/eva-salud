@@ -13,9 +13,8 @@ import { HeaderSectionText } from "@mocks/Pages/Home";
 import { useLanguage } from "@context/LanguageContext/useLanguage";
 
 const Home = () => {
-
-  const {language} = useLanguage()
-  const content = HeaderSectionText[language]
+  const { language } = useLanguage();
+  const content = HeaderSectionText[language];
 
   return (
     <Layout>
