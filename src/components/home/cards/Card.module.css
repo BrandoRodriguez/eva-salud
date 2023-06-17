@@ -7,14 +7,30 @@
   position: relative;
 }
 
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .content {
   padding-left: 25px;
   padding-bottom: 25px;
   position: absolute;
   bottom: 0;
+  z-index: 2;
   display: grid;
   gap: 7px;
+  transition: opacity 0.5s linear;
 }
+
+
 
 .specialty {
   color: var(--white);
@@ -30,6 +46,25 @@
   font-size: 14px;
   letter-spacing: 0.2px;
   line-height: 140%;
+}
+
+.viewCenter {
+  background-color: var(--primary-500);
+  color: white;
+  font-size: 16px;
+  padding: 15px 16px;
+  width: 164px;
+  border-radius: 100px;
+  display: none;
+
+}
+
+.aboutCard:hover .content {
+  animation: fade 0.6s linear;
+}
+
+.aboutCard:hover .viewCenter {
+  display: block;
 }
 
 @media (max-width: 1024px) {
@@ -128,6 +163,19 @@
   cursor: pointer;
   filter: drop-shadow(0px 15px 40px rgba(35, 34, 99, 0.15));
   position: relative;
+  transition: all 1s ease-in-out;
+}
+
+.aboutCard:hover::before {
+  content: "";
+  background: linear-gradient(180deg, rgba(35, 34, 99, 0) 0%, rgba(35, 34, 99, 0.15) 7.81%, rgba(35, 34, 99, 0.3) 17.19%, rgba(35, 34, 99, 0.4) 27.08%, rgba(35, 34, 99, 0.5) 41.67%, rgba(35, 34, 99, 0.6) 52.6%, rgba(35, 34, 99, 0.7) 66.15%, rgba(35, 34, 99, 0.8) 80.21%, rgba(35, 34, 99, 0.85) 88.02%, rgba(35, 34, 99, 0.95) 100%);;
+  position: absolute;
+  border-radius: 55px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
 }
 
 .aboutCard .content {

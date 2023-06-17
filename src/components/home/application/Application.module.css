@@ -1,47 +1,120 @@
-
 .Appsection {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(460px, 1fr));
-    gap: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(460px, 1fr));
+  gap: 15px;
+  font-family: var(--noto-sans);
 }
 .appImage {
-    background: url("./images/application/app.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: relative;
+  background: url("./images/application/app.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.scanQR {
+  width: 136px;
+  position: absolute;
+  right: 60px;
+  top: 15px;
+}
+
+.scanQR p {
+  font-size: 14px;
+  color: #05030f;
+  font-weight: var(--bold);
+}
+
+.qr {
+  height: 133px;
 }
 
 .appDescription {
-    font-size: var(--h4-size);
-    display: grid;
-    gap: 20px;
-    width: 85%;
-
+  font-size: var(--h4-size);
+  display: grid;
+  gap: 20px;
+  width: 85%;
 }
 
-.appDescription b{
-    color: var(--primary-500);
+.appDescription h2 {
+  color: var(--secondary-500);
+}
+.appDescription b {
+  color: var(--primary-500);
 }
 
 .featureApp {
+  display: flex;
+  justify-content: space-between;
+}
+
+.featureApp span {
+  width: 90%;
+  display: grid;
+  gap: 10px;
+}
+
+.featureApp span p:first-child {
+  color: var(--grey-900);
+  font-weight: var(--bold);
+  font-size: var(--body-xlarge-size);
+}
+
+.textFeature {
+  color: var(--grey-900);
+  font-weight: var(--regular);
+  font-size: var(--body-large-size);
+}
+
+.openApp {
+  display: none;
+}
+
+@media (max-width: 1050px) {
+  .Appsection {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column-reverse;
+  }
+  .appImage {
+    width: 100%;
+    height: 55rem;
+    background-size: contain;
+  }
 }
 
-.featureApp span{
-    width: 90%;
-    display: grid;
-    gap: 10px;
-}
+@media (max-width: 768px) {
+  .appImage {
+    width: 100%;
+    height: 25rem;
+  }
+  .scanQR {
+    display: none;
+  }
+  .appDescription {
+    width: 100%;
+  }
 
-.featureApp span p:first-child{
-    color: var(--grey-900);
-    font-weight: var(--bold);
-    font-size: var(--body-xlarge-size);
-}
+  .appDescription h2 {
+    font-size: 20px;
+    text-align: center;
+  }
 
-.textFeature{
-    color: var(--grey-900);
-    font-weight: var(--regular);
-    font-size: var(--body-large-size);
+  .featureApp span {
+    width: 85%;
+  }
+
+  ._featureApp span p:first-child {
+    font-size: 17px;
+  }
+
+  .openApp {
+    display: block;
+    padding: 18px 16px;
+    border-radius: 100px;
+    background-color: #00983A;
+    border: none;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: var(--medium);
+    letter-spacing: 0.2px;
+  }
 }

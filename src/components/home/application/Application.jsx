@@ -12,7 +12,13 @@ export const Application = () => {
     return (
         <>
             <div className={`${styles.Appsection} container`}>
-                <span className={styles.appImage}></span>
+                <div className={styles.appImage}>
+                <div className={styles.scanQR}>
+                    <img src="./images/application/logoBlue.png" className={styles.logo}/>
+                    <p>Escanea el código y empieza a usarla.</p>
+                    <img src="./images/application/qr.png" className={styles.qr}/>
+                </div>
+                </div>
                 <div className={styles.appDescription}>
 
                     <h1>
@@ -56,6 +62,7 @@ export const Application = () => {
                             <ButtonArrow name={content.feature[2].button_text} />
                         </span>
                     </div>
+                        <button className={styles.openApp}>Abrir la App</button>
 
                 </div>
             </div>
