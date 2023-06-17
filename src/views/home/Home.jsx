@@ -1,6 +1,6 @@
 import styles from "./Home.module.css";
 import { Layout } from "../../layouts/Layout";
-import { Hero, HeaderSecction, Products } from "../../components";
+import { Hero, HeaderSecction, Products, About } from "../../components";
 
 const Home = () => {
   return (
@@ -10,8 +10,24 @@ const Home = () => {
           <Hero />
         </section>
         <section className={styles.products}>
-          <HeaderSecction />
+          <HeaderSecction
+            title={"Pruebas médicas más populares en Madrid"}
+            description={
+              "“Tu bienestar nos mueve, Encuentra la especialidad adecuada para una vida plena”"
+            }
+          />
           <Products />
+        </section>
+        <section className={styles.about}>
+          <HeaderSecction
+            title={
+              "Beneficios para una vida más fácil al pertenecer a Eva Salud"
+            }
+            description={
+              "“Tu bienestar nos mueve, Encuentra la especialidad adecuada para una vida plena”"
+            }
+          />
+          <About />
         </section>
       </main>
     </Layout>
