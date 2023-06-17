@@ -1,6 +1,12 @@
 import styles from "./Home.module.css";
 import { Layout } from "../../layouts/Layout";
-import { Hero, HeaderSecction, Products, About } from "../../components";
+import {
+  Hero,
+  HeaderSecction,
+  Products,
+  About,
+  Application,
+} from "../../components";
 
 const Home = () => {
   return (
@@ -28,6 +34,9 @@ const Home = () => {
             }
           />
           <About />
+        </section>
+        <section className={styles.application}>
+          <Application />
         </section>
       </main>
     </Layout>
