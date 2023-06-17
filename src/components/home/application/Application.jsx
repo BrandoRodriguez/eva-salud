@@ -1,13 +1,19 @@
 
 import styles from "./Application.module.css";
-import { ButtonArrow, DoctorHome, MedicalCheck, VideoCall } from "../../ui";
+import { ButtonArrow, DoctorHome, Logo, MedicalCheck, VideoCall } from "../../ui";
 export const Application = () => {
     return (
         <>
             <div className={`${styles.Appsection} container`}>
-                <span className={styles.appImage}></span>
+                <div className={styles.appImage}>
+                <div className={styles.scanQR}>
+                    <img src="./images/application/logoBlue.png" className={styles.logo}/>
+                    <p>Escanea el código y empieza a usarla.</p>
+                    <img src="./images/application/qr.png" className={styles.qr}/>
+                </div>
+                </div>
                 <div className={styles.appDescription}>
-                    <h1>Ten el control de tu bienestar con la <b>App de Eva Salud</b></h1>
+                    <h2>Ten el control de tu bienestar con la <b>App de Eva Salud</b></h2>
                     <div className={styles.featureApp}>
                         <VideoCall/>
                         <span>
@@ -32,6 +38,7 @@ export const Application = () => {
                             <ButtonArrow name="Programa la visita" />
                         </span>
                     </div>
+                        <button className={styles.openApp}>Abrir la App</button>
 
                 </div>
             </div>
