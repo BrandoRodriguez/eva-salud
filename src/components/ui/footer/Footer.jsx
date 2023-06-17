@@ -1,15 +1,31 @@
 import styles from "./Footer.module.css";
 import { Logo, Youtube, Facebook, Whatsapp, Figma, Dribble, Phone, Apple, PlayStore, ArrowRight, Email, Mail, Address, Fax, Tel } from "../../ui";
+import { useLanguage } from "@context/LanguageContext/useLanguage";
+import { FooterText } from "@mocks/General";
 
 export const Footer = () => {
+
+  const { language } = useLanguage()
+  const content = FooterText[language]
+
+  const services_styles = [
+    styles.wellness,
+    styles.surgery,
+    styles.consultation,
+    styles.dental,
+    styles.include,
+    styles.test,
+    styles.therapy
+  ]
+
   return (
     <footer className={styles.footer}>
       <div className={styles.content}>
         <div className={styles.detail}>
           <div className={styles.introduction}>
             <Logo />
-            <p>Protejamos lo más importante para alcanzar el bienestar en nuestras vidas: tu salud y la de los tuyos.</p>
-            <label>Síganos en nuestras redes:</label>
+            <p>{content.description}</p>
+            <label>{content.social_title}</label>
             <span className={styles.socials}>
               <Facebook />
               <Youtube />
@@ -19,64 +35,46 @@ export const Footer = () => {
             </span>
           </div>
           <div className={styles.category}>
-            <span className={styles.wellness}>
-              <p >Bienestar y Estética</p>
-              <ArrowRight />
-            </span>
-            <span className={styles.surgery}>
-              <p >Cirugías</p>
-              <ArrowRight />
-            </span>
-            <span className={styles.consultation}>
-              <p>Consultas médicas</p>
-              <ArrowRight />
-            </span>
-            <span className={styles.dental}>
-              <p>Dental</p>
-              <ArrowRight />
-            </span>
-            <span className={styles.include}>
-              <p >Incluido en Eva Salud</p>
-              <ArrowRight />
-            </span>
-            <span className={styles.test}>
-              <p>Pruebas médicas</p>
-              <ArrowRight />
-            </span>
-            <span className={styles.therapy}>
-              <p >Tratamientos y terapias</p>
-              <ArrowRight />
-            </span>
+
+            {
+              content.services.map((service, index) => {
+                return (
+                  <span
+                    key={index}
+                    className={services_styles[index]}>
+                    <p>{service}</p>
+                    <ArrowRight />
+                  </span>
+                )
+              })
+            }
+
           </div>
           <div className={styles.app}>
-            <p>Descargar aplicación</p>
-            <label>Descarga nuestras Apps y obtén
-              15% de descuento.</label>
+            <p>{content.app_section.title}</p>
+            <label>{content.app_section.description}</label>
             <Apple />
             <PlayStore />
           </div>
         </div>
         <div className={styles.newsletter}>
           <span className={styles.newsletterText}>
-            <h4>Suscríbete a nuestra newsletter</h4>
-            <label>Sé el primero en enterarte de descuentos, ofertas y eventos semanales en tu buzón.</label>
+            <h4>{content.newsletter.title}</h4>
+            <label>{content.newsletter.description}</label>
           </span>
           <form action="" className={styles.newsletterForm}>
             <Email />
-            <input type="text" className={styles.newsletterInput} placeholder="Introduce tu correo electrónico" required />
-            <button type="button" className={styles.newsletterButton}>Suscríbete</button>
+            <input type="text" className={styles.newsletterInput} placeholder={content.newsletter.input_placeholder} required />
+            <button type="button" className={styles.newsletterButton}>{content.newsletter.button_text}</button>
           </form>
         </div>
         <nav className={styles.menu}>
-          <p>Sobre nosotros</p>
-          <p>Especialidades</p>
-          <p>Blog</p>
-          <p>Prensa</p>
-          <p>Preguntas frecuentes</p>
-          <p>Trabaja con nosotros</p>
-          <p>Contáctanos</p>
-          <p>Política de privacidad</p>
-          <p>Términos y Condiciones</p>
+          {
+            content.menu.map((item, index)=> {
+              return <p key={index}>{item}</p>
+            })
+          }
+          
         </nav>
         <div className={styles.bottombar}>
           <div>
@@ -97,7 +95,7 @@ export const Footer = () => {
               +1-212-9876543
             </span>
           </div>
-          <p>©Evasalud.com 2023. Todos los derechos reservados.</p>
+          <p>{content.copyright}</p>
         </div>
       </div>
     </footer>
