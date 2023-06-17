@@ -73,3 +73,53 @@ export const FooterText = {
 	}
 
 }
+
+export const OldFooterText = {
+	'es': {
+		social_title: 'Vive la tranquilidad de contar con el mejor seguro de decesos.',
+		social_description: 'Síganos en nuestras redes sociales',
+		section1: {
+			title: 'Sobre Nosotros',
+			options: [
+				{ title: 'Misión Visión', href: '' },
+				{ title: 'Nuestro equipo', href: '' },
+				// { title: 'Carreras', href: '' },
+				// { title: 'Prensa y Medios', href: '' },
+				// { title: 'Publicidad', href: '' },
+				// { title: 'Testimonios', href: '' },
+			]
+		},
+		section2: {
+			title: 'Más información',
+			options: [
+				{ title: 'Conoce Eva', href: '' },
+				// { title: 'Preguntas Frecuentes', href: '' },
+				// { title: 'Área de Clientes', href: '' },
+				{ title: 'Plant-for-the-Planet', href: '' },
+				{ title: 'Universo Accesible', href: '' },
+				{ title: 'Universo Santi', href: '' },
+			]
+		},
+		section3: {
+			title: 'Nosotros Ofrecemos',
+			options: [
+				// { title: 'Seguros de Vida', href: '' },
+				// { title: 'Seguros de Salud', href: '' },
+				// { title: 'Seguros de Hogar', href: '' },
+				{ title: 'Seguros de Decesos', href: '' },
+				// { title: 'Seguros de Coche', href: '' },
+				// { title: 'Seguros de Mascotas', href: '' },
+			]
+		},
+		section4: {
+			title: 'Legal',
+			options: [
+				{ title: 'Aviso Legal', href: '' },
+				{ title: 'Política de Privacidad', href: '' },
+				{ title: 'Política de cookies', href: '' },
+				// { title: 'Términos y Condiciones', href: '' },
+			]
+		},
+		copyright: 'SegurodeDecesos.com 2023. Todos los derechos reservados.'
+	},
+}

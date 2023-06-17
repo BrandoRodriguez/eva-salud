@@ -1,6 +1,6 @@
 import styles from "./Footer.module.css";
 import {
-  Logo,
+  EvaSalud,
   Youtube,
   Facebook,
   Whatsapp,
@@ -40,7 +40,7 @@ export const Footer = () => {
         <div className={styles.detail}>
           <div className={styles.introduction}>
             <div>
-              <Logo />
+              <EvaSalud />
             </div>
             <p>{content.description}</p>
             <label>{content.social_title}</label>

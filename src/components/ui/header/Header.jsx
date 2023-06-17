@@ -1,6 +1,6 @@
 import styles from "./Header.module.css";
 import {
-  Logo,
+  EvaSalud,
   Phone,
   PhoneDesktop,
   Menu,
@@ -20,7 +20,7 @@ export const Header = () => {
     <header className={`${styles.header} container`}>
       <nav className={styles.navegation}>
         <div className={styles.logo}>
-          <Logo />
+          <EvaSalud fill={'#fff'}/>
         </div>
         <ul className={styles.link}>
           {content.items.map((item, index) => {
