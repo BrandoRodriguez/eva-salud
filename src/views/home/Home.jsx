@@ -1,6 +1,7 @@
 import { Layout } from "../../layouts/Layout";
 import { Hero, HeaderSecction, Products } from "../../components";
 import styles from './Home.module.css'
+import Testimonial from "@UI/testimonial/Testimonial";
 
 const Home = () => {
   return (
@@ -13,6 +14,10 @@ const Home = () => {
           <HeaderSecction />
           <Products />
         </section>
+
+        {/* Poner aqui */}
+        <Testimonial/>
+        
       </main>
     </Layout>
   );

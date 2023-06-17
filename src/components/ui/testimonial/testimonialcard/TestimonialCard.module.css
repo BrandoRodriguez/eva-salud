@@ -1,0 +1,85 @@
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #FFF;
+    border: 1px solid #CDE2E7;
+    box-shadow: 0px 0px 20px rgba(14, 41, 50, 0.17);
+    border-radius: 8px;
+    padding: 19px 22px;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 10px;
+    align-items: flex-start;
+}
+
+.author {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}
+
+.name {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--blue-primary);
+    line-height: 22px;
+}
+
+.occupation {
+    color: #3D565F;
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 500;
+}
+
+.description {
+    color: var(--gray-primary);
+    font-size: 14px;
+    line-height: 19.07px;
+}
+
+.stars {
+    display: flex;
+}
+
+@media (min-width: 1024px) {
+    .card {
+        gap: 20px;
+        width: 80%;
+    }
+
+    .top {
+        align-items: center;
+    }
+
+    .author {
+        width: 56px;
+        height: 56px;
+    }
+
+    .name {
+        font-size: 18px;
+    }
+
+    .description {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .card:nth-child(1) {
+        margin-left: 45px;
+    }
+
+    .card:nth-child(2) {
+        margin-left: 90px;
+    }
+
+    .card:nth-child(3) {
+        margin-left: 25px;
+    }
+}
