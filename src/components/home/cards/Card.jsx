@@ -1,4 +1,6 @@
+import { useLanguage } from "@context/LanguageContext/useLanguage";
 import styles from "./Card.module.css";
+import { CardProductText } from "@mocks/Pages/Home";
 
 export const CardSmall = ({
   image = "./oftalmologia.png",
@@ -26,6 +28,10 @@ export const CardProduct = ({
   category = "Oftalmología",
   price = "00€",
 }) => {
+
+  const {language} = useLanguage()
+  const content = CardProductText[language]
+
   return (
     <div
       className={styles.cardproduct}
@@ -37,7 +43,7 @@ export const CardProduct = ({
         <h2 className={styles.specialty}>{specialty}</h2>
         <span className={styles.category}>{category}</span>
         <div className={styles.ctn_price}>
-          <span className={styles.price}>{price}</span> / consulta
+          <span className={styles.price}>{price}</span> / {content.concept}
         </div>
       </div>
     </div>

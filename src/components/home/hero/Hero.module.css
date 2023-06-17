@@ -132,7 +132,7 @@
   }
 
   .scroll {
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
     scroll-snap-type: x mandatory;
   }
 

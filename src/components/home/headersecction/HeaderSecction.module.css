@@ -1,7 +1,6 @@
 .headersecction {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
 }
 
 .group {
@@ -16,7 +15,7 @@
   letter-spacing: 0.005em;
   color: var(--secondary-500);
   line-height: 45px;
-  margin-left: -5px;
+  margin-left: -2px;
   width: 705px;
 }
 
@@ -24,4 +23,40 @@
   font-weight: 400;
   font-size: 20px;
   color: #1F1F1F;
+}
+
+@media (max-width: 1245px) {
+  .headersecction h2 {
+    width: 50%;
+  }
+
+}
+
+
+@media (max-width: 960px) {
+  .headersecction {
+    display: block;
+    padding-bottom: 24px;
+  }
+
+  .headersecction h2 {
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: center;
+    padding-bottom: 12px;
+  }
+
+  .headersecction p {
+    display: none;
+  }
+
+  .group {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+
 }

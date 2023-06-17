@@ -1,6 +1,7 @@
 import styles from "./Home.module.css";
 import { Layout } from "../../layouts/Layout";
 import Testimonial from "@UI/testimonial/Testimonial";
+import Fundation from "@UI/Fundation/Fundation";
 import {
   Hero,
   HeaderSecction,
@@ -8,42 +9,38 @@ import {
   About,
   Application,
 } from "../../components";
-import Fundation from "@UI/Fundation/Fundation";
+import { HeaderSectionText } from "@mocks/Pages/Home";
+import { useLanguage } from "@context/LanguageContext/useLanguage";
 
 const Home = () => {
+  const { language } = useLanguage();
+  const content = HeaderSectionText[language];
+
   return (
     <Layout>
       <main className={styles.fullpage}>
-        <section className={styles.hero}>
+        <section className={styles.section_hero}>
           <Hero />
         </section>
-         <section className={styles.products}>
+        <section className={`${styles.section_products} container`}>
           <HeaderSecction
-            title={"Pruebas médicas más populares en Madrid"}
-            description={
-              "“Tu bienestar nos mueve, Encuentra la especialidad adecuada para una vida plena”"
-            }
+            title={content.products.title}
+            description={content.products.description}
           />
           <Products />
         </section>
-        <section className={styles.about}>
+        <section className={styles.section_about}>
           <HeaderSecction
-            title={
-              "Beneficios para una vida más fácil al pertenecer a Eva Salud"
-            }
-            description={
-              "“Tu bienestar nos mueve, Encuentra la especialidad adecuada para una vida plena”"
-            }
+            title={content.about.title}
+            description={content.about.description}
           />
           <About />
         </section>
-        <section className={styles.application}>
+        {/* <section className={styles.application}>
           <Application />
         </section>
-
         <Testimonial />
-        <Fundation/>
-
+        <Fundation /> */}
       </main>
     </Layout>
   );

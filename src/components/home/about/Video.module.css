@@ -13,6 +13,7 @@
 .video {
   display: flex;
   justify-content: center;
+  padding-bottom: 50px;
 }
 
 .content {
@@ -37,4 +38,26 @@
 .play svg {
   width: 55px;
   height: 55px;
+}
+
+
+@media(max-width: 768px) {
+  .video::before {
+    background: none;
+  }
+
+  .video {
+    padding-bottom: 24px;
+  }
+
+  .play {
+    width: 72px;
+    height: 72px;
+  }
+
+  .play svg {
+    width: 30px;
+    height: 30px;
+  }
+
 }

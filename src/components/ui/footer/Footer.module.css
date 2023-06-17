@@ -2,6 +2,7 @@
   background-color: var(--secondary-500);
   margin-top: 100px;
   position: relative;
+  overflow: hidden;
 }
 
 .footer>svg {
@@ -188,16 +189,18 @@
 
 .menu {
   width: 100%;
-  display: grid;
-  grid-template-columns: repeat(9, auto);
-  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 3em 0px;
 }
 
 .menu p {
   width: auto;
   font-size: 14px;
   color: var(--white);
-  margin: 3em 0px;
+  font-weight: 400;
 }
 
 .bottombar,
@@ -217,6 +220,12 @@
   align-items: center;
 }
 
+
+@media (max-width: 1245px) {
+  .bottombar {
+    display: none;
+  }
+}
 
 @media (max-width: 1150px) {
   .detail img {
@@ -283,6 +292,11 @@
 
   .newsletterForm {
     width: 100%;
+  }
+
+  .menu {
+    justify-content: center;
+    gap: 10px;
   }
 
 }

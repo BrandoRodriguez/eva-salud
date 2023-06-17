@@ -103,6 +103,160 @@ export const HeroText = {
 	}
 }
 
+export const HeaderSectionText = {
+	es: {
+		products: {
+			title: 'Pruebas médicas más populares en Madrid',
+			description: "“Tu bienestar nos mueve, Encuentra la especialidad adecuada para una vida plena”"
+		},
+		about: {
+			title: "Beneficios para una vida más fácil al pertenecer a Eva Salud",
+			description: "“Tu bienestar nos mueve, Encuentra la especialidad adecuada para una vida plena”"
+		},
+		button_text: "Ver Todas las Especialidades"
+	},
+	en: {
+		products: {
+			title: 'Most popular medical tests in Madrid',
+			description: "\"Your well-being moves us, Find the right specialty for a fulfilling life\""
+		},
+		about: {
+			title: "Benefits for an easier life when belonging to Eva Health",
+			description: "\"Your well-being moves us, Find the right specialty for a fulfilling life\""
+		},
+		button_text: "View All Specialties"
+	}
+}
+
+export const ProductsText = {
+	es: [
+		{
+			specialty: "Pack pruebas de oftalmología",
+			category: "oftalmologia",
+			image: "/images/products/oftalmologia.png",
+		},
+		{
+			specialty: "Pack pruebas de oftalmología",
+			category: "oftalmologia",
+			image: "/images/products/odontológico.png",
+		},
+		{
+			specialty: "Pack pruebas de oftalmología",
+			category: "oftalmologia",
+			image: "/images/products/otorrinolaringología.png",
+		},
+	],
+	en: [
+		{
+			specialty: "Ophthalmology tests pack",
+			category: "ophthalmology",
+			image: "/images/products/oftalmologia.png",
+		},
+		{
+			specialty: "Ophthalmology tests pack",
+			category: "ophthalmology",
+			image: "/images/products/odontológico.png",
+		},
+		{
+			specialty: "Ophthalmology tests pack",
+			category: "ophthalmology",
+			image: "/images/products/otorrinolaringología.png",
+		},
+	]
+}
+
+export const CardProductText = {
+	es: {
+		concept: 'consulta'
+	},
+	en: {
+		concept: 'consultation'
+	}
+}
+
+export const AboutText = {
+	es: [
+		{
+			title: "Si tienes un problema médico",
+			description: "Te asistimos de inmediato",
+			image: "/images/about/1.png",
+		},
+		{
+			title: "Si te sientes bien",
+			description: "Te haremos sentir mejor",
+			image: "/images/about/2.png",
+		},
+		{
+			title: "Si tu familia está creciendo",
+			description: "Te ayudamos a protegerlos",
+			image: "/images/about/1.png",
+		},
+	],
+	en: [
+		{
+			title: "If you have a medical problem",
+			description: "We assist you immediately",
+			image: "/images/about/1.png",
+		},
+		{
+			title: "If you feel good",
+			description: "We will make you feel better",
+			image: "/images/about/2.png",
+		},
+		{
+			title: "If your family is growing",
+			description: "We help you protect them",
+			image: "/images/about/1.png",
+		},
+	]
+
+}
+
+export const AplicationText = {
+	es: {
+		title: 'Ten el control de tu bienestar con la /*App de Eva Salud*/',
+		feature: [
+			{
+				title: 'Videoconsultas médicas sin costo',
+				description: 'Accede a Clínica Internacional Digital y solicítalo para Medicina General y Pediatría según tu plan.',
+				button_text: 'Reserva tu cita'
+			},
+			{
+				title: 'Chequeos preventivos sin costo',
+				description: 'Obtén un chequeo preventivo anual sin costo y mantén tu salud bajo control.',
+				button_text: 'Entérate cómo'
+			},
+			{
+				title: 'Médico a domicilio',
+				description: 'Recibe atención médica en casa y paga solo la consulta (Madrid Metropolitana y Barcelona).',
+				button_text: 'Reserva tu cita'
+			},
+
+		]
+	},
+	en: {
+		title: 'Take control of your well-being with the /*Eva Health App*/',
+		feature: [
+			{
+				title: 'No-cost medical video consultations',
+				description: 'Access International Digital Clinic and request it for General Medicine and Pediatrics according to your plan.',
+				button_text: 'Book your appointment'
+			},
+			{
+				title: 'No-cost preventive checkups',
+				description: 'Get an annual preventive checkup at no cost and keep your health under control.',
+				button_text: 'Find out how'
+			},
+			{
+				title: 'Doctor at home',
+				description: 'Receive medical attention at home and pay only for the consultation (Metropolitan Madrid and Barcelona).',
+				button_text: 'Book your appointment'
+			},
+
+		]
+	}
+}
+
 export const TestimonialText = {
 	es: {
 		subtitle: 'La opinión de nuestros clientes es muy importante',
