@@ -1,0 +1,36 @@
+.top_section {
+	display: grid;
+	grid-template-columns: 1fr;
+	margin-bottom: 40px;
+}
+
+.subtitle_container {
+	max-width: 680px;
+}
+
+.description_wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	width: 80%;
+}
+
+.description {
+	font-size: 20px;
+	line-height: 28px;
+	color: var(--textos);
+}
+
+@media (min-width: 1024px){
+	.top_section {
+		grid-template-columns: 1fr 1fr;
+	}
+	
+	.description_container {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		gap: 20px;
+	}
+}
