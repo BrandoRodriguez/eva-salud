@@ -1,0 +1,40 @@
+.video::before {
+  content: "";
+  position: absolute;
+  width: 1245px;
+  height: 597px;
+  left: 0;
+  top: 57px;
+  background: linear-gradient(0deg, #FFFFFF 0%, rgba(255, 255, 255, 0.06) 11.98%, rgba(35, 34, 99, 0.4) 100%);
+  border-radius: 40px 40px 0px 0px;
+  z-index: -1;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background: rgba(240, 240, 240, 0.75);
+  box-shadow: 0px 20px 100px rgba(0, 0, 0, 0.16), 0px 20px 200px rgba(4, 6, 15, 0.08);
+  border-radius: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.play svg {
+  width: 55px;
+  height: 55px;
+}

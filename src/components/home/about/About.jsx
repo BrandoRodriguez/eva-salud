@@ -1,5 +1,5 @@
 import styles from "./About.module.css";
-import { AboutCard } from "../../../components";
+import { AboutCard, Video } from "../../../components";
 
 const about = [
   {
@@ -21,10 +21,13 @@ const about = [
 
 export const About = () => {
   return (
-    <div className={`${styles.cardlist} container`}>
-      {about.map((item, index) => (
-        <AboutCard key={index} {...item} />
-      ))}
+    <div className={`${styles.about} container`}>
+      <Video />
+      <div className={styles.cardlist}>
+        {about.map((item, index) => (
+          <AboutCard key={index} {...item} />
+        ))}
+      </div>
     </div>
   );
 };
