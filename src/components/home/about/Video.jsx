@@ -1,4 +1,4 @@
-import styles from "./video.module.css";
+import styles from "./Video.module.css";
 import { Play } from "../../../components";
 
 export const Video = () => {
