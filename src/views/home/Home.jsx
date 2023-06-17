@@ -34,14 +34,14 @@ const Home = () => {
             title={content.about.title}
             description={content.about.description}
           />
-          {/* <About /> */}
+          <About />
         </section>
-        {/* <section className={styles.application}>
+        <section className={styles.application}>
           <Application />
-        </section> */}
+        </section>
 
-        {/* <Testimonial />
-        <Fundation/> */}
+        <Testimonial />
+        <Fundation />
       </main>
     </Layout>
   );
