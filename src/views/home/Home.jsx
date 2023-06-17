@@ -29,18 +29,18 @@ const Home = () => {
           />
           <Products />
         </section>
-        <section className={styles.about}>
+        <section className={styles.section_about}>
           <HeaderSecction
             title={content.about.title}
             description={content.about.description}
           />
           <About />
         </section>
-        <section className={styles.application}>
+        {/* <section className={styles.application}>
           <Application />
         </section>
         <Testimonial />
-        <Fundation />
+        <Fundation /> */}
       </main>
     </Layout>
   );

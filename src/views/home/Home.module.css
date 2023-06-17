@@ -12,7 +12,7 @@
   gap: 50px;
 }
 
-.about {
+.section_about {
   display: grid;
   gap: 50px;
 }
@@ -30,4 +30,11 @@
     overflow: hidden;
     display: block;
   }
+
+
+  .section_about {
+    display: block;
+    overflow: hidden;
+  }
+
 }
