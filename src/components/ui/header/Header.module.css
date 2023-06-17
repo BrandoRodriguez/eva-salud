@@ -1,5 +1,9 @@
 .header {
-  padding-top: 24px;
+  padding-top: 16px;
+}
+
+.logo svg {
+  width: 100px;
 }
 
 .navegation {
@@ -19,12 +23,62 @@
   cursor: pointer;
 }
 
+.group_desktop {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.group_mobile {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.group_button {
+  display: flex;
+  align-items: center;
+  gap: 0.813rem;
+}
+
 .group {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 2.5rem;
 }
 
 .group svg {
   cursor: pointer;
+}
+
+@media (max-width: 1245px) {
+  .link {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .group {
+    display: none;
+  }
+}
+
+@media (min-width: 640px) {
+  .logo svg {
+    width: 120px;
+  }
+
+  .group_mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 1245px) {
+  .header {
+    padding-top: 24px;
+  }
+
+  .logo svg {
+    width: 150px;
+  }
 }

@@ -14,7 +14,7 @@ export const Hero = () => {
         <Shape />
       </div>
       <div className={`${styles.content} container`}>
-        <div className={styles.group}>
+        {/* <div className={styles.group}>
           <div className={styles.presentation}>
             <h1>{content.title}</h1>
             <h2>{content.description}</h2>
@@ -29,12 +29,12 @@ export const Hero = () => {
               })}
             </div>
           </div>
-        </div>
-        <div className={styles.ctn_explore}>
+        </div> */}
+        {/* <div className={styles.ctn_explore}>
           <div className={styles.explore}>
             <h3>{content.card_title}</h3>
           </div>
-        </div>
+        </div> */}
         <div className={styles.cardlist}>
           {content.cards.map((item, index) => (
             <CardSmall key={index} {...item} />
