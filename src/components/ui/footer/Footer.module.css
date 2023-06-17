@@ -2,6 +2,7 @@
   background-color: var(--secondary-500);
   margin-top: 100px;
   position: relative;
+  overflow: hidden;
 }
 
 .footer>svg {
