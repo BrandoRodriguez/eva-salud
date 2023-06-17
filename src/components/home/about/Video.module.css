@@ -49,4 +49,15 @@
   .video {
     padding-bottom: 24px;
   }
+
+  .play {
+    width: 72px;
+    height: 72px;
+  }
+
+  .play svg {
+    width: 30px;
+    height: 30px;
+  }
+
 }
