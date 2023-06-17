@@ -9,7 +9,7 @@ export const HeaderSecction = ({ title, description }) => {
   const content = HeaderSectionText[language]
 
   return (
-    <div className={`${styles.headersecction} container`}>
+    <div className={styles.headersecction}>
       <h2>{title}</h2>
       <div className={styles.group}>
         <p>{description}</p>

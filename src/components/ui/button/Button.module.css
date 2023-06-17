@@ -38,3 +38,9 @@
   letter-spacing: 0.005em;
   color: var(--primary-500);
 }
+
+@media (max-width: 960px) {
+  .buttonarrow {
+    font-size: 16px;
+  }
+}

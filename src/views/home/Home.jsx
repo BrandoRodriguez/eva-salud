@@ -20,17 +20,17 @@ const Home = () => {
   return (
     <Layout>
       <main className={styles.fullpage}>
-        <section className={styles.hero}>
+        <section className={styles.section_hero}>
           <Hero />
         </section>
-        {/* <section className={styles.products}>
+        <section className={`${styles.section_products} container`}>
           <HeaderSecction
             title={content.products.title}
             description={content.products.description}
           />
           <Products />
         </section>
-        <section className={styles.about}>
+        {/* <section className={styles.about}>
           <HeaderSecction
             title={content.about.title}
             description={content.about.description}
@@ -43,7 +43,6 @@ const Home = () => {
 
         {/* <Testimonial />
         <Fundation/> */}
-
       </main>
     </Layout>
   );
