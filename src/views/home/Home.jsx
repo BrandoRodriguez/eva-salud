@@ -1,5 +1,6 @@
 import styles from "./Home.module.css";
 import { Layout } from "../../layouts/Layout";
+import Testimonial from "@UI/testimonial/Testimonial";
 import {
   Hero,
   HeaderSecction,
@@ -38,6 +39,7 @@ const Home = () => {
         <section className={styles.application}>
           <Application />
         </section>
+        <Testimonial />
       </main>
     </Layout>
   );

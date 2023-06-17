@@ -14,6 +14,8 @@ export default defineConfig({
       '@views': resolve(currentDir, 'src/views'),
       '@context': resolve(currentDir, 'src/context'),
       '@utils': resolve(currentDir, 'src/utils'),
+      '@assets': resolve(currentDir, 'src/assets'),
+      '@components': resolve(currentDir, 'src/components'),
     }
   }
 })

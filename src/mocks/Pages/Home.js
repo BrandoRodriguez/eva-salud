@@ -104,3 +104,28 @@ export const HeroText = {
 
 
 }
+
+export const TestimonialText = {
+	es: {
+		subtitle: 'La opinión de nuestros clientes es muy importante',
+		title: 'Lo que nuestros clientes dicen de nosotros',
+		description: 'Cuentas claras, amistades largas. Tener claridad y conocimiento es esencial. No solo para el proceso de cotización sino para que tengas la confianza de que estás obteniendo exactamente lo que elegiste.',
+		cards: [
+			{
+				name: 'Antonio García Arguedas',
+				city: 'Girona',
+				description: '"Estoy acostumbrado a renovar mis seguros de forma automática y sin comparar, Sin duda alguna he malgastado mucho dinero"'
+			},
+			{
+				name: 'Lucía Sánchez',
+				city: 'Madrid',
+				description: '"Buscaba un seguro barato y lo más completo para mi coche compara tu póliza lo encontré"'
+			},
+			{
+				name: 'Fernando Rubio',
+				city: 'Salamanca',
+				description: '"Por fin un sitio en el que comparar múltiples seguros agrarios. La cantidad de opciones es inmejorable"'
+			}
+		]
+	}
+}

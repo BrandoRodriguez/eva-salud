@@ -121,7 +121,7 @@ export const Youtube = () => {
   );
 };
 
-export const Whatsapp = () => {
+export const Whatsapp = (props) => {
   return (
     <svg
       width="25"
@@ -150,7 +150,7 @@ export const Whatsapp = () => {
   );
 };
 
-export const Figma = () => {
+export const Figma = (props) => {
   return (
     <svg
       width="25"
@@ -195,7 +195,7 @@ export const Figma = () => {
   );
 };
 
-export const Dribble = () => {
+export const Dribble = (props) => {
   return (
     <svg
       width="25"
@@ -244,7 +244,7 @@ export const Dribble = () => {
   );
 };
 
-export const Apple = () => {
+export const Apple = (props) => {
   return (
     <svg
       width="168"
