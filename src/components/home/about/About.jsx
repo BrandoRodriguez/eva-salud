@@ -10,7 +10,7 @@ const about = [
   {
     title: "Si te sientes bien",
     description: "Te haremos sentir mejor",
-    image: "/images/about/1.png",
+    image: "/images/about/2.png",
   },
   {
     title: "Si tu familia está creciendo",
