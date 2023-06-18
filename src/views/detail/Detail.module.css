@@ -1,14 +1,15 @@
-.cirugaLserDe,
+.title,
 .frameIcon {
   position: relative;
   flex-shrink: 0;
 }
 
-.cirugaLserDe {
+.title {
   font-weight: 600;
   display: inline-block;
-  width: 534px;
-  height: 68px;
+  width: 80%;
+  font-size: 28px;
+  font-weight: 500;
 }
 
 .frameIcon {
@@ -24,7 +25,7 @@
 }
 
 .button,
-.frame {
+.headTitle {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -44,9 +45,9 @@
   color: #fff;
 }
 
-.frame {
+.headTitle {
   justify-content: flex-start;
-  gap: 153px;
+  /* gap: 153px; */
 }
 
 .desde {
@@ -109,8 +110,8 @@
   letter-spacing: 0.2px;
   line-height: 140%;
   font-weight: 500;
-  width: 114px;
-  height: 17px;
+  /* width: 114px;
+  height: 17px; */
   flex-shrink: 0;
 }
 
@@ -132,8 +133,8 @@
   position: relative;
   border-top: 1px solid #e0e6f6;
   box-sizing: border-box;
-  width: 851px;
-  height: 1px;
+  /* width: 851px;
+  height: 1px; */
 }
 
 .head {
@@ -145,12 +146,12 @@
 }
 
 .image27Icon {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 850px;
-  height: 566.67px;
-  object-fit: cover;
+  /* position: absolute; */
+  /* top: 0;
+  left: 0; */
+  /* width: 850px;
+  height: 566.67px; 
+  object-fit: cover;*/
 }
 
 .div2,
@@ -160,8 +161,8 @@
 
 .div2 {
   position: absolute;
-  height: 100%;
-  width: 100%;
+  /* height: 100%;
+  width: 100%; */
   top: 0;
   right: 0;
   bottom: 0;
@@ -175,8 +176,8 @@
 
 .thumb {
   position: relative;
-  width: 850px;
-  height: 300px;
+  /* width: 850px;
+  height: 300px; */
   overflow: hidden;
   flex-shrink: 0;
 }
@@ -187,15 +188,15 @@
   line-height: 120%;
   font-weight: 600;
   display: inline-block;
-  width: 814px;
+  width: 90%;
 }
 
 .laCirugaRefractiva {
   position: relative;
   line-height: 24px;
   display: inline-block;
-  width: 804px;
-  height: 95px;
+  /* width: 804px;
+  height: 95px; */
   flex-shrink: 0;
 }
 
@@ -214,8 +215,8 @@
   line-height: 32px;
   font-family: inherit;
   display: inline-block;
-  width: 833px;
-  height: 295px;
+  /* width: 833px;
+  height: 295px; */
   flex-shrink: 0;
 }
 
@@ -232,8 +233,8 @@
   letter-spacing: 0.2px;
   line-height: 140%;
   font-weight: 600;
-  width: 450px;
-  height: 20px;
+  /* width: 450px;
+  height: 20px; */
 }
 
 .div4 {
@@ -242,27 +243,27 @@
   line-height: 16px;
   text-transform: capitalize;
   font-family: "Font Awesome 5 Free";
-  width: 14.2px;
-  height: 16px;
+  /* width: 14.2px;
+  height: 16px; */
 }
 
 .divptAdTitle {
   position: relative;
   border-radius: 8px 8px 0 0;
   background-color: #00983a;
-  width: 850px;
-  height: 68px;
+  /* width: 850px;
+  height: 68px; */
 }
 
 .puedesAcudirA {
-  position: absolute;
+  /* position: absolute; */
   top: 28px;
   left: 31px;
   line-height: 24px;
   display: flex;
   align-items: center;
-  width: 738px;
-  height: 144px;
+  /* width: 738px;
+  height: 144px; */
 }
 
 .divptAccordionDetails {
@@ -272,8 +273,8 @@
   border-bottom: 1px solid #f4f6f9;
   border-left: 1px solid #f4f6f9;
   box-sizing: border-box;
-  width: 850px;
-  height: 199px;
+  /* width: 850px;
+  height: 199px; */
   font-size: 16px;
   color: #4f5e64;
 }
@@ -303,8 +304,8 @@
   letter-spacing: 0.2px;
   line-height: 140%;
   font-weight: 600;
-  width: 490px;
-  height: 20px;
+  /* width: 490px;
+  height: 20px; */
 }
 
 .div5 {
@@ -313,8 +314,8 @@
   text-transform: capitalize;
   font-family: "Font Awesome 5 Free";
   color: #18100f;
-  width: 14.2px;
-  height: 16px;
+  /* width: 14.2px;
+  height: 16px; */
 }
 
 .divptAdTitle1 {
@@ -325,15 +326,15 @@
   background-color: #f4f6f9;
   border: 1px solid #f4f6f9;
   box-sizing: border-box;
-  width: 850px;
-  height: 68px;
+  /* width: 850px;
+  height: 68px; */
 }
 
 .divptAccordionBox1 {
   position: relative;
   background-color: #fff;
-  width: 836.66px;
-  height: 68px;
+  /* width: 836.66px;
+  height: 68px; */
 }
 
 .usingInnovativeTechnology,
@@ -346,12 +347,12 @@
   font-weight: 600;
   display: flex;
   align-items: center;
-  width: 349px;
-  height: 20px;
+  /* width: 349px;
+  height: 20px; */
 }
 
 .usingInnovativeTechnology {
-  width: 262px;
+  /* width: 262px; */
 }
 
 .divptAccordionBlock {
@@ -383,8 +384,8 @@
 .jpg1 {
   position: relative;
   border-radius: 8px;
-  width: 417px;
-  height: 444.54px;
+  /* width: 417px;
+  height: 444.54px; */
   overflow: hidden;
   flex-shrink: 0;
   background-image: url(/public/1jpg@3x.png);
@@ -409,7 +410,7 @@
   position: relative;
   border-top: 1px solid #e0e6f6;
   box-sizing: border-box;
-  width: 850.02px;
+  /* width: 850.02px; */
   height: 1px;
 }
 
@@ -501,7 +502,7 @@
 
 .div10 {
   position: relative;
-  width: 850px;
+  /* width: 850px;  */
   height: 52px;
 }
 
@@ -531,8 +532,8 @@
   display: flex;
   flex-direction: column;
   padding: 25px;
-  align-items: flex-start;
-  justify-content: flex-start;
+  /* align-items: flex-start;
+  justify-content: flex-start; */
   gap: 25px;
 }
 
@@ -570,8 +571,8 @@
 .policlnicaEvaSalud {
   position: relative;
   line-height: 140%;
-  width: 188px;
-  height: 30px;
+  /* width: 188px;
+  height: 30px; */
   flex-shrink: 0;
 }
 
@@ -580,8 +581,8 @@
   top: 0;
   left: 16px;
   font-weight: 500;
-  width: 132px;
-  height: 24px;
+  /* width: 132px;
+  height: 24px; */
 }
 
 .fiRsMarker1Icon {
@@ -650,8 +651,8 @@
   position: relative;
   border-top: 1px solid #e0e6f6;
   box-sizing: border-box;
-  width: 289px;
-  height: 1px;
+  /* width: 289px;
+  height: 1px; */
 }
 
 .mapChild {
@@ -659,8 +660,8 @@
   top: 0;
   left: 0;
   border-radius: 15px;
-  width: 835px;
-  height: 304px;
+  /* width: 835px;
+  height: 304px; */
   object-fit: cover;
 }
 
@@ -709,7 +710,7 @@
   align-items: center;
 }
 
-.content,
+
 .div13 {
   display: flex;
   flex-direction: column;
@@ -722,8 +723,10 @@
 .content {
   position: relative;
   width: 100%;
-  flex-direction: row;
+  /* flex-direction: row; */
   gap: 15px;
+  display: grid;
+  grid-template-columns: auto 1fr;
   text-align: left;
   font-size: 28px;
   color: #232263;

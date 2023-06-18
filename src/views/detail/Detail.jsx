@@ -1,5 +1,5 @@
 import styles from "./Detail.module.css";
-import { Booking } from "../../components";
+import { Booking , Check, StartYellow, CheckReserve, Twitter, FacebookColor, Reddit, WhatsappColor} from "../../components";
 import { Layout } from "../../layouts/Layout";
 
 const Detail = () => {
@@ -8,10 +8,10 @@ const Detail = () => {
       <div className={styles.content}>
         <div className={styles.div}>
           <div className={styles.head}>
-            <div className={styles.frame}>
-              <div className={styles.cirugaLserDe}>
+            <div className={styles.headTitle}>
+              <h2 className={styles.title}>
                 Cirugía láser de miopía, astigmatismo e hipermetropía
-              </div>
+              </h2>
               <div className={styles.button}>
                 <Booking />
                 <b className={styles.reservar}>Reservar</b>
@@ -24,7 +24,7 @@ const Detail = () => {
               </div>
               <img className={styles.lineIcon} alt="" src="/line.svg" />
               <div className={styles.span}>
-                <img className={styles.pseudoIcon} alt="" src="/pseudo.svg" />
+            <Check/>
                 <div className={styles.pagarEnCentro}>Pagar en centro</div>
               </div>
             </div>
@@ -107,30 +107,6 @@ const Detail = () => {
                     </div>
                   </div>
                 </div>
-                <div className={styles.divptAccordionBox1}>
-                  <div className={styles.divptAdTitle1}>
-                    <div className={styles.whatHappensTo}>
-                      What happens to my sample once I have provided it?
-                    </div>
-                    <div className={styles.div5}></div>
-                  </div>
-                </div>
-                <div className={styles.divptAccordionBox1}>
-                  <div className={styles.divptAdTitle1}>
-                    <div className={styles.whatWillLaboratory}>
-                      What will laboratory testing cost me?
-                    </div>
-                    <div className={styles.div5}></div>
-                  </div>
-                </div>
-                <div className={styles.divptAccordionBox1}>
-                  <div className={styles.divptAdTitle1}>
-                    <div className={styles.usingInnovativeTechnology}>
-                      Using Innovative Technology
-                    </div>
-                    <div className={styles.div5}></div>
-                  </div>
-                </div>
               </div>
               <div className={styles.divelementorContainer}>
                 <div className={styles.jpg}>
@@ -146,11 +122,7 @@ const Detail = () => {
               <div className={styles.div10}>
                 <div className={styles.div11}>
                   <div className={styles.frameParent}>
-                    <img
-                      className={styles.frameIcon1}
-                      alt=""
-                      src="/frame1.svg"
-                    />
+                    <CheckReserve />
                     <b className={styles.reservar}>Reservar</b>
                   </div>
                   <div className={styles.button1}>
@@ -160,26 +132,10 @@ const Detail = () => {
                 <div className={styles.div12}>
                   <div className={styles.compartirCon}>Compartir con</div>
                   <div className={styles.groupParent}>
-                    <img
-                      className={styles.frameChild}
-                      alt=""
-                      src="/group-4.svg"
-                    />
-                    <img
-                      className={styles.frameChild}
-                      alt=""
-                      src="/group-5.svg"
-                    />
-                    <img
-                      className={styles.frameChild}
-                      alt=""
-                      src="/group-8.svg"
-                    />
-                    <img
-                      className={styles.frameChild}
-                      alt=""
-                      src="/group-7.svg"
-                    />
+                    <Twitter />
+                    <FacebookColor />
+                    <Reddit/>
+                    <WhatsappColor />
                   </div>
                 </div>
               </div>
@@ -192,7 +148,7 @@ const Detail = () => {
               <div className={styles.avatar}>
                 <div className={styles.avatar1}>
                   <div className={styles.avatarChild} />
-                  <img className={styles.logoIcon} alt="" src="/logo@2x.png" />
+                  <img className={styles.logoIcon} alt="" src="/images/detail/logoEva.png" />
                 </div>
                 <div className={styles.policlnicaEvaSaludParent}>
                   <b className={styles.policlnicaEvaSalud}>
@@ -210,31 +166,11 @@ const Detail = () => {
                   </div>
                   <div className={styles.autoLayoutHorizontal}>
                     <div className={styles.iconlyboldstarParent}>
-                      <img
-                        className={styles.iconlyboldstar}
-                        alt=""
-                        src="/iconlyboldstar.svg"
-                      />
-                      <img
-                        className={styles.iconlyboldstar}
-                        alt=""
-                        src="/iconlyboldstar.svg"
-                      />
-                      <img
-                        className={styles.iconlyboldstar}
-                        alt=""
-                        src="/iconlyboldstar.svg"
-                      />
-                      <img
-                        className={styles.iconlyboldstar}
-                        alt=""
-                        src="/iconlyboldstar.svg"
-                      />
-                      <img
-                        className={styles.iconlyboldstar}
-                        alt=""
-                        src="/iconlyboldstar.svg"
-                      />
+                      <StartYellow/>
+                      <StartYellow/>
+                      <StartYellow/>
+                      <StartYellow/>
+                      <StartYellow/>
                     </div>
                     <div className={styles.div15}>{`4.9 `}</div>
                   </div>
@@ -245,7 +181,7 @@ const Detail = () => {
                 <img
                   className={styles.mapChild}
                   alt=""
-                  src="/rectangle-38@2x.png"
+                  src="/images/detail/map.png"
                 />
               </div>
               <div className={styles.address}>
