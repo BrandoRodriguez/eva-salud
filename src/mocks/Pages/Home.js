@@ -21,33 +21,34 @@ export const HeroText = {
 			{
 				specialty: "Consulta de dermatología",
 				category: "Dermatología",
-				image: "/images/specialty/dermatologia.png",
+				image: "/images/specialty/dermatologia.webp",
 			},
 			{
-				specialty: "Consulta de enfermería",
-				category: "Enfermería",
-				image: "/images/specialty/enfermeria.png",
-			},
-			{
-				specialty: "Consulta de medicina general",
+				specialty: "Consulta de Medicina general",
 				category: "Medicina general",
-				image: "/images/specialty/medicinageneral.png",
-			},
-			{
-				specialty: "Consulta de oftalmología",
-				category: "Oftalmología",
-				image: "/images/specialty/dermatologia.png",
+				image: "/images/specialty/medicinageneral.webp",
 			},
 			{
 				specialty: "Consulta de pediatría",
 				category: "Pediatría",
-				image: "/images/specialty/pediatria.png",
+				image: "/images/specialty/pediatria.webp",
+			},
+			,
+			{
+				specialty: "Consulta de oftalmología",
+				category: "Oftalmología",
+				image: "/images/specialty/oftalmologia.webp",
+			},
+			{
+				specialty: "Consulta de ginecología",
+				category: "Ginecología",
+				image: "/images/specialty/ginecología.webp",
 			},
 			{
 				specialty: "Consulta de traumatología",
 				category: "Traumatología",
-				image: "/images/specialty/traumatologia.png",
-			},
+				image: "/images/specialty/traumatologia.webp",
+			}
 		]
 	},
 	en: {

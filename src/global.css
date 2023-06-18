@@ -75,9 +75,9 @@ p {
   box-sizing: border-box;
 }
 
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
   width: 0
-}
+} */
 
 h1,
 h2,
