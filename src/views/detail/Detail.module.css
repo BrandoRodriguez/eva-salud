@@ -154,10 +154,10 @@
   object-fit: cover;*/
 }
 
-.div2,
+/* .div2,
 .thumb {
   border-radius: 10.58px;
-}
+} */
 
 .div2 {
   position: absolute;
@@ -174,13 +174,6 @@
   box-shadow: 0 15px 40px rgba(35, 34, 99, 0.15);
 }
 
-.thumb {
-  position: relative;
-  /* width: 850px;
-  height: 300px; */
-  overflow: hidden;
-  flex-shrink: 0;
-}
 
 .servicioMdicoProfesional {
   position: relative;
@@ -220,13 +213,13 @@
   flex-shrink: 0;
 }
 
-.div4,
+/* .div4,
 .quIncluyeEn {
   position: absolute;
   top: 24px;
   display: flex;
   align-items: center;
-}
+} */
 
 .quIncluyeEn {
   left: 31px;
@@ -251,19 +244,18 @@
   position: relative;
   border-radius: 8px 8px 0 0;
   background-color: #00983a;
-  /* width: 850px;
-  height: 68px; */
+  width: 100%;
+  padding: 20px;
+  height: 68px;
 }
 
 .puedesAcudirA {
-  /* position: absolute; */
   top: 28px;
   left: 31px;
   line-height: 24px;
   display: flex;
   align-items: center;
-  /* width: 738px;
-  height: 144px; */
+  padding: 20px;
 }
 
 .divptAccordionDetails {
@@ -280,8 +272,6 @@
 }
 
 .divptAccordionBox {
-  background-color: #fff;
-  box-shadow: 0 10px 20px -5px rgba(35, 34, 99, 0.06);
   height: 267px;
   display: flex;
   flex-direction: column;
@@ -326,8 +316,6 @@
   background-color: #f4f6f9;
   border: 1px solid #f4f6f9;
   box-sizing: border-box;
-  /* width: 850px;
-  height: 68px; */
 }
 
 .divptAccordionBox1 {
@@ -723,7 +711,6 @@
 .content {
   position: relative;
   width: 100%;
-  /* flex-direction: row; */
   gap: 15px;
   display: grid;
   grid-template-columns: auto 1fr;
@@ -731,4 +718,15 @@
   font-size: 28px;
   color: #232263;
   font-family: "Noto Sans";
+}
+
+
+@media(max-width: 960px) {
+  .content {
+    display: block;
+  }
+
+  .headTitle {
+    display: block;
+  }
 }

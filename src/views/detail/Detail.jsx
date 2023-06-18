@@ -1,5 +1,14 @@
 import styles from "./Detail.module.css";
-import { Booking , Check, StartYellow, CheckReserve, Twitter, FacebookColor, Reddit, WhatsappColor} from "../../components";
+import {
+  Booking,
+  Check,
+  StartYellow,
+  CheckReserve,
+  Twitter,
+  FacebookColor,
+  Reddit,
+  WhatsappColor,
+} from "../../components";
 import { Layout } from "../../layouts/Layout";
 
 const Detail = () => {
@@ -24,7 +33,7 @@ const Detail = () => {
               </div>
               <img className={styles.lineIcon} alt="" src="/line.svg" />
               <div className={styles.span}>
-            <Check/>
+                <Check />
                 <div className={styles.pagarEnCentro}>Pagar en centro</div>
               </div>
             </div>
@@ -32,7 +41,6 @@ const Detail = () => {
           </div>
           <div className={styles.thumb}>
             <img className={styles.image27Icon} alt="" src="/1.png" />
-            <div className={styles.div2} />
           </div>
           <div className={styles.content1}>
             <div className={styles.head}>
@@ -91,7 +99,6 @@ const Detail = () => {
                     <div className={styles.quIncluyeEn}>
                       ¿Qué incluye en este producto?
                     </div>
-                    <div className={styles.div4}></div>
                   </div>
                   <div className={styles.divptAccordionDetails}>
                     <div className={styles.puedesAcudirA}>
@@ -117,7 +124,7 @@ const Detail = () => {
                 </div>
               </div>
             </div>
-            <div className={styles.share}>
+            {/* <div className={styles.share}>
               <div className={styles.shareChild} />
               <div className={styles.div10}>
                 <div className={styles.div11}>
@@ -134,12 +141,12 @@ const Detail = () => {
                   <div className={styles.groupParent}>
                     <Twitter />
                     <FacebookColor />
-                    <Reddit/>
+                    <Reddit />
                     <WhatsappColor />
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className={styles.div13}>
@@ -148,7 +155,11 @@ const Detail = () => {
               <div className={styles.avatar}>
                 <div className={styles.avatar1}>
                   <div className={styles.avatarChild} />
-                  <img className={styles.logoIcon} alt="" src="/images/detail/logoEva.png" />
+                  <img
+                    className={styles.logoIcon}
+                    alt=""
+                    src="/images/detail/logoEva.png"
+                  />
                 </div>
                 <div className={styles.policlnicaEvaSaludParent}>
                   <b className={styles.policlnicaEvaSalud}>
@@ -166,11 +177,11 @@ const Detail = () => {
                   </div>
                   <div className={styles.autoLayoutHorizontal}>
                     <div className={styles.iconlyboldstarParent}>
-                      <StartYellow/>
-                      <StartYellow/>
-                      <StartYellow/>
-                      <StartYellow/>
-                      <StartYellow/>
+                      <StartYellow />
+                      <StartYellow />
+                      <StartYellow />
+                      <StartYellow />
+                      <StartYellow />
                     </div>
                     <div className={styles.div15}>{`4.9 `}</div>
                   </div>
