@@ -3,7 +3,7 @@
 }
 
 .logo svg {
-  width: 100px;
+  width: 120px;
 }
 
 .navegation {
@@ -15,7 +15,7 @@
 .link {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 30px;
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.2px;
@@ -65,7 +65,7 @@
 
 @media (min-width: 640px) {
   .logo svg {
-    width: 120px;
+    width: 150px;
   }
 
   .group_mobile {
@@ -79,6 +79,7 @@
   }
 
   .logo svg {
-    width: 150px;
+    width: 190px;
+    height: 60px;
   }
 }

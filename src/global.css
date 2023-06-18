@@ -53,6 +53,7 @@
   --white: #ffffff;
   --black: #212121;
   --dashboard-background: #f1f5f9;
+  --buttons-border-radius: 8px;
 }
 
 * {
@@ -75,9 +76,9 @@ p {
   box-sizing: border-box;
 }
 
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
   width: 0
-}
+} */
 
 h1,
 h2,

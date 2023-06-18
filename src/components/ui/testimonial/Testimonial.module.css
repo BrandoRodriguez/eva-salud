@@ -31,7 +31,7 @@
     font-weight: 500;
     font-size: 26px;
     line-height: 36px;
-    color: var(--blue-primary);
+    color: var(--secondary-500);
 }
 
 .description {
@@ -73,7 +73,7 @@
     .title {
         font-size: 45px;
         line-height: 55px;
-        color: var(--blue-primary);
+        color: var(--secondary-500);
     }
 
     .description {

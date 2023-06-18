@@ -11,6 +11,8 @@ import {
 } from "../../components";
 import { HeaderSectionText } from "@mocks/Pages/Home";
 import { useLanguage } from "@context/LanguageContext/useLanguage";
+import Details from "@components/home/Details/Details";
+import CallAction from "@components/home/CallAction/CallAction";
 
 const Home = () => {
   const { language } = useLanguage();
@@ -36,6 +38,10 @@ const Home = () => {
           />
           <About />
         </section>
+
+        <Details />
+        <CallAction />
+
         <section className={styles.application}>
           <Application />
         </section>
