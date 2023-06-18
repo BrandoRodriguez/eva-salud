@@ -1,0 +1,42 @@
+.data_wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 8px;
+	align-items: center;
+}
+
+.data {
+	display: flex;
+	align-items: center;
+	color: #6A838C;
+	font-size: 11px;
+	font-weight: 500;
+	line-height: 15px;
+}
+
+.data_title {
+	margin-left: 3px;
+}
+
+@media (min-width: 1024px) {
+
+	.data_wrapper {
+		grid-template-columns: auto auto;
+		gap: 10px;
+		height: 30px;
+	}
+
+	.data span {
+		color: #6A838C;
+		font-weight: 500;
+		line-height: 15px;
+	}
+}
+
+@media (min-width: 1324px) {
+
+	.data span {
+		line-height: 12px;
+	}
+	
+}

@@ -54,6 +54,8 @@
   --black: #212121;
   --dashboard-background: #f1f5f9;
   --buttons-border-radius: 8px;
+  --section-margin-desktop: 100px;
+  --section-margin-mobile: 60px;
 }
 
 * {
@@ -87,6 +89,46 @@ h4,
 h5,
 h6 {
   margin: 0;
+}
+
+input {
+  font-family: 'Noto Sans';
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px transparent inset !important;
 }
 
 button,
