@@ -8,9 +8,10 @@ import KeyNumbers from "@components/icons/KeyNumbers";
 import AngleLeft from "@components/icons/AngleLeft";
 import AngleRight from "@components/icons/AngleRight";
 import { useMediaQuery } from "react-responsive";
-import Blog from "@components/home/Blog/Blog";
 import Filter from "@UI/Filter/Filter";
 import { Fragment } from "react";
+import Blog from "@UI/Blog/Blog";
+import Subscribe from "@UI/Subscribe/Subscribe";
 
 const Consultation = () => {
 
@@ -115,7 +116,6 @@ const Consultation = () => {
             <Fragment key={3}>
               <KeyNumbers />
               Busca por servicio...
-              <AngleDown />
             </Fragment>
           ]}
         />
@@ -243,6 +243,8 @@ const Consultation = () => {
         </div>
 
         <Blog />
+
+        <Subscribe />
 
       </main>
     </Layout>

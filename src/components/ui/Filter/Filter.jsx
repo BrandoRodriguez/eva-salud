@@ -3,7 +3,6 @@ import styles from './Filter.module.css'
 
 const Filter = ({ items }) => {
 
-	console.log({ items })
 	return (
 		<div className={styles.bg}>
 			<div >
