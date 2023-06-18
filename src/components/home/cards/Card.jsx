@@ -17,7 +17,7 @@ export const CardSmall = ({
       ></div>
       <div className={styles.content}>
         <h2 className={styles.specialty}>{specialty}</h2>
-        <span className={styles.category}>{category}</span>
+        <p className={styles.category}>{category}</p>
       </div>
     </div>
   );

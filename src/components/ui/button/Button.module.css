@@ -2,7 +2,7 @@
   background-color: var(--primary-500);
   height: 43px;
   padding: 12px 24px;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.01em;
   color: var(--white);
@@ -17,7 +17,7 @@
   background-color: transparent;
   height: 43px;
   padding: 12px 24px;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.2px;
   color: var(--white);

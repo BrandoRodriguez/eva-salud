@@ -39,6 +39,7 @@
   color: var(--white);
   letter-spacing: 0.01em;
   text-align: center;
+  filter: drop-shadow(1px 0px 1px #212121);
 }
 
 .presentation h2 {
