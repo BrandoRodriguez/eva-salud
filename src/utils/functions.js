@@ -1,3 +1,4 @@
+
 export function getLanguage(language = 'es') {
 
 	let domain = window.location.hostname;

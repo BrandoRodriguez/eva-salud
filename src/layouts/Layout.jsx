@@ -1,5 +1,7 @@
 import styles from "./Layout.module.css";
-import { Header, Footer } from "../components";
+import {Header } from "../components";
+import Footer from "@UI/FooterDecesos/Footer";
+
 
 export const Layout = ({ children }) => {
   return (
