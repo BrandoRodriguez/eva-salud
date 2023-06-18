@@ -5,13 +5,12 @@ import Work from "@components/icons/Work";
 import AngleDown from "@components/icons/AngleDown";
 import Ubication from "@components/icons/Ubication";
 import KeyNumbers from "@components/icons/KeyNumbers";
-import { Title14, Title18 } from "@UI/Tags/Titles";
-import Checkbox from "@UI/Checkbox/Checkbox";
 import AngleLeft from "@components/icons/AngleLeft";
 import AngleRight from "@components/icons/AngleRight";
 import { useMediaQuery } from "react-responsive";
-
-
+import Blog from "@components/home/Blog/Blog";
+import Filter from "@UI/Filter/Filter";
+import { Fragment } from "react";
 
 const Consultation = () => {
 
@@ -99,45 +98,27 @@ const Consultation = () => {
     <Layout>
       <main className="container">
 
-        <div className={styles.bg}>
-          <div >
-            <div className={styles.title_container}>
-              <h1>+300 Consultas Médicas <b>Disponibles Ahora</b></h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero repellendus magni, atque delectus molestias quis?
-              </p>
-            </div>
-          </div>
+        <Filter
+          items={[
+            <Fragment key={1}>
+              <Work />
+              Categoria
+              <AngleDown />
+            </Fragment>,
 
-          <div className={styles.search}>
-            <div className={styles.selects}>
+            <Fragment key={2}>
+              <Ubication />
+              Ubicación
+              <AngleDown />
+            </Fragment>,
 
-              <div className={styles.select}>
-                <Work />
-                Categoria
-                <AngleDown />
-              </div>
-
-              <div className={styles.select}>
-                <Ubication />
-                Ubicación
-                <AngleDown />
-              </div>
-
-              <div className={styles.select}>
-                <KeyNumbers />
-                Busca por servicio...
-                <AngleDown />
-              </div>
-
-
-            </div>
-
-            <Button>
-              Buscar
-            </Button>
-          </div>
-        </div>
+            <Fragment key={3}>
+              <KeyNumbers />
+              Busca por servicio...
+              <AngleDown />
+            </Fragment>
+          ]}
+        />
 
         <div className={styles.filter_head}>
           <div className={styles.left}>
@@ -260,6 +241,8 @@ const Consultation = () => {
           </div>
 
         </div>
+
+        <Blog />
 
       </main>
     </Layout>
