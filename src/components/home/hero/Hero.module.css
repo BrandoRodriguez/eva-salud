@@ -156,7 +156,7 @@
     left: 0;
     top: 0;
     background: var(--secondary-500);
-    background-image: url("/background_movil.png");
+    background-image: url("/background_movil.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
