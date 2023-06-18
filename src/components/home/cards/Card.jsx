@@ -28,9 +28,8 @@ export const CardProduct = ({
   category = "Oftalmología",
   price = "00€",
 }) => {
-
-  const {language} = useLanguage()
-  const content = CardProductText[language]
+  const { language } = useLanguage();
+  const content = CardProductText[language];
 
   return (
     <div
@@ -45,7 +44,7 @@ export const CardProduct = ({
         <div className={styles.ctn_price}>
           <span className={styles.price}>{price}</span> / {content.concept}
         </div>
-          <button className={styles.viewCenter}>Entérate cómo</button>
+        <button className={styles.viewCenter}>Ver Centros</button>
       </div>
     </div>
   );
