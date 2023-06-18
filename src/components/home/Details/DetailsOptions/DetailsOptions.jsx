@@ -1,6 +1,5 @@
 import DetailOption from "./DetailOption";
 import styles from "./DetailsOptions.module.css";
-import { LogoColor } from "../../../../components";
 
 const DetailsOptions = ({ options }) => {
   return (
