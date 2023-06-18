@@ -53,6 +53,7 @@
   --white: #ffffff;
   --black: #212121;
   --dashboard-background: #f1f5f9;
+  --buttons-border-radius: 8px;
 }
 
 * {
