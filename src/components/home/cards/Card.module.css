@@ -57,13 +57,15 @@
   border-radius: 100px;
   display: none;
   margin-top: 16px;
+  font-weight: 600;
 }
 
 /* .aboutCard:hover .content {
   animation: fade 0.6s linear;
 } */
 
-.aboutCard:hover .viewCenter , .cardproduct:hover .viewCenter{
+.aboutCard:hover .viewCenter,
+.cardproduct:hover .viewCenter {
   display: block;
 }
 
@@ -80,7 +82,9 @@
   .category {
     font-size: 12px;
   }
-  .aboutCard:hover .viewCenter , .cardproduct:hover .viewCenter {
+
+  .aboutCard:hover .viewCenter,
+  .cardproduct:hover .viewCenter {
     display: none;
   }
 }
@@ -169,7 +173,8 @@
   transition: all 300ms ease-in-out;
 }
 
-.aboutCard:hover::before , .cardproduct:hover::before {
+.aboutCard:hover::before,
+.cardproduct:hover::before {
   content: "";
   background: linear-gradient(180deg, rgba(35, 34, 99, 0) 0%, rgba(35, 34, 99, 0.15) 7.81%, rgba(35, 34, 99, 0.3) 17.19%, rgba(35, 34, 99, 0.4) 27.08%, rgba(35, 34, 99, 0.5) 41.67%, rgba(35, 34, 99, 0.6) 52.6%, rgba(35, 34, 99, 0.7) 66.15%, rgba(35, 34, 99, 0.8) 80.21%, rgba(35, 34, 99, 0.85) 88.02%, rgba(35, 34, 99, 0.95) 100%);
   position: absolute;
@@ -216,7 +221,8 @@
     font-size: 24px;
   }
 
-  .aboutCard:hover::before, .cardproduct:hover::before  {
+  .aboutCard:hover::before,
+  .cardproduct:hover::before {
     background: none;
   }
 

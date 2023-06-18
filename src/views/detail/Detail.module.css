@@ -1,0 +1,731 @@
+.cirugaLserDe,
+.frameIcon {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.cirugaLserDe {
+  font-weight: 600;
+  display: inline-block;
+  width: 534px;
+  height: 68px;
+}
+
+.frameIcon {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+
+.reservar {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+}
+
+.button,
+.frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.button {
+  border-radius: 8px;
+  background-color: #00983a;
+  box-shadow: 4px 8px 24px rgba(0, 152, 58, 0.25);
+  height: 58px;
+  padding: 15px 28px;
+  box-sizing: border-box;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+}
+
+.frame {
+  justify-content: flex-start;
+  gap: 153px;
+}
+
+.desde {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+  font-weight: 500;
+  width: 45px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.b,
+.desde,
+.divcolLg7 {
+  display: flex;
+  align-items: center;
+}
+
+.b {
+  position: relative;
+  font-size: 22px;
+  line-height: 24px;
+  font-family: "Plus Jakarta Sans";
+  color: #3c65f5;
+  width: 64px;
+  height: 28px;
+  flex-shrink: 0;
+}
+
+.divcolLg7 {
+  flex-direction: row;
+  padding: 5px 0;
+  justify-content: center;
+  gap: 10px;
+}
+
+.lineIcon,
+.pseudoIcon {
+  position: relative;
+  width: 1.41px;
+  height: 19.41px;
+}
+
+.pseudoIcon {
+  border-radius: 18px;
+  width: 18px;
+  height: 18px;
+}
+
+.div1,
+.pagarEnCentro,
+.span {
+  display: flex;
+  align-items: center;
+}
+
+.pagarEnCentro {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+  font-weight: 500;
+  width: 114px;
+  height: 17px;
+  flex-shrink: 0;
+}
+
+.div1,
+.span {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 7px;
+}
+
+.div1 {
+  justify-content: center;
+  gap: 13px;
+  font-size: 14px;
+  color: #616161;
+}
+
+.headChild {
+  position: relative;
+  border-top: 1px solid #e0e6f6;
+  box-sizing: border-box;
+  width: 851px;
+  height: 1px;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.image27Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 850px;
+  height: 566.67px;
+  object-fit: cover;
+}
+
+.div2,
+.thumb {
+  border-radius: 10.58px;
+}
+
+.div2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(0deg,
+      rgba(35, 34, 99, 0.73),
+      rgba(35, 34, 99, 0.35) 59.38%,
+      rgba(35, 34, 99, 0.05));
+  box-shadow: 0 15px 40px rgba(35, 34, 99, 0.15);
+}
+
+.thumb {
+  position: relative;
+  width: 850px;
+  height: 300px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.servicioMdicoProfesional {
+  position: relative;
+  font-size: 24px;
+  line-height: 120%;
+  font-weight: 600;
+  display: inline-block;
+  width: 814px;
+}
+
+.laCirugaRefractiva {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  width: 804px;
+  height: 95px;
+  flex-shrink: 0;
+}
+
+.aPortfolioDemonstrating {
+  margin-bottom: 0;
+}
+
+.aPortfolioDemonstratingWell {
+  margin: 0;
+  padding-left: 21px;
+}
+
+.aPortfolioDemonstratingContainer {
+  position: relative;
+  font-size: inherit;
+  line-height: 32px;
+  font-family: inherit;
+  display: inline-block;
+  width: 833px;
+  height: 295px;
+  flex-shrink: 0;
+}
+
+.div4,
+.quIncluyeEn {
+  position: absolute;
+  top: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.quIncluyeEn {
+  left: 31px;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+  font-weight: 600;
+  width: 450px;
+  height: 20px;
+}
+
+.div4 {
+  left: 799px;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: capitalize;
+  font-family: "Font Awesome 5 Free";
+  width: 14.2px;
+  height: 16px;
+}
+
+.divptAdTitle {
+  position: relative;
+  border-radius: 8px 8px 0 0;
+  background-color: #00983a;
+  width: 850px;
+  height: 68px;
+}
+
+.puedesAcudirA {
+  position: absolute;
+  top: 28px;
+  left: 31px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 738px;
+  height: 144px;
+}
+
+.divptAccordionDetails {
+  position: relative;
+  border-radius: 0 0 8px 8px;
+  border-right: 1px solid #f4f6f9;
+  border-bottom: 1px solid #f4f6f9;
+  border-left: 1px solid #f4f6f9;
+  box-sizing: border-box;
+  width: 850px;
+  height: 199px;
+  font-size: 16px;
+  color: #4f5e64;
+}
+
+.divptAccordionBox {
+  background-color: #fff;
+  box-shadow: 0 10px 20px -5px rgba(35, 34, 99, 0.06);
+  height: 267px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 18px;
+  color: #fff;
+}
+
+.div5,
+.whatHappensTo {
+  position: absolute;
+  top: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.whatHappensTo {
+  left: 31px;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+  font-weight: 600;
+  width: 490px;
+  height: 20px;
+}
+
+.div5 {
+  left: 802px;
+  line-height: 16px;
+  text-transform: capitalize;
+  font-family: "Font Awesome 5 Free";
+  color: #18100f;
+  width: 14.2px;
+  height: 16px;
+}
+
+.divptAdTitle1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  background-color: #f4f6f9;
+  border: 1px solid #f4f6f9;
+  box-sizing: border-box;
+  width: 850px;
+  height: 68px;
+}
+
+.divptAccordionBox1 {
+  position: relative;
+  background-color: #fff;
+  width: 836.66px;
+  height: 68px;
+}
+
+.usingInnovativeTechnology,
+.whatWillLaboratory {
+  position: absolute;
+  top: 24px;
+  left: 31px;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 349px;
+  height: 20px;
+}
+
+.usingInnovativeTechnology {
+  width: 262px;
+}
+
+.divptAccordionBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 25px;
+  color: #212121;
+}
+
+.div8 {
+  position: absolute;
+  height: calc(100% + 0.46px);
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: -0.46px;
+  left: 0;
+  border-radius: 10.58px;
+  background: linear-gradient(0deg,
+      rgba(35, 34, 99, 0.73),
+      rgba(35, 34, 99, 0.35) 59.38%,
+      rgba(35, 34, 99, 0.05));
+  box-shadow: 0 15px 40px rgba(35, 34, 99, 0.15);
+}
+
+.jpg,
+.jpg1 {
+  position: relative;
+  border-radius: 8px;
+  width: 417px;
+  height: 444.54px;
+  overflow: hidden;
+  flex-shrink: 0;
+  background-image: url(/public/1jpg@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.jpg1 {
+  background-image: url(/public/2jpg@3x.png);
+}
+
+.divelementorContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.shareChild {
+  position: relative;
+  border-top: 1px solid #e0e6f6;
+  box-sizing: border-box;
+  width: 850.02px;
+  height: 1px;
+}
+
+.frameIcon1 {
+  position: relative;
+  width: 19px;
+  height: 19px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.frameParent {
+  border-radius: 8px;
+  background-color: #00983a;
+  box-shadow: 4px 8px 24px rgba(0, 152, 58, 0.25);
+  display: flex;
+  flex-direction: row;
+  padding: 15px 28px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.guardar {
+  position: absolute;
+  height: 40.38%;
+  width: 51.11%;
+  top: 30.77%;
+  left: 24.44%;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+  display: inline-block;
+}
+
+.button1 {
+  position: relative;
+  border-radius: 8px;
+  background-color: rgba(0, 152, 58, 0.08);
+  box-shadow: 0 10px 20px -5px rgba(35, 34, 99, 0.06);
+  border: 0.5px solid #00983a;
+  box-sizing: border-box;
+  width: 135px;
+  height: 52px;
+  color: #00983a;
+}
+
+.div11 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 18px;
+}
+
+.compartirCon {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+  font-weight: 600;
+}
+
+.frameChild {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.div12,
+.groupParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 7px;
+}
+
+.div12 {
+  position: absolute;
+  top: 6px;
+  left: 541px;
+  align-items: center;
+  gap: 13.33px;
+  text-align: center;
+  color: #66789c;
+}
+
+.div10 {
+  position: relative;
+  width: 850px;
+  height: 52px;
+}
+
+.content1,
+.share {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 25px;
+  color: #fff;
+}
+
+.content1 {
+  font-size: 16px;
+  color: #4f5e64;
+}
+
+.avatarChild,
+.div {
+  background-color: #fff;
+  border: 1px solid #e0e6f6;
+}
+
+.div {
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 25px;
+}
+
+.avatarChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 16px;
+  box-sizing: border-box;
+  width: 85px;
+  height: 85px;
+}
+
+.logoIcon {
+  position: absolute;
+  top: 22px;
+  left: 5px;
+  width: 75px;
+  height: 41.63px;
+  object-fit: cover;
+}
+
+.avatar1 {
+  position: relative;
+  width: 85px;
+  height: 85px;
+}
+
+.calleTllez30,
+.policlnicaEvaSalud {
+  letter-spacing: 0.2px;
+  display: inline-block;
+}
+
+.policlnicaEvaSalud {
+  position: relative;
+  line-height: 140%;
+  width: 188px;
+  height: 30px;
+  flex-shrink: 0;
+}
+
+.calleTllez30 {
+  position: absolute;
+  top: 0;
+  left: 16px;
+  font-weight: 500;
+  width: 132px;
+  height: 24px;
+}
+
+.fiRsMarker1Icon {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 13px;
+  height: 13px;
+  overflow: hidden;
+}
+
+.locations {
+  position: relative;
+  width: 148px;
+  height: 24px;
+  font-size: 12px;
+  color: #616161;
+}
+
+.iconlyboldstar {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+.iconlyboldstarParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2px;
+}
+
+.div15 {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+  font-weight: 500;
+}
+
+.autoLayoutHorizontal {
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-size: 15px;
+  color: #424242;
+}
+
+.avatar,
+.policlnicaEvaSaludParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.avatar {
+  flex-direction: row;
+  gap: 15px;
+}
+
+.divChild {
+  position: relative;
+  border-top: 1px solid #e0e6f6;
+  box-sizing: border-box;
+  width: 289px;
+  height: 1px;
+}
+
+.mapChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 15px;
+  width: 835px;
+  height: 304px;
+  object-fit: cover;
+}
+
+.address,
+.map {
+  position: relative;
+  width: 288px;
+  flex-shrink: 0;
+}
+
+.map {
+  border-radius: 4px;
+  height: 185px;
+  overflow: hidden;
+}
+
+.address {
+  font-size: inherit;
+  letter-spacing: 0.2px;
+  line-height: 150%;
+  font-family: inherit;
+  color: #616161;
+  display: inline-block;
+  height: 94px;
+}
+
+.company,
+.div14 {
+  display: flex;
+  justify-content: center;
+}
+
+.div14 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.company {
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 10px 20px -5px rgba(35, 34, 99, 0.06);
+  border: 1px solid #e0e6f6;
+  flex-direction: row;
+  padding: 21px;
+  align-items: center;
+}
+
+.content,
+.div13 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 18px;
+  color: #05264e;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  flex-direction: row;
+  gap: 15px;
+  text-align: left;
+  font-size: 28px;
+  color: #232263;
+  font-family: "Noto Sans";
+}
