@@ -22,18 +22,13 @@
 }
 
 .content {
-  padding-left: 25px;
-  padding-bottom: 25px;
-  position: absolute;
-  bottom: 0;
-  z-index: 2;
-  display: grid;
-  gap: 7px;
-  transition: opacity 0.5s linear;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 50px;
 }
 
 .specialty {
-  color: var(--white);
+  color: var(--secondary-500);
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
@@ -60,9 +55,6 @@
   font-weight: 600;
 }
 
-/* .aboutCard:hover .content {
-  animation: fade 0.6s linear;
-} */
 
 .aboutCard:hover .viewCenter,
 .cardproduct:hover .viewCenter {
@@ -71,8 +63,9 @@
 
 @media (max-width: 1024px) {
   .content {
-    padding-left: 20px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .specialty {

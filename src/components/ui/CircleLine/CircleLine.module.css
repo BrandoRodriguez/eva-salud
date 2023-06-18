@@ -12,11 +12,11 @@
 
 .line::before {
 	content: "";
-    height: 110px;
-    background: var(--primary-500);
-    width: 1px;
-    align-self: center;
-    position: absolute;
-    top: 0;
-    z-index: -1;
+	height: 200px;
+	background: var(--primary-500);
+	width: 1px;
+	align-self: center;
+	position: absolute;
+	top: 0;
+	z-index: -1;
 }

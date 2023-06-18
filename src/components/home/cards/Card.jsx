@@ -8,12 +8,13 @@ export const CardSmall = ({
   category = "Oftalmología",
 }) => {
   return (
-    <div
-      className={styles.cardsmall}
-      style={{
-        backgroundImage: `url(${image})`,
-      }}
-    >
+    <div>
+      <div
+        className={styles.cardsmall}
+        style={{
+          backgroundImage: `url(${image})`,
+        }}
+      ></div>
       <div className={styles.content}>
         <h2 className={styles.specialty}>{specialty}</h2>
         <span className={styles.category}>{category}</span>

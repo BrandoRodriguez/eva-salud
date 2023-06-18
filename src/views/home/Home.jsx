@@ -24,6 +24,7 @@ const Home = () => {
         <section className={styles.section_hero}>
           <Hero />
         </section>
+        <Details />
         <section className={`${styles.section_products} container`}>
           <HeaderSecction
             title={content.products.title}
@@ -39,8 +40,7 @@ const Home = () => {
           <About />
         </section>
 
-        {/* <Details />
-        <CallAction /> */}
+        <CallAction />
 
         <section className={styles.application}>
           <Application />

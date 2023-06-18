@@ -263,20 +263,20 @@ export const DetailsText = {
 		title: "¿Cómo funciona nuestro comparador de seguros de decesos?",
 		list_info: [
 			{
-				title: "¿A cuántas personas vas a incluir en el seguro?",
-				description: "Ingresa en nuestro formulario a cuantas personas necesitas incluir en el seguro."
+				title: "SERVICIO DE SUSCRIPCIÓN",
+				description: "Los clientes de Banco Santander podrán suscribirse al servicio de EVA SALUD como un servicio adicional en sus tarjetas ya contratadas."
 			},
 			{
-				title: "¿Cuál es la edad de las personas a asegurar?",
-				description: "Introduce las edades de todos los integrantes."
+				title: "VENTAJAS PARA EL BANCO Y LOS CENTROS MÉDICOS",
+				description: "Los clientes de Banco Santander vienen filtrados por un previo proceso de Scoring. Esto ayudará a que los tiempos de aprobación para la financiación de los servicios médicos se acorten considerablemente."
 			},
 			{
-				title: "¿Cuál es tu Código Postal?",
-				description: "Necesitamos saber dónde viven las personas incluidas en el seguro."
+				title: "OTRAS OPCIONES DE SUSCRIPCIÓN",
+				description: "Además de la suscripción a las tarjetas de Banco Santander, existirán dos métodos adicionales de contratación:"
 			},
 			{
-				title: "¡Listo! Te contactaremos",
-				description: "No necesitamos nada más. Con estos datos, nuestro equipo de agentes te ofrecerá el mejor seguro posible."
+				title: "PRECIO ÚNICO PARA TODA LA FAMILIA",
+				description: "Nuestra tarjeta de crédito sanitaria incluye servicios médicos gratuitos y otros con grandes descuentos para los los miembros de la familia (incluidas mascotas), independientemente del número de hijos y por el mismo precio."
 			}
 		]
 	}

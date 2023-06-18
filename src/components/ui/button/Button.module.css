@@ -37,6 +37,7 @@
   font-size: 18px;
   letter-spacing: 0.005em;
   color: var(--primary-500);
+  cursor: pointer;
 }
 
 @media (max-width: 960px) {
