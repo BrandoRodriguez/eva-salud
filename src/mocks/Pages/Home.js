@@ -257,6 +257,49 @@ export const AplicationText = {
 	}
 }
 
+export const DetailsText = {
+	es: {
+		title: "¿Cómo funciona nuestro comparador de seguros de decesos?",
+		list_info: [
+			{
+				title: "¿A cuántas personas vas a incluir en el seguro?",
+				description: "Ingresa en nuestro formulario a cuantas personas necesitas incluir en el seguro."
+			},
+			{
+				title: "¿Cuál es la edad de las personas a asegurar?",
+				description: "Introduce las edades de todos los integrantes."
+			},
+			{
+				title: "¿Cuál es tu Código Postal?",
+				description: "Necesitamos saber dónde viven las personas incluidas en el seguro."
+			},
+			{
+				title: "¡Listo! Te contactaremos",
+				description: "No necesitamos nada más. Con estos datos, nuestro equipo de agentes te ofrecerá el mejor seguro posible."
+			}
+		]
+	}
+}
+
+export const CallActionText = {
+	es: {
+		title: "Queremos ayudarte a encontrar el mejor seguro",
+		description: "Estamos a tu disposición para resolver todas tus consultas y ayudarte a elegir el seguro que se adecue más a tus necesidades y las de tu familia.",
+		schedule: [
+			"Lunes a viernes: 9 a.m. - 21 p.m.",
+			"Sábado y domingo: 9 a.m. - 5 p.m."
+		],
+		buttons: [
+			{
+				text: "Agendar llamada",
+				url: "#"
+			}
+		],
+		contact_phone: "(01) 411-6001"
+	}
+
+}
+
 export const TestimonialText = {
 	es: {
 		subtitle: 'La opinión de nuestros clientes es muy importante',

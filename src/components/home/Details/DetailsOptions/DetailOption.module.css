@@ -1,0 +1,27 @@
+
+.detail_option {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	grid-gap: 15px;
+	min-height: 127px;
+}
+
+.subtitle_container{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.description {
+	flex: 1;
+	font-size: 18px;
+	line-height: 28px;
+	color: var(--textos);
+}
+
+@media (min-width: 1024px){
+
+	.detail_option {
+		min-height: 127px;
+	}
+}
