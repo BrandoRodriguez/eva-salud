@@ -39,8 +39,8 @@ const Home = () => {
           <About />
         </section>
 
-        <Details />
-        <CallAction />
+        {/* <Details />
+        <CallAction /> */}
 
         <section className={styles.application}>
           <Application />
