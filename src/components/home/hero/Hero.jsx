@@ -17,6 +17,7 @@ export const Hero = () => {
           autoplay="true"
           muted="true"
           loop="true"
+          poster="https://carontestudio.com/img/contacto.jpg"
         ></video>
         <div className={styles.over}></div>
         <Shape />
