@@ -13,7 +13,7 @@ export const Hero = () => {
     <>
       <div className={styles.background}>
         <video
-          src="./bg_hero.mp4"
+          src="./bg_hero_c.mp4"
           autoplay="true"
           muted="true"
           loop="true"
