@@ -171,17 +171,17 @@ export const ProductsOnlineText = {
 		{
 			title: "Consulta de Enfermería",
 			description: "Enfermería",
-			image: "/images/specialty/Enfermería.png",
+			image: "/images/specialty/Enfermería.webp",
 		},
 		{
 			title: "Consulta de Psicología",
 			description: "Psicología",
-			image: "/images/specialty/Psicología.png",
+			image: "/images/specialty/Psicología.webp",
 		},
 		{
 			title: "Consulta de Geriatría",
 			description: "Geriatría",
-			image: "/images/specialty/Geriatría.png",
+			image: "/images/specialty/Geriatría.webp",
 		},
 	],
 	en: [
