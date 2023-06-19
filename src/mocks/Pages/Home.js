@@ -386,6 +386,29 @@ export const TestimonialText = {
 	}
 }
 
+export const HireMessageText = {
+	'es': {
+		title1: 'CONTRATA TU PÓLIZA CON EVA SEGUROS',
+		title2: 'Y CONSIGUE /*2 LÍNEAS MÓVIL*/ CON LLAMADAS ILIMITADAS 	+ 20 GB',
+		button: 'Más información'
+	},
+}
+
+export const HireMessageModalText = {
+	'es': {
+		title: 'Lineas Moviles Gratis',
+		description1: [
+			'¡Gracias a Eva Seguros podrás tener 2 Líneas móviles totalmente gratis, estas líneas incluyen llamadas ilimitadas y 20GB de datos móviles en cada una para que puedas estar conectado en todo momento.',
+
+			'Pero eso no es todo, también te ofrecemos roaming gratuito en la Unión Europea para que puedas disfrutar de tus servicios incluso cuando viajas.'
+		],
+		description2: [
+			'Estamos comprometidos en brindarte la mejor experiencia de comunicación sin límites.',
+			'¡Únete a nosotros y descubre un mundo de posibilidades!'
+		]
+	}
+}
+
 export const FundationText = {
 	es: {
 		title: "Creando conexión humana a través de la experiencia digital",

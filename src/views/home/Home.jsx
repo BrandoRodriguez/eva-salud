@@ -16,6 +16,7 @@ import Details from "@components/home/Details/Details";
 import CallAction from "@components/home/CallAction/CallAction";
 import { useEffect, useState } from "react";
 import PrincipalLoader from "@components/Loaders/PrincipalLoader";
+import HireMessage from "@components/home/HireMessage/HireMessage";
 
 const Home = () => {
   
@@ -53,6 +54,7 @@ const Home = () => {
         <section className={styles.application}>
           <Application />
         </section>
+        <HireMessage />
         <Testimonial />
         <Fundation />
         {/* <Details /> */}

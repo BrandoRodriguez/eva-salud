@@ -21,11 +21,15 @@
     align-items: center;
     justify-content: flex-end;
     cursor: pointer;
-    gap: 8px;
+    grid-gap: 8px;
 	margin-bottom: 15px;
 }
 
 .close_btn_container div {
+	display: grid;
+	place-items: center;
+	width: 24px;
+	height: 24px;
     border: 1px solid #5E6788;
     padding: 6px;
     border-radius: 50%;

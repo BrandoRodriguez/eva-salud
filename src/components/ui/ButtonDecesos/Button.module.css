@@ -35,6 +35,10 @@
 	border: none;
 }
 
+.rounded {
+	border-radius: 99px;
+}
+
 
 @media (min-width: 1024px) {
 

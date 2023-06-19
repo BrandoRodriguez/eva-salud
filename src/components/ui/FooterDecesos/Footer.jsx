@@ -6,6 +6,7 @@ import { OldFooterText } from '@mocks/General';
 import { useLanguage } from '@context/LanguageContext/useLanguage';
 import { getLogo } from '@utils/getLogo';
 import { EvaSalud } from '..';
+import { getVersion } from '@utils/functions';
 
 const Footer = () => {
 
@@ -118,7 +119,7 @@ const Footer = () => {
 			</div>
 
 			<div className={styles.footer_copyright}>
-				{/* <p>©{content.copyright} Ver. {process.env.NEXT_PUBLIC_VERSION}</p> */}
+				<p>©{content.copyright} Ver. {getVersion()}</p>
 			</div>
 
 		</section>
