@@ -1,7 +1,9 @@
 import { BrowserRouter } from "react-router-dom";
 import Router from "./router";
+import { useEffect } from "react";
 
 function App() {
+
   return (
     <BrowserRouter>
       <Router />

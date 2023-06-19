@@ -1,0 +1,157 @@
+.container {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* overflow: hidden; */
+	z-index: 9999;
+}
+
+/* .circle {
+	position: absolute;
+	background-color: green;
+	border-radius: 50%;
+	animation: grow 1s linear forwards, changeColor 0s linear 1s forwards;
+	width: 0;
+	height: 0;
+	transform-origin: center;
+} */
+
+/* @keyframes grow {
+	0% {
+		width: 0;
+		height: 0;
+		transform: scale(0);
+	}
+
+	100% {
+		width: 400vw;
+		height: 400vw;
+		transform: scale(1);
+	}
+
+} */
+
+/* @keyframes changeColor {
+	0% {
+		background-color: #fff;
+	}
+
+	100% {
+		background-color: #fff;
+	}
+} */
+
+.content {
+	display: grid;
+	place-items: center;
+	max-width: 917px;
+	margin: 15px;
+	position: absolute;
+	color: #212121;
+	text-align: center;
+	/* animation: changeColorFont 1s linear 0s forwards; */
+}
+
+/* @keyframes changeColorFont {
+	0% {
+		color: #fff;;
+	}
+
+	99% {
+		color: #fff;;
+	}
+
+	100% {
+		color: #212121;
+	}
+} */
+
+.logo_container {
+	width: 280px;
+	height: 89px;
+	margin-bottom: 15px;
+}
+
+.logo_container svg {
+	width: 100%;
+	height: auto;
+}
+
+.title {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 28px;
+	text-align: center;
+}
+
+.description {
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.loading_input {
+	position: relative;
+	width: 85%;
+	height: 4px;
+	background-color: #CFCFCF;
+	animation: loadinInput 1s linear 1s forwards;
+	margin-bottom: 10px;
+}
+
+@keyframes loadinInput {
+	0% {
+		background-color: #CFCFCF;
+	}
+
+	100% {
+		background-color: #CFCFCF;
+	}
+}
+
+.loading_bar {
+	position: absolute;
+	width: 400px;
+	height: 100%;
+	background-color: var(--primary-500);
+	animation: loadingBar 1s linear infinite;
+}
+
+
+@keyframes loadingBar {
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 100%;
+	}
+}
+
+
+@media (min-width: 1024px) {
+
+	.logo_container {
+		width: 400px;
+		height: 128px;
+		margin-bottom: 44px;
+	}
+
+	.title {
+		font-size: 24px;
+		line-height: 33px;
+	}
+
+	.loading_input {
+		width: 404px;
+		margin-bottom: 30px;
+	}
+
+
+}
+
+
+
