@@ -17,7 +17,7 @@ export const Hero = () => {
           autoplay="true"
           muted="true"
           loop="true"
-          poster="/bg-hero.webp"
+          poster="/bg_hero.webp"
         ></video>
         <div className={styles.over}></div>
         <Shape />
