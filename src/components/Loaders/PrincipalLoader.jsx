@@ -12,11 +12,7 @@ const PrincipalLoader = () => {
 
 	const LoaderRef = useRef(null)
 
-	console.log('renderizand loader')
-
 	useLayoutEffect(() => {
-
-		// window.scrollTo(0, 0);
 
 		if (LoaderRef.current) {
 			disableBodyScroll(LoaderRef.current);

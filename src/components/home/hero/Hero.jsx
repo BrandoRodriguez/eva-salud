@@ -14,9 +14,9 @@ export const Hero = () => {
       <div className={styles.background}>
         <video
           src="./bg_hero_c.mp4"
-          autoplay="true"
-          muted="true"
-          loop="true"
+          autoPlay={true}
+          muted={true}
+          loop={true}
           // poster="/bg-hero.webp"
         ></video>
         <div className={styles.over}></div>
