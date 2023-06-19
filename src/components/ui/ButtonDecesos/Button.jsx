@@ -2,7 +2,7 @@ import styles from './Button.module.css'
 
 const Button = ({ children, background = true, width, height, onClick, style, rounded = false, disabled = false }) => {
 
-	console.log(disabled)
+	// console.log(disabled)
 
 	const type = background ? styles.green_button : styles.white_button
 	const newWidth = width ? `${width}px` : '100%'
