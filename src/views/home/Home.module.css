@@ -1,10 +1,11 @@
 .fullpage {
   display: grid;
   gap: 100px;
+  overflow: hidden;
 }
 
 .section_hero {
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .section_products {

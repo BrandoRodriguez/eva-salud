@@ -1,8 +1,8 @@
 import styles from "./Button.module.css";
 import { Arrow } from "../../../components";
 
-export const ButtonPrimary = () => {
-  return <div>Button</div>;
+export const ButtonPrimary = ({ name = "Button" }) => {
+  return <div className={styles.buttonprimary}>{name}</div>;
 };
 
 export const ButtonSecondary = () => {

@@ -33,19 +33,22 @@ export const CardProduct = ({
   const content = CardProductText[language];
 
   return (
-    <div
-      className={styles.cardproduct}
-      style={{
-        backgroundImage: `url(${image})`,
-      }}
-    >
-      <div className={styles.content}>
-        <h2 className={styles.specialty}>{specialty}</h2>
-        <span className={styles.category}>{category}</span>
+    <div className={styles.product}>
+      <div
+        className={styles.bg_product}
+        style={{
+          backgroundImage: `url(${image})`,
+        }}
+      ></div>
+      <div>
+        <h2>{specialty}</h2>
+        <h3>{category}</h3>
         <div className={styles.ctn_price}>
           <span className={styles.price}>{price}</span> / {content.concept}
         </div>
-        <button className={styles.viewCenter}>Ver Centros</button>
+        <div className={styles.ctn_button}>
+          <button className={styles.viewCenter}>Ver Centros</button>
+        </div>
       </div>
     </div>
   );
@@ -55,7 +58,6 @@ export const AboutCard = ({
   image = "./images/products/oftalmologia.png",
   title = "Consulta de oftalmología",
   description = "Oftalmología",
-  price = "00€",
 }) => {
   return (
     <div
@@ -64,10 +66,34 @@ export const AboutCard = ({
         backgroundImage: `url(${image})`,
       }}
     >
-      <div className={styles.content}>
+      {/* <div className={styles.content}>
         <h2 className={styles.specialty}>{title}</h2>
         <span className={styles.category}>{description}</span>
         <button className={styles.viewCenter}>Entérate cómo</button>
+      </div> */}
+    </div>
+  );
+};
+
+export const Card = ({
+  image = "./images/products/oftalmologia.png",
+  title = "Consulta de oftalmología",
+  description = "Oftalmología",
+}) => {
+  return (
+    <div className={styles.productonline}>
+      <div
+        className={styles.bg}
+        style={{
+          backgroundImage: `url(${image})`,
+        }}
+      ></div>
+      <div>
+        <h2>{title}</h2>
+        <h3>{description}</h3>
+        <div className={styles.ctn_button}>
+          <button className={styles.viewCenter}>Reservar Ahora</button>
+        </div>
       </div>
     </div>
   );

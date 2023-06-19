@@ -2,6 +2,7 @@ import styles from "./Hero.module.css";
 import { Shape, ChipPrimary, ChipBorder, CardSmall } from "../../../components";
 import { Search } from "../search/Search";
 import { HeroText } from "@mocks/Pages/Home";
+import { ButtonPrimary } from "../../../components";
 import { useLanguage } from "@context/LanguageContext/useLanguage";
 
 export const Hero = () => {
@@ -11,24 +12,38 @@ export const Hero = () => {
   return (
     <>
       <div className={styles.background}>
+        <video
+          src="./bg_hero_c.mp4"
+          autoplay="true"
+          muted="true"
+          loop="true"
+          // poster="/bg-hero.webp"
+        ></video>
+        <div className={styles.over}></div>
         <Shape />
       </div>
       <div className={`${styles.content} container`}>
         <div className={styles.group}>
           <div className={styles.presentation}>
             <h1>{content.title}</h1>
-            <h2>{content.description}</h2>
+            {/* <h2>{content.description}</h2> */}
+            <div>
+              <h2>Suscríbete a Eva Salud</h2>
+              <ButtonPrimary name="Suscribirme" />
+            </div>
           </div>
+
           <div className={styles.ctn_search}>
             <Search />
           </div>
-          <div className={styles.ctn_chiplist}>
+
+          {/* <div className={styles.ctn_chiplist}>
             <div className={styles.chiplist}>
               {content.categories.map((category, index) => {
                 return <ChipBorder key={index} name={category} />;
               })}
             </div>
-          </div>
+          </div> */}
         </div>
         <div className={styles.ctn_explore}>
           <div className={styles.explore}>

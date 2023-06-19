@@ -5,6 +5,7 @@ import Fundation from "@UI/Fundation/Fundation";
 import {
   Hero,
   HeaderSecction,
+  ProductsOnline,
   Products,
   About,
   Application,
@@ -21,14 +22,12 @@ const Home = () => {
   const { language } = useLanguage();
   const content = HeaderSectionText[language];
 
-  const [loadingPage, setLoadingPage] = useState(true)
+  const [loadingPage, setLoadingPage] = useState(true);
 
   useEffect(() => {
-
     setTimeout(() => {
-      setLoadingPage(false)
-    }, 1700);
-
+      setLoadingPage(false);
+    }, 2100);
   }, []);
 
   return (
@@ -37,8 +36,27 @@ const Home = () => {
         <section className={styles.section_hero}>
           <Hero />
         </section>
-        <Details />
+        <section className={styles.section_about}>
+          <HeaderSecction
+            title={content.about.title}
+            description={content.about.description}
+          />
+          <ProductsOnline />
+        </section>
         <section className={`${styles.section_products} container`}>
+          <HeaderSecction
+            title={content.products.title}
+            description={content.products.description}
+          />
+          <Products />
+        </section>
+        <section className={styles.application}>
+          <Application />
+        </section>
+        <Testimonial />
+        <Fundation />
+        {/* <Details /> */}
+        {/* <section className={`${styles.section_products} container`}>
           <HeaderSecction
             title={content.products.title}
             description={content.products.description}
@@ -58,14 +76,11 @@ const Home = () => {
         <section className={styles.application}>
           <Application />
         </section>
-        <Testimonial />
-        <Fundation />
+        
+        <Fundation /> */}
       </main>
 
-      {
-        loadingPage && <PrincipalLoader />
-      }
-
+      {loadingPage && <PrincipalLoader />}
     </Layout>
   );
 };
