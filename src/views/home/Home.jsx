@@ -5,7 +5,7 @@ import Fundation from "@UI/Fundation/Fundation";
 import {
   Hero,
   HeaderSecction,
-  Products,
+  ProductsOnline,
   About,
   Application,
 } from "../../components";
@@ -24,8 +24,15 @@ const Home = () => {
         <section className={styles.section_hero}>
           <Hero />
         </section>
-        <Details />
-        <section className={`${styles.section_products} container`}>
+        <section className={styles.section_about}>
+          <HeaderSecction
+            title={content.about.title}
+            description={content.about.description}
+          />
+          <ProductsOnline />
+        </section>
+        {/* <Details /> */}
+        {/* <section className={`${styles.section_products} container`}>
           <HeaderSecction
             title={content.products.title}
             description={content.products.description}
@@ -46,7 +53,7 @@ const Home = () => {
           <Application />
         </section>
         <Testimonial />
-        <Fundation />
+        <Fundation /> */}
       </main>
     </Layout>
   );

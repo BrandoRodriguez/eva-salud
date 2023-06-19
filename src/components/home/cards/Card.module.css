@@ -23,8 +23,9 @@
 
 .content {
   padding-top: 5px;
-  padding-left: 15px;
   padding-right: 15px;
+  padding-left: 15px;
+  cursor: pointer;
 }
 
 .specialty {
@@ -43,7 +44,6 @@
   letter-spacing: 0.2px;
   line-height: 140%;
   text-align: center;
-
 }
 
 .viewCenter {
@@ -67,8 +67,8 @@
 @media (max-width: 1024px) {
   .content {
     padding-top: 5px;
-    padding-left: 0px;
     padding-right: 0px;
+    padding-left: 0;
   }
 
   .specialty {
@@ -169,7 +169,7 @@
   transition: all 300ms ease-in-out;
 }
 
-.aboutCard:hover::before,
+/* .aboutCard:hover::before,
 .cardproduct:hover::before {
   content: "";
   background: linear-gradient(180deg, rgba(35, 34, 99, 0) 0%, rgba(35, 34, 99, 0.15) 7.81%, rgba(35, 34, 99, 0.3) 17.19%, rgba(35, 34, 99, 0.4) 27.08%, rgba(35, 34, 99, 0.5) 41.67%, rgba(35, 34, 99, 0.6) 52.6%, rgba(35, 34, 99, 0.7) 66.15%, rgba(35, 34, 99, 0.8) 80.21%, rgba(35, 34, 99, 0.85) 88.02%, rgba(35, 34, 99, 0.95) 100%);
@@ -180,7 +180,7 @@
   right: 0;
   bottom: 0;
   z-index: 1;
-}
+} */
 
 .aboutCard .content {
   padding-left: 32.5px;
@@ -222,4 +222,38 @@
     background: none;
   }
 
+}
+
+
+.bg {
+  aspect-ratio: 0.8709677419354839;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  filter: drop-shadow(0px 15px 40px rgba(35, 34, 99, 0.15));
+  position: relative;
+  transition: all 300ms ease-in-out;
+}
+
+.productonline>div {
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+.productonline h2 {
+  color: var(--secondary-500);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+
+.productonline h3 {
+  color: var(--primary-500);
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+  text-align: center;
 }

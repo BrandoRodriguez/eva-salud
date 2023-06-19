@@ -55,7 +55,6 @@ export const AboutCard = ({
   image = "./images/products/oftalmologia.png",
   title = "Consulta de oftalmología",
   description = "Oftalmología",
-  price = "00€",
 }) => {
   return (
     <div
@@ -64,9 +63,31 @@ export const AboutCard = ({
         backgroundImage: `url(${image})`,
       }}
     >
-      <div className={styles.content}>
+      {/* <div className={styles.content}>
         <h2 className={styles.specialty}>{title}</h2>
         <span className={styles.category}>{description}</span>
+        <button className={styles.viewCenter}>Entérate cómo</button>
+      </div> */}
+    </div>
+  );
+};
+
+export const Card = ({
+  image = "./images/products/oftalmologia.png",
+  title = "Consulta de oftalmología",
+  description = "Oftalmología",
+}) => {
+  return (
+    <div className={styles.productonline}>
+      <div
+        className={styles.bg}
+        style={{
+          backgroundImage: `url(${image})`,
+        }}
+      ></div>
+      <div>
+        <h2>{title}</h2>
+        <h3>{description}</h3>
         <button className={styles.viewCenter}>Entérate cómo</button>
       </div>
     </div>

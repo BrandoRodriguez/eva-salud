@@ -1,5 +1,4 @@
 .background {
-  background: url("/background_hero.png");
   width: 100%;
   height: 45rem;
   background-repeat: no-repeat;
@@ -8,6 +7,23 @@
   top: 0;
   z-index: -3;
   background-position: top;
+  overflow: hidden;
+}
+
+.background video {
+  text-align: center;
+  background-size: cover;
+  min-width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.over {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 45rem;
+  background: linear-gradient(180deg, rgba(2, 170, 109, 0.245) 0%, rgba(2, 170, 109, 0.5) 99.99%, rgba(2, 170, 109, 0) 100%);
 }
 
 .background svg {
@@ -39,7 +55,7 @@
   color: var(--white);
   letter-spacing: 0.01em;
   text-align: center;
-  filter: drop-shadow(1px 0px 1px #212121);
+  filter: drop-shadow(1px 0px 1px var(--primary-500));
 }
 
 .presentation h2 {
@@ -48,6 +64,13 @@
   letter-spacing: 0.2px;
   font-weight: 500;
   font-size: 1rem;
+}
+
+.presentation>div {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
 }
 
 .chiplist {
@@ -150,23 +173,26 @@
   }
 
   .background {
-    position: absolute;
-    z-index: -1;
-    width: 100%;
     height: 21.563rem;
     left: 0;
     top: 0;
-    background: var(--secondary-500);
-    background-image: url("/background_movil.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
+  }
+
+  .over {
+    height: 21.563rem;
   }
 
   .content {
     display: block;
     gap: 32px;
     padding-top: 16px;
+  }
+
+  .background video {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 
   .group {
@@ -219,9 +245,6 @@
     font-size: 2.5rem;
   }
 
-  .presentation h2 {
-    padding: 0 22%;
-  }
 }
 
 @media (min-width: 960px) {

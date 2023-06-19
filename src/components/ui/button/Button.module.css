@@ -1,3 +1,22 @@
+.buttonprimary {
+  background-color: var(--primary-500);
+  height: 58px;
+  padding: 12px 24px;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  color: var(--white);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  letter-spacing: 0.2px;
+}
+
+.buttonprimary:hover {
+  background-color: var(--primary-400);
+}
+
 .buttonprimarysmall {
   background-color: var(--primary-500);
   height: 43px;
@@ -12,6 +31,12 @@
   cursor: pointer;
   letter-spacing: 0.2px;
 }
+
+.buttonprimarysmall:hover {
+  background-color: var(--primary-400);
+}
+
+
 
 .buttonsecondarysmall {
   background-color: transparent;

@@ -1,6 +1,6 @@
 export const HeroText = {
 	es: {
-		title: 'Juntos por tu bienestar',
+		title: '¡MUERDE LA MANZANA!',
 		description: 'Protejamos la salud de los que más quieres con los productos más innovadores del mercado.',
 		search: {
 			input_placeholder: '¿Qué estás buscando?',
@@ -16,7 +16,7 @@ export const HeroText = {
 			button_text: 'Buscar'
 		},
 		categories: ['Medicina general', 'Dermatología', 'Ginecología', 'Oftalmología', 'Enfermería'],
-		card_title: 'Explore consultas incluidas en Eva Salud',
+		card_title: 'Consultas Gratuitas de Eva Salud',
 		cards: [
 			{
 				specialty: "Consulta de dermatología",
@@ -164,6 +164,44 @@ export const ProductsText = {
 			image: "/images/products/otorrinolaringología.png",
 		},
 	]
+}
+
+export const ProductsOnlineText = {
+	es: [
+		{
+			title: "Consulta de Enfermería",
+			description: "Enfermería",
+			image: "/images/specialty/Enfermería.png",
+		},
+		{
+			title: "Consulta de Psicología",
+			description: "Psicología",
+			image: "/images/specialty/Psicología.png",
+		},
+		{
+			title: "Consulta de Geriatría",
+			description: "Geriatría",
+			image: "/images/specialty/Geriatría.png",
+		},
+	],
+	en: [
+		{
+			title: "If you have a medical problem",
+			description: "We assist you immediately",
+			image: "/images/about/1.png",
+		},
+		{
+			title: "If you feel good",
+			description: "We will make you feel better",
+			image: "/images/about/2.png",
+		},
+		{
+			title: "If your family is growing",
+			description: "We help you protect them",
+			image: "/images/about/1.png",
+		},
+	]
+
 }
 
 export const CardProductText = {
