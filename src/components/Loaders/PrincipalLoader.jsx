@@ -4,6 +4,7 @@ import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
 import { useLanguage } from '@context/LanguageContext/useLanguage';
 import { PrincipalLoaderText } from '@mocks/General';
 import { LogoColor } from '..';
+import { getVersion } from '@utils/functions';
 
 const PrincipalLoader = () => {
 
@@ -47,7 +48,9 @@ const PrincipalLoader = () => {
 				<p className={styles.description}>
 					{content.description}
 					<br />
-					{/* Ver. {process.env.NEXT_PUBLIC_VERSION} */}
+					{
+						getVersion()
+					}
 				</p>
 
 			</div>

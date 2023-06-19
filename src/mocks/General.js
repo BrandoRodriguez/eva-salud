@@ -126,7 +126,7 @@ export const OldFooterText = {
 
 export const PrincipalLoaderText = {
 	'es': {
-		title: 'Vive con la tranquilidad de contar con el mejor cuadro medico que se ocupará de todo en los momentos más difíciles.',
+		title: 'Vive con la tranquilidad de contar con el mejor cuadro médico que se ocupará de todo en los momentos más difíciles.',
 		description: 'EvaSalud.com 2023. Todos los derechos reservados.'
 	},
 }

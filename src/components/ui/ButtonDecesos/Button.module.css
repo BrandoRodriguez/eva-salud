@@ -18,8 +18,16 @@
 }
 
 .green_button {
+	/* background-color: var(--primary-500);
+	color: var(--white); */
 	background-color: var(--primary-500);
-	color: var(--white);
+	color: white;
+	font-size: 16px;
+	padding: 18px 30px;
+	letter-spacing: 0.2px;
+	border-radius: 100px;
+	font-weight: 600;
+	box-shadow: 4px 8px 24px rgba(0, 152, 58, 0.25);
 }
 
 .white_button {
@@ -35,6 +43,10 @@
 	border: none;
 }
 
+.rounded {
+	border-radius: 99px;
+}
+
 
 @media (min-width: 1024px) {
 
@@ -46,12 +58,12 @@
 		transition: 0.2s ease-in;
 		background-color: var(--primary-500);
 		color: var(--white);
+		
 	}
 	
 	.green_button:hover {
 		transition: 0.2s ease-in;
-		background-color: var(--white);
-		color: var(--primary-500);
+		background-color: var(--primary-400);
 	}
 
 	.disabled:hover {
