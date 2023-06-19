@@ -122,11 +122,62 @@ export const OldFooterText = {
 		},
 		copyright: 'EvaSalud.com 2023. Todos los derechos reservados.'
 	},
+	en: {
+		social_title: 'Experience the tranquility of having the best medical staff.',
+		social_description: 'Follow us on our social networks',
+		section1: {
+			title: 'About Us',
+			options: [
+				{ title: 'Mission Vision', href: '' },
+				{ title: 'Our team', href: '' },
+				// { title: 'Careers', href: '' },
+				// { title: 'Press and Media', href: '' },
+				// { title: 'Advertising', href: '' },
+				// { title: 'Testimonials', href: '' },
+			]
+		},
+		section2: {
+			title: 'More Information',
+			options: [
+				{ title: 'Meet Eva', href: '' },
+				// { title: 'Frequently Asked Questions', href: '' },
+				// { title: 'Customer Area', href: '' },
+				{ title: 'Plant-for-the-Planet', href: '' },
+				{ title: 'Accessible Universe', href: '' },
+				{ title: 'Universe Santi', href: '' },
+			]
+		},
+		section3: {
+			title: 'We Offer',
+			options: [
+				// { title: 'Life Insurance', href: '' },
+				// { title: 'Health Insurance', href: '' },
+				// { title: 'Home Insurance', href: '' },
+				{ title: 'Health Insurance', href: '' },
+				// { title: 'Car Insurance', href: '' },
+				// { title: 'Pet Insurance', href: '' },
+			]
+		},
+		section4: {
+			title: 'Legal',
+			options: [
+				{ title: 'Legal Notice', href: '' },
+				{ title: 'Privacy Policy', href: '' },
+				{ title: 'Cookie Policy', href: '' },
+				// { title: 'Terms and Conditions', href: '' },
+			]
+		},
+		copyright: 'EvaHealth.com 2023. All rights reserved.'
+	},
 }
 
 export const PrincipalLoaderText = {
-	'es': {
-		title: 'Vive con la tranquilidad de contar con el mejor cuadro médico que se ocupará de todo en los momentos más difíciles.',
+	es: {
+		title: 'Cuenta con el mejor cuadro médico a través de Eva Salud',
 		description: 'EvaSalud.com 2023. Todos los derechos reservados.'
+	},
+	en: {
+		title: 'Count on the best medical staff through Eva Salud',
+		description: 'EvaSalud.com 2023. All rights reserved.'
 	},
 }

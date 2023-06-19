@@ -1,6 +1,6 @@
 import { useLanguage } from "@context/LanguageContext/useLanguage";
 import styles from "./Card.module.css";
-import { CardProductText } from "@mocks/Pages/Home";
+import { CardProductText, HeroText } from "@mocks/Pages/Home";
 
 export const CardSmall = ({
   image = "./oftalmologia.png",
@@ -8,6 +8,10 @@ export const CardSmall = ({
   category = "Oftalmología",
   price = "00€",
 }) => {
+
+  const {language} = useLanguage()
+  const content = HeroText[language]
+
   return (
     <div className={styles.freespecialties}>
       <div
@@ -23,7 +27,7 @@ export const CardSmall = ({
           Coste /<span className={styles.price}>{price}</span>
         </div>
         <div className={styles.ctn_button}>
-          <button className={styles.viewCenter}>Ver Centros</button>
+          <button className={styles.viewCenter}>{content.card_button}</button>
         </div>
       </div>
     </div>
@@ -54,7 +58,7 @@ export const CardProduct = ({
           <span className={styles.price}>{price}</span> / {content.concept}
         </div>
         <div className={styles.ctn_button}>
-          <button className={styles.viewCenter}>Ver Centros</button>
+          <button className={styles.viewCenter}>{content.button_text}</button>
         </div>
       </div>
     </div>
@@ -110,6 +114,7 @@ export const CardBanner = ({
   // image = "./images/products/Dental.webp",
   title = "Consulta Dental",
   description = "Incluye limpieza bucal gratuita.",
+  button_text = 'Reservar Ahora'
 }) => {
   return (
     <div className={styles.cardbanner}>
@@ -122,7 +127,7 @@ export const CardBanner = ({
         <div className={styles.banner_content}>
           <h2>{title}</h2>
           <h3>{description}</h3>
-          <button className={styles.viewCenter}>Reservar Ahora</button>
+          <button className={styles.viewCenter}>{button_text}</button>
         </div>
       </div>
     </div>
