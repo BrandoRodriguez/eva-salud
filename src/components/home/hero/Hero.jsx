@@ -12,7 +12,12 @@ export const Hero = () => {
   return (
     <>
       <div className={styles.background}>
-        <video src="/bg.mp4" autoplay="true" muted="true" loop="true"></video>
+        <video
+          src="./bg_hero.mp4"
+          autoplay="true"
+          muted="true"
+          loop="true"
+        ></video>
         <div className={styles.over}></div>
         <Shape />
       </div>
