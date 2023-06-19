@@ -51,6 +51,7 @@ const Home = () => {
           <HeaderSecction
             title={content.products.title}
             description={content.products.description}
+            button_text={content.button_text}
           />
           <Products />
         </section>

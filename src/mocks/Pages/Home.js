@@ -1,6 +1,9 @@
 export const HeroText = {
 	es: {
 		title: '¡MUERDE LA MANZANA!',
+		subtitle: 'Suscríbete a Eva Salud',
+		subscribe_button: 'Suscribirme',
+		card_button: 'Ver Centros',
 		description: 'Protejamos la salud de los que más quieres con los productos más innovadores del mercado.',
 		search: {
 			input_placeholder: '¿Qué estás buscando?',
@@ -66,8 +69,11 @@ export const HeroText = {
 		]
 	},
 	en: {
-		title: 'Together for your well-being',
-		description: 'Let us protect the health of your loved ones with the most innovative products on the market.',
+		title: 'BITE THE APPLE!',
+		subtitle: 'Subscribe to Eva Salud',
+		subscribe_button: 'Subscribe me',
+		card_button: 'See Centers',
+		description: 'Protect the health of your loved ones with the most innovative products on the market.',
 		search: {
 			input_placeholder: 'What are you looking for?',
 			location: {
@@ -76,46 +82,61 @@ export const HeroText = {
 			},
 			specialty: {
 				title: 'Specialties',
-				specialties: ['Dermatology consult..']
+				specialties: ['Dermatology..']
 
 			},
 			button_text: 'Search'
 		},
-		categories: ['General medicine', 'Dermatology', 'Gynecology', 'Ophthalmology', 'Nursing'],
-		card_title: 'Explore consultations included in Eva Health',
+		categories: ['General Medicine', 'Dermatology', 'Gynecology', 'Ophthalmology', 'Nursing'],
+		card_title: 'Free Consultations from Eva Health',
 		cards: [
 			{
-				specialty: "Dermatology consultation",
-				category: "Dermatology",
+				specialty: "Gynecology Consultation",
+				category: "Gynecology",
 				image: "/images/products/Ginecología.webp",
 			},
 			{
-				specialty: "Nursing consultation",
-				category: "Nursing",
+				specialty: "General Medicine Consultation",
+				category: "General Medicine",
 				image: "/images/products/MedicinaGeneral.webp",
 			},
 			{
-				specialty: "General medicine consultation",
-				category: "General medicine",
+				specialty: "Pediatrics Consultation",
+				category: "Pediatrics",
 				image: "/images/products/Pediatría.webp",
 			},
-			// {
-			// 	specialty: "Ophthalmology consultation",
-			// 	category: "Ophthalmology",
-			// 	image: "/images/specialty/oftalmologia.png",
-			// },
-			// {
-			// 	specialty: "Pediatrics consultation",
-			// 	category: "Pediatrics",
-			// 	image: "/images/specialty/pediatria.png",
-			// },
-			// {
-			// 	specialty: "Traumatology consultation",
-			// 	category: "Traumatology",
-			// 	image: "/images/specialty/traumatologia.png",
-			// },
+			{
+				specialty: "Gynecology Consultation",
+				category: "Gynecology",
+				image: "/images/products/Dermatología.webp",
+			},
+			{
+				specialty: "General Medicine Consultation",
+				category: "General Medicine",
+				image: "/images/products/Traumatología.webp",
+			},
+			{
+				specialty: "Pediatrics Consultation",
+				category: "Pediatrics",
+				image: "/images/products/Oftalmólogía.webp",
+			},
+			{
+				specialty: "Nursing Consultation",
+				category: "Nursing",
+				image: "/images/products/Enfermería.webp",
+			},
+			{
+				specialty: "Psychology Consultation",
+				category: "Psychology",
+				image: "/images/products/Psicología.webp",
+			},
+			{
+				specialty: "Geriatrics Consultation",
+				category: "Geriatrics",
+				image: "/images/products/Geriatría.webp",
+			},
 		]
-	}
+	},
 }
 
 export const HeaderSectionText = {
@@ -163,21 +184,21 @@ export const ProductsText = {
 	],
 	en: [
 		{
-			specialty: "Ophthalmology tests pack",
-			category: "ophthalmology",
-			image: "/images/products/oftalmologia.png",
+			specialty: "Gynecology Consultation",
+			category: "Gynecology",
+			image: "/images/specialty/Ginecología_.webp",
 		},
 		{
-			specialty: "Ophthalmology tests pack",
-			category: "ophthalmology",
-			image: "/images/products/odontológico.png",
+			specialty: "Pediatrics Consultation",
+			category: "Pediatrics",
+			image: "/images/specialty/Pediatría.webp",
 		},
 		{
-			specialty: "Ophthalmology tests pack",
-			category: "ophthalmology",
-			image: "/images/products/otorrinolaringología.png",
+			specialty: "General Medicine Consultation",
+			category: "General Medicine",
+			image: "/images/specialty/MedicinaGeneral_.webp",
 		},
-	]
+	],
 }
 
 export const ProductsOnlineText = {
@@ -220,10 +241,12 @@ export const ProductsOnlineText = {
 
 export const CardProductText = {
 	es: {
-		concept: 'consulta'
+		concept: 'consulta',
+		button_text: 'Ver Centros'
 	},
 	en: {
-		concept: 'consultation'
+		concept: 'consultation',
+		button_text: 'See Centers'
 	}
 }
 
@@ -268,6 +291,7 @@ export const AboutText = {
 export const AplicationText = {
 	es: {
 		title: 'Ten el control de tu bienestar con la /*App de Eva Salud*/',
+		qr_title: 'Escanea el código y empieza a usarla.',
 		feature: [
 			{
 				title: 'Videoconsultas médicas sin costo',
@@ -289,6 +313,7 @@ export const AplicationText = {
 	},
 	en: {
 		title: 'Take control of your well-being with the /*Eva Health App*/',
+		qr_title: 'Scan the code and start using it.',
 		feature: [
 			{
 				title: 'No-cost medical video consultations',
@@ -349,8 +374,21 @@ export const CallActionText = {
 			}
 		],
 		contact_phone: "(01) 411-6001"
+	},
+	en: {
+		title: "We want to help you find the best insurance",
+		description: "We are at your disposal to resolve all your queries and help you choose the insurance that best suits your needs and those of your family.",
+		schedule: [
+			"Monday to Friday: 9 a.m. - 9 p.m.",
+		],
+		buttons: [
+			{
+				text: "Schedule call",
+				url: ""
+			}
+		],
+		contact_phone: "(01) 411-6001"
 	}
-
 }
 
 export const TestimonialText = {
@@ -405,6 +443,11 @@ export const HireMessageText = {
 		title1: 'CONTRATA TU PÓLIZA CON EVA SEGUROS',
 		title2: 'Y CONSIGUE /*2 LÍNEAS MÓVIL*/ CON LLAMADAS ILIMITADAS 	+ 20 GB',
 		button: 'Más información'
+	},
+	en: {
+		title1: 'HIRE YOUR POLICY WITH EVA INSURANCE',
+		title2: 'AND GET /*2 MOBILE LINES*/ WITH UNLIMITED CALLS + 20 GB',
+		button: 'More information'
 	},
 }
 
@@ -469,5 +512,18 @@ export const FundationText = {
 				description: "At Eva, we work for a greener world, which is why EVA, as a collaborating company of Plant For The Planet, will plant a tree for each new customer."
 			}
 		]
+	}
+}
+
+export const BannerText = {
+	es: {
+		title: 'Consulta Dental',
+		subtitle: 'Incluye limpieza bucal gratuita.',
+		button_text: 'Reservar Ahora'
+	},
+	en: {
+		title: 'Dental Consultation',
+		subtitle: 'Includes free oral cleaning.',
+		button_text: 'Reserve now'
 	}
 }

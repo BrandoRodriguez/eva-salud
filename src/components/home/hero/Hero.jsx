@@ -8,7 +8,6 @@ import { useLanguage } from "@context/LanguageContext/useLanguage";
 export const Hero = () => {
   const { language } = useLanguage();
   const content = HeroText[language];
-
   return (
     <>
       <div className={styles.background}>
@@ -28,8 +27,8 @@ export const Hero = () => {
             <h1>{content.title}</h1>
             {/* <h2>{content.description}</h2> */}
             <div>
-              <h2>Suscríbete a Eva Salud</h2>
-              <ButtonPrimary name="Suscribirme" />
+              <h2>{content.subtitle}</h2>
+              <ButtonPrimary name={content.subscribe_button} />
             </div>
           </div>
 

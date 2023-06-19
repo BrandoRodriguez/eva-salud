@@ -15,7 +15,7 @@ export const Application = () => {
                 <div className={styles.appImage}>
                 <div className={styles.scanQR}>
                     <img src="./images/application/logoBlue.png" className={styles.logo}/>
-                    <p>Escanea el código y empieza a usarla.</p>
+                    <p>{content.qr_title}</p>
                     <img src="./images/application/qr.png" className={styles.qr}/>
                 </div>
                 </div>
