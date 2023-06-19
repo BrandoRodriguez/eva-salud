@@ -123,3 +123,10 @@ export const OldFooterText = {
 		copyright: 'SegurodeDecesos.com 2023. Todos los derechos reservados.'
 	},
 }
+
+export const PrincipalLoaderText = {
+	'es': {
+		title: 'Vive la tranquilidad de contar con el mejor seguro de salud que se ocupará de todo en los momentos más difíciles.',
+		description: 'SeguroDeSalud.com 2023. Todos los derechos reservados.'
+	},
+}

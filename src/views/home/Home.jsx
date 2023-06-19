@@ -13,10 +13,31 @@ import { HeaderSectionText } from "@mocks/Pages/Home";
 import { useLanguage } from "@context/LanguageContext/useLanguage";
 import Details from "@components/home/Details/Details";
 import CallAction from "@components/home/CallAction/CallAction";
+import { useEffect, useRef, useState } from "react";
+import PrincipalLoader from "@components/Loaders/PrincipalLoader";
+import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
 
 const Home = () => {
   const { language } = useLanguage();
   const content = HeaderSectionText[language];
+
+  const [loadingPage, setLoadingPage] = useState(true)
+
+  // useLayoutEffect(() => {
+
+  //   setTimeout(() => {
+  //     setLoadingPage(false)
+  //   }, 1700);
+
+  // }, []);
+
+  useEffect(() => {
+
+    setTimeout(() => {
+      setLoadingPage(false)
+    }, 2100);
+
+  }, []);
 
   return (
     <Layout>
@@ -48,6 +69,11 @@ const Home = () => {
         <Testimonial />
         <Fundation />
       </main>
+
+      {
+        loadingPage && <PrincipalLoader />
+      }
+
     </Layout>
   );
 };
