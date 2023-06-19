@@ -76,7 +76,7 @@ export const FooterText = {
 
 export const OldFooterText = {
 	'es': {
-		social_title: 'Vive la tranquilidad de contar con el mejor seguro de decesos.',
+		social_title: 'Vive la tranquilidad de contar con el mejor cuadro médico.',
 		social_description: 'Síganos en nuestras redes sociales',
 		section1: {
 			title: 'Sobre Nosotros',
@@ -106,7 +106,7 @@ export const OldFooterText = {
 				// { title: 'Seguros de Vida', href: '' },
 				// { title: 'Seguros de Salud', href: '' },
 				// { title: 'Seguros de Hogar', href: '' },
-				{ title: 'Seguros de Decesos', href: '' },
+				{ title: 'Seguros de Salud', href: '' },
 				// { title: 'Seguros de Coche', href: '' },
 				// { title: 'Seguros de Mascotas', href: '' },
 			]
@@ -120,13 +120,13 @@ export const OldFooterText = {
 				// { title: 'Términos y Condiciones', href: '' },
 			]
 		},
-		copyright: 'SegurodeDecesos.com 2023. Todos los derechos reservados.'
+		copyright: 'EvaSalud.com 2023. Todos los derechos reservados.'
 	},
 }
 
 export const PrincipalLoaderText = {
 	'es': {
-		title: 'Vive la tranquilidad de contar con el mejor seguro de salud que se ocupará de todo en los momentos más difíciles.',
-		description: 'SeguroDeSalud.com 2023. Todos los derechos reservados.'
+		title: 'Vive con la tranquilidad de contar con el mejor cuadro medico que se ocupará de todo en los momentos más difíciles.',
+		description: 'EvaSalud.com 2023. Todos los derechos reservados.'
 	},
 }

@@ -30,7 +30,7 @@ const PrincipalLoader = () => {
 
 	return (
 
-		<div className={styles.container} ref={LoaderRef} style={{top: window.scrollY}}>
+		<div className={styles.container} ref={LoaderRef}>
 			<div className={styles.circle}>
 			</div>
 

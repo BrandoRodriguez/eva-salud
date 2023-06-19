@@ -18,7 +18,7 @@ export function getLanguage(language = 'es') {
 
 	}
 
-	if (domain.includes('segurodedecesos.com')) {
+	if (domain.includes('evasalud.com')) {
 		url = '/spanish/get_spanish_document'
 		domainIndex = 1
 		language = 'es'
