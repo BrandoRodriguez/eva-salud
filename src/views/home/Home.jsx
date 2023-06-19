@@ -9,6 +9,7 @@ import {
   Products,
   About,
   Application,
+  Banner,
 } from "../../components";
 import { HeaderSectionText } from "@mocks/Pages/Home";
 import { useLanguage } from "@context/LanguageContext/useLanguage";
@@ -18,7 +19,6 @@ import { useEffect, useState } from "react";
 import PrincipalLoader from "@components/Loaders/PrincipalLoader";
 
 const Home = () => {
-  
   const { language } = useLanguage();
   const content = HeaderSectionText[language];
 
@@ -36,13 +36,16 @@ const Home = () => {
         <section className={styles.section_hero}>
           <Hero />
         </section>
-        <section className={styles.section_about}>
+        <section className={styles.section_banner}>
+          <Banner />
+        </section>
+        {/* <section className={styles.section_about}>
           <HeaderSecction
             title={content.about.title}
             description={content.about.description}
           />
           <ProductsOnline />
-        </section>
+        </section> */}
         <section className={`${styles.section_products} container`}>
           <HeaderSecction
             title={content.products.title}
@@ -50,34 +53,14 @@ const Home = () => {
           />
           <Products />
         </section>
+        <section className={styles.section_callaction}>
+          <CallAction />
+        </section>
         <section className={styles.application}>
           <Application />
         </section>
         <Testimonial />
         <Fundation />
-        {/* <Details /> */}
-        {/* <section className={`${styles.section_products} container`}>
-          <HeaderSecction
-            title={content.products.title}
-            description={content.products.description}
-          />
-          <Products />
-        </section>
-        <section className={styles.section_about}>
-          <HeaderSecction
-            title={content.about.title}
-            description={content.about.description}
-          />
-          <About />
-        </section>
-
-        <CallAction />
-
-        <section className={styles.application}>
-          <Application />
-        </section>
-        
-        <Fundation /> */}
       </main>
 
       {loadingPage && <PrincipalLoader />}
