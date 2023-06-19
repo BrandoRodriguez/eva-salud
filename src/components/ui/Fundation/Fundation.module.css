@@ -1,7 +1,6 @@
 .fundation {
     display: grid;
     grid-template-rows: 1fr;
-    margin-bottom: var(--section-margin-mobile);
 }
 
 .content {
@@ -18,11 +17,10 @@
 
 @media (min-width: 1024px) {
 
-	.fundation {
+    .fundation {
         grid-template-rows: auto 1fr;
-        margin-bottom: var(--section-margin-desktop);
     }
-    
+
     .content {
         flex-direction: row;
         gap: 20px;

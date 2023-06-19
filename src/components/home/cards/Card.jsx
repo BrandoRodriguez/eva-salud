@@ -6,6 +6,7 @@ export const CardSmall = ({
   image = "./oftalmologia.png",
   specialty = "Consulta de oftalmología",
   category = "Oftalmología",
+  price = "00€",
 }) => {
   return (
     <div className={styles.freespecialties}>
@@ -18,6 +19,9 @@ export const CardSmall = ({
       <div className={styles.content}>
         <h2>{specialty}</h2>
         <h3>{category}</h3>
+        <div className={styles.ctn_price}>
+          Coste /<span className={styles.price}>{price}</span>
+        </div>
         <div className={styles.ctn_button}>
           <button className={styles.viewCenter}>Ver Centros</button>
         </div>
@@ -103,7 +107,7 @@ export const Card = ({
 };
 
 export const CardBanner = ({
-  image = "./images/products/Dental.webp",
+  // image = "./images/products/Dental.webp",
   title = "Consulta Dental",
   description = "Incluye limpieza bucal gratuita.",
 }) => {
@@ -111,14 +115,39 @@ export const CardBanner = ({
     <div className={styles.cardbanner}>
       <div
         className={styles.bg_banner}
-        style={{
-          backgroundImage: `url(${image})`,
-        }}
+        // style={{
+        //   backgroundImage: `url(${image})`,
+        // }}
       >
         <div className={styles.banner_content}>
           <h2>{title}</h2>
           <h3>{description}</h3>
           <button className={styles.viewCenter}>Reservar Ahora</button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export const CardBannerInformative = ({
+  // image = "./images/products/Banner.webp",
+  title = "¡Descubre nuestras especialidades no incluidas!",
+  description = "Ofrecemos pruebas de diagnóstico, intervenciones quirúrgicas y  especialistas con descuentos de hasta el 40%. En Eva Salud, nuestra prioridad es ofrecerle atención médica y de calidad, a precios accesibles. ¡Contáctanos hoy mismo para más información y programar tu cita! Además, ofrecemos financiación de hasta 36 meses con un tipo de interés preferente. Tu bienestar es nuestra prioridad.",
+}) => {
+  return (
+    <div className={styles.cardbannerinformative}>
+      <div
+        className={styles.bg_bannerinformative}
+        // style={{
+        //   backgroundImage: `url(${image})`,
+        // }}
+      >
+        <div className={styles.banner_content}>
+          <h2>{title}</h2>
+          <h3>{description}</h3>
+          <div className={styles.ctn_button_banner}>
+            <button className={styles.viewCenter}>Ver Especialidades</button>
+          </div>
         </div>
       </div>
     </div>

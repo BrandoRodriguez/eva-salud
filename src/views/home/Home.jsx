@@ -10,6 +10,7 @@ import {
   About,
   Application,
   Banner,
+  BannerInformative,
 } from "../../components";
 import { HeaderSectionText } from "@mocks/Pages/Home";
 import { useLanguage } from "@context/LanguageContext/useLanguage";
@@ -40,19 +41,8 @@ const Home = () => {
         <section className={styles.section_banner}>
           <Banner />
         </section>
-        {/* <section className={styles.section_about}>
-          <HeaderSecction
-            title={content.about.title}
-            description={content.about.description}
-          />
-          <ProductsOnline />
-        </section> */}
-        <section className={`${styles.section_products} container`}>
-          <HeaderSecction
-            title={content.products.title}
-            description={content.products.description}
-          />
-          <Products />
+        <section className={styles.section_bannerinformative}>
+          <BannerInformative />
         </section>
         <section className={styles.section_callaction}>
           <CallAction />

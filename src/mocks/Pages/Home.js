@@ -270,12 +270,12 @@ export const AplicationText = {
 		title: 'Ten el control de tu bienestar con la /*App de Eva Salud*/',
 		feature: [
 			{
-				title: 'Videoconsultas médicas sin costo',
+				title: 'Videoconsultas médicas sin coste',
 				description: 'Accede a Clínica Internacional Digital y solicítalo para Medicina General y Pediatría según tu plan.',
 				button_text: 'Reserva tu cita'
 			},
 			{
-				title: 'Chequeos preventivos sin costo',
+				title: 'Chequeos preventivos sin coste',
 				description: 'Obtén un chequeo preventivo anual sin costo y mantén tu salud bajo control.',
 				button_text: 'Entérate cómo'
 			},
@@ -337,14 +337,14 @@ export const DetailsText = {
 export const CallActionText = {
 	es: {
 		title: "Queremos ayudarte a encontrar el mejor seguro",
-		description: "Estamos a tu disposición para resolver todas tus consultas y ayudarte a elegir el seguro que se adecue más a tus necesidades y las de tu familia.",
+		description: "Permítanos ocuparnos de todos los detalles para que pueda disfrutar plenamente de su atención médica. Nuestro equipo de asesores de Eva Salud está a su disposición, encargándose de gestionar su cita previa y asegurando que usted solo tenga que preocuparse por su salud.",
 		schedule: [
 			"Lunes a viernes: 9 a.m. - 21 p.m.",
 			"Sábado y domingo: 9 a.m. - 5 p.m."
 		],
 		buttons: [
 			{
-				text: "Agendar llamada",
+				text: "Agendar Cita",
 				url: "#"
 			}
 		],

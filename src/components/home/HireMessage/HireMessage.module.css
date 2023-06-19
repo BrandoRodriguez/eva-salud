@@ -1,5 +1,4 @@
 .hire_message {
-    margin-bottom: var(--section-margin-mobile);
     overflow: hidden;
     position: relative;
     width: 100%;
@@ -25,9 +24,7 @@
     justify-content: center;
 }
 
-.logo_container svg {
-
-}
+.logo_container svg {}
 
 .title {
     font-weight: 700;
@@ -133,9 +130,7 @@
 
 @media (min-width: 1024px) {
 
-    .hire_message {
-        margin-bottom: var(--section-margin-desktop);
-    }
+
 
     .hire_message img {
         border-radius: 36px;

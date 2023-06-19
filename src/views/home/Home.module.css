@@ -1,6 +1,6 @@
 .fullpage {
   display: grid;
-  gap: 100px;
+  gap: 50px;
   overflow: hidden;
 }
 

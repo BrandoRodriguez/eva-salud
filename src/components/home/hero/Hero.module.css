@@ -35,19 +35,19 @@
 
 .content {
   display: grid;
-  gap: 32px;
-  padding-top: 32px;
+  gap: 50px;
+  padding-top: 40px;
 }
 
 .group {
   display: grid;
-  gap: 24px;
+  gap: 40px;
   justify-content: center;
 }
 
 .presentation {
   display: grid;
-  gap: 15px;
+  gap: 20px;
 }
 
 .presentation h1 {
