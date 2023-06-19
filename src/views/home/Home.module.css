@@ -1,6 +1,7 @@
 .fullpage {
   display: grid;
   gap: 100px;
+  overflow: hidden;
 }
 
 .section_hero {
