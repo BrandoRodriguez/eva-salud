@@ -19,36 +19,50 @@ export const HeroText = {
 		card_title: 'Consultas Gratuitas de Eva Salud',
 		cards: [
 			{
-				specialty: "Consulta de dermatología",
-				category: "Dermatología",
-				image: "/images/specialty/dermatologia.webp",
-			},
-			{
-				specialty: "Consulta de Medicina general",
-				category: "Medicina general",
-				image: "/images/specialty/medicinageneral.webp",
-			},
-			{
-				specialty: "Consulta de pediatría",
-				category: "Pediatría",
-				image: "/images/specialty/pediatria.webp",
-			},
-			,
-			{
-				specialty: "Consulta de oftalmología",
-				category: "Oftalmología",
-				image: "/images/specialty/oftalmologia.webp",
-			},
-			{
-				specialty: "Consulta de ginecología",
+				specialty: "Consulta de Ginecología",
 				category: "Ginecología",
-				image: "/images/specialty/ginecología.webp",
+				image: "/images/products/Ginecología.webp",
 			},
 			{
-				specialty: "Consulta de traumatología",
-				category: "Traumatología",
-				image: "/images/specialty/traumatologia.webp",
-			}
+				specialty: "Consulta de Medicina General",
+				category: "Medicina General",
+				image: "/images/products/MedicinaGeneral.webp",
+			},
+			{
+				specialty: "Consulta de Pediatría",
+				category: "Pediatría",
+				image: "/images/products/Pediatría.webp",
+			},
+			{
+				specialty: "Consulta de Ginecología",
+				category: "Ginecología",
+				image: "/images/products/Dermatología.webp",
+			},
+			{
+				specialty: "Consulta de Medicina General",
+				category: "Medicina General",
+				image: "/images/products/Traumatología.webp",
+			},
+			{
+				specialty: "Consulta de Pediatría",
+				category: "Pediatría",
+				image: "/images/products/Oftalmólogía.webp",
+			},
+			{
+				specialty: "Consulta de Enfermería",
+				category: "Enfermería",
+				image: "/images/products/Enfermería.webp",
+			},
+			{
+				specialty: "Consulta de Psicología",
+				category: "Psicología",
+				image: "/images/products/Psicología.webp",
+			},
+			{
+				specialty: "Consulta de Geriatría",
+				category: "Geriatría",
+				image: "/images/products/Geriatría.webp",
+			},
 		]
 	},
 	en: {
@@ -73,33 +87,33 @@ export const HeroText = {
 			{
 				specialty: "Dermatology consultation",
 				category: "Dermatology",
-				image: "/images/specialty/dermatologia.png",
+				image: "/images/products/Ginecología.webp",
 			},
 			{
 				specialty: "Nursing consultation",
 				category: "Nursing",
-				image: "/images/specialty/enfermeria.png",
+				image: "/images/products/MedicinaGeneral.webp",
 			},
 			{
 				specialty: "General medicine consultation",
 				category: "General medicine",
-				image: "/images/specialty/medicinageneral.png",
+				image: "/images/products/Pediatría.webp",
 			},
-			{
-				specialty: "Ophthalmology consultation",
-				category: "Ophthalmology",
-				image: "/images/specialty/oftalmologia.png",
-			},
-			{
-				specialty: "Pediatrics consultation",
-				category: "Pediatrics",
-				image: "/images/specialty/pediatria.png",
-			},
-			{
-				specialty: "Traumatology consultation",
-				category: "Traumatology",
-				image: "/images/specialty/traumatologia.png",
-			},
+			// {
+			// 	specialty: "Ophthalmology consultation",
+			// 	category: "Ophthalmology",
+			// 	image: "/images/specialty/oftalmologia.png",
+			// },
+			// {
+			// 	specialty: "Pediatrics consultation",
+			// 	category: "Pediatrics",
+			// 	image: "/images/specialty/pediatria.png",
+			// },
+			// {
+			// 	specialty: "Traumatology consultation",
+			// 	category: "Traumatology",
+			// 	image: "/images/specialty/traumatologia.png",
+			// },
 		]
 	}
 }

@@ -8,16 +8,19 @@ export const CardSmall = ({
   category = "Oftalmología",
 }) => {
   return (
-    <div>
+    <div className={styles.freespecialties}>
       <div
-        className={styles.cardsmall}
+        className={styles.bg_freespecialties}
         style={{
           backgroundImage: `url(${image})`,
         }}
       ></div>
       <div className={styles.content}>
-        <h2 className={styles.specialty}>{specialty}</h2>
-        <p className={styles.category}>{category}</p>
+        <h2>{specialty}</h2>
+        <h3>{category}</h3>
+        <div className={styles.ctn_button}>
+          <button className={styles.viewCenter}>Ver Centros</button>
+        </div>
       </div>
     </div>
   );
@@ -92,6 +95,29 @@ export const Card = ({
         <h2>{title}</h2>
         <h3>{description}</h3>
         <div className={styles.ctn_button}>
+          <button className={styles.viewCenter}>Reservar Ahora</button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export const CardBanner = ({
+  image = "./images/products/Dental.webp",
+  title = "Consulta Dental",
+  description = "Incluye limpieza bucal gratuita.",
+}) => {
+  return (
+    <div className={styles.cardbanner}>
+      <div
+        className={styles.bg_banner}
+        style={{
+          backgroundImage: `url(${image})`,
+        }}
+      >
+        <div className={styles.banner_content}>
+          <h2>{title}</h2>
+          <h3>{description}</h3>
           <button className={styles.viewCenter}>Reservar Ahora</button>
         </div>
       </div>

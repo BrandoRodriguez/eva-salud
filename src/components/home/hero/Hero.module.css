@@ -95,7 +95,7 @@
 
 .explore h3 {
   font-weight: 500;
-  font-size: 22px;
+  font-size: 32px;
   text-align: center;
   letter-spacing: 0.2px;
   color: var(--white);
@@ -110,7 +110,7 @@
   opacity: 0.34;
   position: absolute;
   left: 0;
-  top: 18px;
+  top: 26px;
 }
 
 .explore ::after {
@@ -121,18 +121,19 @@
   opacity: 0.34;
   position: absolute;
   right: 0;
-  top: 18px;
+  top: 26px;
 }
 
 .cardlist {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(195px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(405px, 1fr));
   gap: 15px;
+  row-gap: 30px;
 }
 
 @media(max-width: 1245px) {
   .cardlist {
-    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   }
 
   .background {
@@ -140,37 +141,16 @@
   }
 }
 
-@media(max-width: 1100px) {
+/* @media(max-width: 1100px) {
   .cardlist {
     grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
   }
 
-}
+} */
 
 @media (max-width: 960px) {
   .cardlist {
-    grid-template-columns: repeat(auto-fill, minmax(142.5px, 1fr));
-    width: 930px;
-  }
-
-  .scroll {
-    /* overflow-x: scroll; */
-    scroll-snap-type: x mandatory;
-  }
-
-
-  .scroll::-webkit-scrollbar {
-    background-color: #1C1C1C;
-    height: 0px;
-  }
-
-  .scroll::-webkit-scrollbar-thumb {
-    background-color: #424242;
-    border-radius: 0px;
-  }
-
-  .scroll::-webkit-scrollbar-thumb:hover {
-    background-color: #7B7B7B;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
 
   .background {
@@ -234,6 +214,11 @@
   }
 }
 
+@media (max-width: 500px) {
+  .cardlist {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+}
 
 @media (min-width: 400px) {
   .presentation h1 {
