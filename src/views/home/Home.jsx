@@ -6,6 +6,7 @@ import {
   Hero,
   HeaderSecction,
   ProductsOnline,
+  Products,
   About,
   Application,
 } from "../../components";
@@ -15,13 +16,13 @@ import Details from "@components/home/Details/Details";
 import CallAction from "@components/home/CallAction/CallAction";
 import { useEffect, useRef, useState } from "react";
 import PrincipalLoader from "@components/Loaders/PrincipalLoader";
-import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
+import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
 
 const Home = () => {
   const { language } = useLanguage();
   const content = HeaderSectionText[language];
 
-  const [loadingPage, setLoadingPage] = useState(true)
+  const [loadingPage, setLoadingPage] = useState(true);
 
   // useLayoutEffect(() => {
 
@@ -32,11 +33,9 @@ const Home = () => {
   // }, []);
 
   useEffect(() => {
-
     setTimeout(() => {
-      setLoadingPage(false)
+      setLoadingPage(false);
     }, 2100);
-
   }, []);
 
   return (
@@ -52,6 +51,18 @@ const Home = () => {
           />
           <ProductsOnline />
         </section>
+        <section className={`${styles.section_products} container`}>
+          <HeaderSecction
+            title={content.products.title}
+            description={content.products.description}
+          />
+          <Products />
+        </section>
+        <section className={styles.application}>
+          <Application />
+        </section>
+        <Testimonial />
+        <Fundation />
         {/* <Details /> */}
         {/* <section className={`${styles.section_products} container`}>
           <HeaderSecction
@@ -73,14 +84,11 @@ const Home = () => {
         <section className={styles.application}>
           <Application />
         </section>
-        <Testimonial />
+        
         <Fundation /> */}
       </main>
 
-      {
-        loadingPage && <PrincipalLoader />
-      }
-
+      {loadingPage && <PrincipalLoader />}
     </Layout>
   );
 };

@@ -107,7 +107,7 @@ export const HeroText = {
 export const HeaderSectionText = {
 	es: {
 		products: {
-			title: 'Pruebas médicas más populares en Madrid',
+			title: 'Consultas médicas más populares.',
 			description: "“Tu bienestar nos mueve, Encuentra la especialidad adecuada para una vida plena”"
 		},
 		about: {
@@ -132,19 +132,19 @@ export const HeaderSectionText = {
 export const ProductsText = {
 	es: [
 		{
-			specialty: "Pack pruebas de oftalmología",
-			category: "oftalmologia",
-			image: "/images/products/oftalmologia.png",
+			specialty: "Consulta de Ginecología",
+			category: "Ginecología",
+			image: "/images/specialty/Ginecología_.webp",
 		},
 		{
-			specialty: "Pack pruebas de oftalmología",
-			category: "oftalmologia",
-			image: "/images/products/odontológico.png",
+			specialty: "Consulta de Pediatría",
+			category: "Pediatría",
+			image: "/images/specialty/Pediatría.webp",
 		},
 		{
-			specialty: "Pack pruebas de oftalmología",
-			category: "oftalmologia",
-			image: "/images/products/otorrinolaringología.png",
+			specialty: "Consulta de Medicina general",
+			category: "Medicina General",
+			image: "/images/specialty/MedicinaGeneral_.webp",
 		},
 	],
 	en: [
