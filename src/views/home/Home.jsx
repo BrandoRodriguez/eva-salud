@@ -29,7 +29,7 @@ const Home = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoadingPage(false);
-    }, 2100);
+    }, 3000);
   }, []);
 
   return (
