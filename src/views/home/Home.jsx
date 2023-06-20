@@ -21,22 +21,26 @@ import PrincipalLoader from "@components/Loaders/PrincipalLoader";
 import HireMessage from "@components/home/HireMessage/HireMessage";
 
 const Home = () => {
-  const { language } = useLanguage();
-  const content = HeaderSectionText[language];
 
   const [loadingPage, setLoadingPage] = useState(true);
 
   useEffect(() => {
-    setTimeout(() => {
+    
+    const timer = setTimeout(() => {
       setLoadingPage(false);
     }, 3000);
+
+    return ()=> {
+      clearTimeout(timer)
+    }
+
   }, []);
 
   return (
     <Layout>
       <main className={styles.fullpage}>
         <section className={styles.section_hero}>
-          <Hero />
+          <Hero closeLoader={()=>{ setLoadingPage(false)}}/>
         </section>
         <section className={styles.section_banner} data-aos="fade-right">
           <Banner />
