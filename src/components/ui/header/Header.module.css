@@ -83,3 +83,35 @@
     height: 60px;
   }
 }
+
+.ctn_languages {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.languages {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--white);
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.languages svg {
+  width: 25px;
+  height: 20px;
+}
+
+@media (max-width: 640px) {
+  .languages svg {
+    width: 20px;
+    height: 15px;
+  }
+
+  .languages {
+    font-size: 14px;
+  }
+}

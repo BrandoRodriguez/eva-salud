@@ -8,6 +8,10 @@ import {
   SearchPrimary,
   ButtonPrimarySmall,
   ButtonSecondarySmall,
+  Spain,
+  India,
+  Portugal,
+  UnitedStatesofAmerica,
 } from "../../ui";
 import { useLanguage } from "@context/LanguageContext/useLanguage";
 import { NavBarText } from "@mocks/General";
@@ -27,11 +31,14 @@ export const Header = () => {
             return <li key={index}>{item}</li>;
           })}
         </ul>
-        {/* <div>
-          <span>ENG</span>
-          <span></span>
-          <span></span>
-        </div> */}
+        <div className={styles.ctn_languages}>
+          <div className={styles.languages}>
+            <Spain /> <span>ESP</span>
+          </div>
+          <div className={styles.languages}>
+            <UnitedStatesofAmerica /> <span>ENG</span>
+          </div>
+        </div>
         <div className={styles.group}>
           <div className={styles.group_desktop}>
             <SearchPrimary />

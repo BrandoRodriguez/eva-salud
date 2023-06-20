@@ -1,12 +1,12 @@
 
 export const NavBarText = {
 	es: {
-		items: ['Inicio', 'Especialidades', 'Centros destacados', 'Atención al cliente'],
+		items: ['Inicio', 'Especialidades', 'Centros destacados'],
 		login_button: 'Iniciar sesión',
 		register_button: 'Registrarse'
 	},
 	en: {
-		items: ['Home', 'Specialties', 'Featured Centers', 'Customer Service'],
+		items: ['Home', 'Specialties', 'Featured Centers'],
 		login_button: 'Log in',
 		register_button: 'Register'
 	},
