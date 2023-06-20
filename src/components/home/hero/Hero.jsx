@@ -12,7 +12,7 @@ export const Hero = () => {
     <>
       <div className={styles.background}>
         <video
-          src="./bg_hero.mp4"
+          src="./bg_hero_c.mp4"
           autoPlay={true}
           muted={true}
           loop={true}
@@ -22,7 +22,7 @@ export const Hero = () => {
         <Shape />
       </div>
       <div className={`${styles.content} container`}>
-        <div className={styles.group} data-aos='fade-right'>
+        <div className={styles.group} data-aos="fade-right">
           <div className={styles.presentation}>
             <h1>{content.title}</h1>
             {/* <h2>{content.description}</h2> */}
@@ -45,7 +45,7 @@ export const Hero = () => {
           </div> */}
         </div>
 
-        <div className={styles.ctn_explore} data-aos= 'fade-right'>
+        <div className={styles.ctn_explore} data-aos="fade-right">
           <div className={styles.explore}>
             <h3>{content.card_title}</h3>
           </div>

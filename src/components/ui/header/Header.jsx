@@ -20,13 +20,18 @@ export const Header = () => {
     <header className={`${styles.header} container`}>
       <nav className={styles.navegation}>
         <div className={styles.logo}>
-          <EvaSalud fill={'#fff'}/>
+          <EvaSalud fill={"#fff"} />
         </div>
         <ul className={styles.link}>
           {content.items.map((item, index) => {
             return <li key={index}>{item}</li>;
           })}
         </ul>
+        {/* <div>
+          <span>ENG</span>
+          <span></span>
+          <span></span>
+        </div> */}
         <div className={styles.group}>
           <div className={styles.group_desktop}>
             <SearchPrimary />
