@@ -8,9 +8,8 @@ export const CardSmall = ({
   category = "Oftalmología",
   price = "00€",
 }) => {
-
-  const {language} = useLanguage()
-  const content = HeroText[language]
+  const { language } = useLanguage();
+  const content = HeroText[language];
 
   return (
     <div className={styles.freespecialties}>
@@ -114,7 +113,7 @@ export const CardBanner = ({
   // image = "./images/products/Dental.webp",
   title = "Consulta Dental",
   description = "Incluye limpieza bucal gratuita.",
-  button_text = 'Reservar Ahora'
+  button_text = "Reservar Ahora",
 }) => {
   return (
     <div className={styles.cardbanner}>
@@ -127,7 +126,9 @@ export const CardBanner = ({
         <div className={styles.banner_content}>
           <h2>{title}</h2>
           <h3>{description}</h3>
-          <button className={styles.viewCenter}>{button_text}</button>
+          <div className={styles.ctn_button_banner}>
+            <button className={styles.viewCenter}>{button_text}</button>
+          </div>
         </div>
       </div>
     </div>
