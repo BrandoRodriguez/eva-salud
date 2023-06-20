@@ -361,7 +361,7 @@ export const DetailsText = {
 
 export const CallActionText = {
 	es: {
-		title: "Queremos ayudarte a encontrar el mejor seguro",
+		title: "Gestión de citas médicas sin complicaciones: Solo preocúpese por acudir al médico",
 		description: "Permítanos ocuparnos de todos los detalles para que pueda disfrutar plenamente de su atención médica. Nuestro equipo de asesores de Eva Salud está a su disposición, encargándose de gestionar su cita previa y asegurando que usted solo tenga que preocuparse por su salud.",
 		schedule: [
 			"Lunes a viernes: 9 a.m. - 21 p.m.",
@@ -440,8 +440,8 @@ export const TestimonialText = {
 
 export const HireMessageText = {
 	'es': {
-		title1: 'CONTRATA TU PÓLIZA CON EVA SEGUROS',
-		title2: 'Y CONSIGUE /*2 LÍNEAS MÓVIL*/ CON LLAMADAS ILIMITADAS 	+ 20 GB',
+		title1: 'Al suscribirte a Eva Salud',
+		title2: 'puedes obtener /*2 LÍNEAS MÓVIL*/ CON LLAMADAS ILIMITADAS 	+ 20 GB',
 		button: 'Más información'
 	},
 	en: {
