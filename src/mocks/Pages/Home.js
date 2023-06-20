@@ -3,6 +3,7 @@ export const HeroText = {
 		title: '¡MUERDE LA MANZANA!',
 		subtitle: 'Suscríbete a Eva Salud',
 		subscribe_button: 'Suscribirme',
+		price_title: 'Coste',
 		card_button: 'Ver Centros',
 		description: 'Protejamos la salud de los que más quieres con los productos más innovadores del mercado.',
 		search: {
@@ -72,6 +73,7 @@ export const HeroText = {
 		title: 'BITE THE APPLE!',
 		subtitle: 'Subscribe to Eva Salud',
 		subscribe_button: 'Subscribe me',
+		price_title: 'Cost',
 		card_button: 'See Centers',
 		description: 'Protect the health of your loved ones with the most innovative products on the market.',
 		search: {
@@ -141,6 +143,7 @@ export const HeroText = {
 		title: 'सेब को काटो!',
 		subtitle: 'Eva स्वास्थ्य की सदस्यता लें',
 		subscribe_button: 'सदस्यता लें',
+		price_title: 'लागत',
 		card_button: 'केंद्रों को देखें',
 		description: 'बाजार के सबसे अद्वितीय उत्पादों के साथ आपके प्रियजनों की स्वास्थ्य की सुरक्षा करें।',
 		search: {
@@ -527,7 +530,22 @@ export const CallActionText = {
 			}
 		],
 		contact_phone: "(01) 411-6001"
-	}
+	},
+	hi: {
+		title: "चिकित्सा अपॉइंटमेंट प्रबंधन संप्लेषण बिना: केवल चिकित्सक के पास जाने की चिंता करें",
+		description: "हमें सभी विवरणों का ध्यान रखने दें ताकि आप अपनी चिकित्सा देखभाल का पूरी तरह से आनंद ले सकें। हमारी ईवा स्वास्थ्य सलाहकार टीम आपकी सेवा में है, आपकी पूर्व नियुक्ति का प्रबंधन करते हुए और सुनिश्चित करते हुए कि आपको केवल अपने स्वास्थ्य की चिंता करनी है।",
+		schedule: [
+			"सोमवार से शुक्रवार: सुबह 9 बजे - शाम 9 बजे।",
+			"शनिवार और रविवार: सुबह 9 बजे - दोपहर 5 बजे।"
+		],
+		buttons: [
+			{
+				text: "अपॉइंटमेंट सेट करें",
+				url: "#"
+			}
+		],
+		contact_phone: "(01) 411-6001"
+	},
 }
 
 export const TestimonialText = {
@@ -636,16 +654,40 @@ export const HireMessageText = {
 }
 
 export const HireMessageModalText = {
-	'es': {
+	es: {
 		title: 'Lineas Moviles Gratis',
 		description1: [
-			'¡Gracias a Eva Seguros podrás tener 2 Líneas móviles totalmente gratis, estas líneas incluyen llamadas ilimitadas y 20GB de datos móviles en cada una para que puedas estar conectado en todo momento.',
+			'Al suscribirte a Eva Salud podrás tener hasta 2 Líneas móviles totalmente gratis, estas líneas incluyen llamadas ilimitadas y 20GB de datos móviles en cada una para que puedas estar conectado en todo momento.',
 
 			'Pero eso no es todo, también te ofrecemos roaming gratuito en la Unión Europea para que puedas disfrutar de tus servicios incluso cuando viajas.'
 		],
 		description2: [
 			'Estamos comprometidos en brindarte la mejor experiencia de comunicación sin límites.',
 			'¡Únete a nosotros y descubre un mundo de posibilidades!'
+		]
+	},
+	en: {
+		title: 'Free Mobile Lines',
+		description1: [
+			"By subscribing to Eva Health you can have up to 2 completely free mobile lines, these lines include unlimited calls and 20GB of mobile data each so you can stay connected at all times.",
+
+			"But that's not all, we also offer you free roaming in the European Union so you can enjoy your services even when you travel."
+		],
+		description2: [
+			'We are committed to providing you with the best unlimited communication experience.',
+			'Join us and discover a world of possibilities!'
+		]
+	},
+	hi: {
+		title: 'नि:शुल्क मोबाइल लाइनें',
+		description1: [
+			'ईवा हेल्थ की सदस्यता लेकर आपको 2 मोबाइल लाइनें पूरी तरह से मुफ्त मिल सकती हैं, इन लाइनों में असीमित कॉल और प्रत्येक के 20GB मोबाइल डेटा शामिल हैं ताकि आप हर समय जुड़े रह सकें।',
+
+			'लेकिन यह सब कुछ नहीं है, हम आपको यूरोपीय संघ में मुफ्त रोमिंग भी प्रदान करते हैं ताकि आप यात्रा करते समय भी अपनी सेवाओं का आनंद ले सकें।'
+		],
+		description2: [
+			'हम आपको बेहतरीन असीमित संचार अनुभव प्रदान करने के लिए प्रतिबद्ध हैं।',
+			'हमारे साथ जुड़ें और संभावनाओं की दुनिया की खोज करें!'
 		]
 	}
 }

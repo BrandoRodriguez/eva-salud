@@ -23,7 +23,7 @@ export const CardSmall = ({
         <h2>{specialty}</h2>
         <h3>{category}</h3>
         <div className={styles.ctn_price}>
-          Coste /<span className={styles.price}>{price}</span>
+          {content.price_title} /<span className={styles.price}>{price}</span>
         </div>
         <div className={styles.ctn_button}>
           <button className={styles.viewCenter}>{content.card_button}</button>

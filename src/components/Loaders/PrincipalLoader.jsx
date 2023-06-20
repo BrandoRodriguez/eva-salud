@@ -3,8 +3,8 @@ import styles from './PrincipalLoader.module.css';
 import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
 import { useLanguage } from '@context/LanguageContext/useLanguage';
 import { PrincipalLoaderText } from '@mocks/General';
-import { LogoColor } from '..';
 import { getVersion } from '@utils/functions';
+import { getLogo } from '@utils/getLogo';
 
 const PrincipalLoader = () => {
 
@@ -34,7 +34,9 @@ const PrincipalLoader = () => {
 			<div className={styles.content}>
 
 				<div className={styles.logo_container}>
-					<LogoColor />
+					{
+						getLogo(language, 'color')
+					}
 				</div>
 
 				<div className={styles.loading_input}>

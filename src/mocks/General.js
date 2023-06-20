@@ -9,7 +9,12 @@ export const NavBarText = {
 		items: ['Home', 'Specialties', 'Featured Centers', 'Customer Service'],
 		login_button: 'Log in',
 		register_button: 'Register'
-	}
+	},
+	hi: {
+		items: ['शुरुआत', 'विशेषताएं', 'प्रमुख केंद्र', 'ग्राहक सेवा'],
+		login_button: 'लॉग इन करें',
+		register_button: 'रजिस्टर करें'
+	},
 }
 
 export const FooterText = {
@@ -70,12 +75,40 @@ export const FooterText = {
 			'Terms and Conditions',
 		],
 		copyright: '©Evahealth.com 2023. All rights reserved.'
-	}
-
+	},
+	hi: {
+		description: 'हमारी जिंदगी में समृद्धि प्राप्त करने के लिए सबसे महत्वपूर्ण चीज की सुरक्षा करें: आपका स्वास्थ्य और आपके प्रियजनों का।',
+		social_title: 'हमें हमारे सोशल नेटवर्क पर फॉलो करें:',
+		services: [
+			'वेलनेस और ऐस्थेटिक्स', 'सर्जरी', 'मेडिकल कंसल्टेशन', 'डेंटल', 'ईवा स्वास्थ्य में शामिल', 'मेडिकल परीक्षण', 'उपचार और थेरेपी'
+		],
+		app_section: {
+			title: 'एप्लिकेशन डाउनलोड करें',
+			description: 'हमारे ऐप्स डाउनलोड करें और 15% छूट पाएं।'
+		},
+		newsletter: {
+			title: 'हमारी न्यूजलेटर की सदस्यता लें',
+			description: 'डिस्काउंट, ऑफर और साप्ताहिक इवेंट के बारे में पहले जानने के लिए अपने इनबॉक्स में प्राप्त करें।',
+			input_placeholder: 'अपना ईमेल दर्ज करें',
+			button_text: 'सदस्यता लें'
+		},
+		menu: [
+			'हमारे बारे में',
+			'विशेषताएँ',
+			'ब्लॉग',
+			'प्रेस',
+			'अक्सर पूछे जाने वाले प्रश्न',
+			'हमारे साथ काम करें',
+			'संपर्क करें',
+			'गोपनीयता नीति',
+			'नियम और शर्तें',
+		],
+		copyright: '©Evasalud.com 2023। सभी अधिकार सुरक्षित।'
+	},
 }
 
 export const OldFooterText = {
-	'es': {
+	es: {
 		social_title: 'Vive la tranquilidad de contar con el mejor cuadro médico.',
 		social_description: 'Síganos en nuestras redes sociales',
 		section1: {
@@ -169,6 +202,41 @@ export const OldFooterText = {
 		},
 		copyright: 'EvaHealth.com 2023. All rights reserved.'
 	},
+	hi: {
+		social_title: 'सबसे अच्छे मेडिकल स्टाफ के साथ शांति का अनुभव करें।',
+		social_description: 'हमें हमारे सोशल नेटवर्क पर फॉलो करें',
+		section1: {
+			title: 'हमारे बारे में',
+			options: [
+				{ title: 'मिशन विजन', href: '' },
+				{ title: 'हमारी टीम', href: '' },
+			]
+		},
+		section2: {
+			title: 'अधिक जानकारी',
+			options: [
+				{ title: 'ईवा को जानें', href: '' },
+				{ title: 'Plant-for-the-Planet', href: '' },
+				{ title: 'यूनिवर्स एक्सेसिबल', href: '' },
+				{ title: 'यूनिवर्स संति', href: '' },
+			]
+		},
+		section3: {
+			title: 'हम क्या प्रदान करते हैं',
+			options: [
+				{ title: 'स्वास्थ्य बीमा', href: '' },
+			]
+		},
+		section4: {
+			title: 'कानूनी',
+			options: [
+				{ title: 'कानूनी नोटिस', href: '' },
+				{ title: 'गोपनीयता नीति', href: '' },
+				{ title: 'कुकीज़ की नीति', href: '' },
+			]
+		},
+		copyright: 'EvaSalud.com 2023। सभी अधिकार सुरक्षित।'
+	},
 }
 
 export const PrincipalLoaderText = {
@@ -180,4 +248,20 @@ export const PrincipalLoaderText = {
 		title: 'Count on the best medical staff through Eva Salud',
 		description: 'EvaSalud.com 2023. All rights reserved.'
 	},
+	hi: {
+		title: 'ईवा स्वास्थ्य के माध्यम से सर्वश्रेष्ठ चिकित्सा दल पर भरोसा करें',
+		description: 'EvaSalud.com 2023। सभी अधिकार सुरक्षित।'
+	},
+}
+
+export const AtencionTelefonicaText = {
+	es: {
+		title: 'Asesor de Eva Salud'
+	},
+	en: {
+		title: 'Eva Health Advisor'
+	},
+	hi: {
+		title: 'ईवा हेल्थ सलाहकार'
+	}
 }

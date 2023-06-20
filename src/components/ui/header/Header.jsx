@@ -15,6 +15,7 @@ import {
 } from "../../ui";
 import { useLanguage } from "@context/LanguageContext/useLanguage";
 import { NavBarText } from "@mocks/General";
+import { getLogo } from "@utils/getLogo";
 
 export const Header = () => {
   const { language } = useLanguage();
@@ -24,7 +25,8 @@ export const Header = () => {
     <header className={`${styles.header} container`}>
       <nav className={styles.navegation}>
         <div className={styles.logo}>
-          <EvaSalud fill={"#fff"} />
+
+          { getLogo(language, 'white')}
         </div>
         <ul className={styles.link}>
           {content.items.map((item, index) => {

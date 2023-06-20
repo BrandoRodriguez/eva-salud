@@ -23,24 +23,41 @@ import HireMessage from "@components/home/HireMessage/HireMessage";
 const Home = () => {
 
   const [loadingPage, setLoadingPage] = useState(true);
+  const [videoLoad, setVideoLoad] = useState(false)
 
   useEffect(() => {
+
+    let interval, timer;
     
-    const timer = setTimeout(() => {
-      setLoadingPage(false);
-    }, 3000);
+    timer = setTimeout(() => {
+
+      if (videoLoad){
+        setLoadingPage(false);
+      } else {
+
+        interval = setInterval(() => {
+          
+          if (videoLoad){
+            setLoadingPage(false);
+            clearInterval(interval)
+          }
+
+        }, 100);
+      }
+    }, 1000);
 
     return ()=> {
       clearTimeout(timer)
+      clearInterval(interval)
     }
 
-  }, []);
+  }, [videoLoad]);
 
   return (
     <Layout>
       <main className={styles.fullpage}>
         <section className={styles.section_hero}>
-          <Hero closeLoader={()=>{ setLoadingPage(false)}}/>
+          <Hero isLoadVideo={()=>{ setVideoLoad(true)}}/>
         </section>
         <section className={styles.section_banner} data-aos="fade-right">
           <Banner />

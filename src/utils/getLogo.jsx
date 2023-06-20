@@ -1,19 +1,36 @@
 import { EvaSalud } from "@UI/index";
+import EvaHealthColor from "@components/Logos/EvaHealthColor";
+import EvaHealthWhite from "@components/Logos/EvaHealthWhite";
+import EvaHindiColor from "@components/Logos/EvaHindiColor";
+import EvaHindiWhite from "@components/Logos/EvaHindiWhite";
 
-export function getLogo(language) {
+export function getLogo(language, type= 'white') {
 
-	switch (language) {
+	if (language === 'es'){
 
-		case 'es':
-			return <EvaSalud />
-			// return <h1>hola</h1>
+		if (type === 'white'){
+			return <EvaSalud fill={"#fff"} />
+		} else if (type === 'color'){
+			return <EvaSalud type={'color'}/>
+		}
+	}
 
-		case 'en':
-			return <EvaSalud />
-			// return <h1></h1>
+	if (language === 'en'){
 
-		default:
-			break;
+		if (type === 'white'){
+			return <EvaHealthWhite />
+		} else if (type === 'color'){
+			return <EvaHealthColor />
+		}
+	}
+
+	if (language === 'hi'){
+
+		if (type === 'white'){
+			return <EvaHindiWhite />
+		} else if (type === 'color'){
+			return <EvaHindiColor/>
+		}
 	}
 
 }
