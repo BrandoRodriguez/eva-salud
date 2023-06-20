@@ -41,7 +41,10 @@ const Home = () => {
         <section className={styles.section_banner} data-aos="fade-right">
           <Banner />
         </section>
-        <section className={styles.section_bannerinformative} data-aos="fade-left">
+        <section
+          className={styles.section_bannerinformative}
+          data-aos="fade-left"
+        >
           <BannerInformative />
         </section>
         <section className={styles.section_callaction} data-aos="fade-left">

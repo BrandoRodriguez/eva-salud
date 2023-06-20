@@ -12,14 +12,14 @@ export const CardSmall = ({
   const content = HeroText[language];
 
   return (
-    <div className={styles.freespecialties} data-aos="fade-down" >
+    <div className={styles.freespecialties} data-aos="fade-down">
       <div
         className={styles.bg_freespecialties}
         style={{
           backgroundImage: `url(${image})`,
         }}
       ></div>
-      <div className={styles.content} data-aos="fade-right" >
+      <div className={styles.content}>
         <h2>{specialty}</h2>
         <h3>{category}</h3>
         <div className={styles.ctn_price}>
@@ -123,7 +123,7 @@ export const CardBanner = ({
         //   backgroundImage: `url(${image})`,
         // }}
       >
-        <div className={styles.banner_content} data-aos='fade-right'> 
+        <div className={styles.banner_content} data-aos="fade-right">
           <h2>{title}</h2>
           <h3>{description}</h3>
           <div className={styles.ctn_button_banner}>
