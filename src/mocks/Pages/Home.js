@@ -37,18 +37,18 @@ export const HeroText = {
 				image: "/images/products/Pediatría.webp",
 			},
 			{
-				specialty: "Consulta de Ginecología",
-				category: "Ginecología",
+				specialty: "Consulta de Dermatología",
+				category: "Dermatología",
 				image: "/images/products/Dermatología.webp",
 			},
 			{
-				specialty: "Consulta de Medicina General",
-				category: "Medicina General",
+				specialty: "Consulta de Traumatología",
+				category: "Traumatología",
 				image: "/images/products/Traumatología.webp",
 			},
 			{
-				specialty: "Consulta de Pediatría",
-				category: "Pediatría",
+				specialty: "Consulta de Oftalmólogía",
+				category: "Oftalmólogía",
 				image: "/images/products/Oftalmólogía.webp",
 			},
 			{
