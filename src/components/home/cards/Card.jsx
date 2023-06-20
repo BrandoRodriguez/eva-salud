@@ -148,7 +148,7 @@ export const CardBannerInformative = ({
         //   backgroundImage: `url(${image})`,
         // }}
       >
-        <div className={styles.banner_content} data-aos="fade-right">
+        <div className={styles.banner_content} data-aos="fade-left">
           <h2>{title}</h2>
           <h3>{description}</h3>
           <div className={styles.ctn_button_banner}>

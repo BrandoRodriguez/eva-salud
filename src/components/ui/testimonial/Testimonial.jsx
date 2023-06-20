@@ -21,7 +21,7 @@ const Testimonial = () => {
 
 
     return (
-        <section className={`${styles.testimonial} container`}>
+        <section className={`${styles.testimonial} container`} data-aos='fade-right'>
 
             <div className={styles.content}>
                 <div className={styles.subtitle}>{content.subtitle}</div>
