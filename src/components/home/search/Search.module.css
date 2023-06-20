@@ -20,7 +20,7 @@
 .imputSearch {
   flex: 1;
   border-radius: 16px;
-  background-color: #ffff;
+  background-color: #F6F8FB;
   display: flex;
   flex-direction: row;
   padding: 0.88rem 0.75rem;
@@ -72,7 +72,7 @@
 .imputLocation {
   flex: 1;
   border-radius: 1rem;
-  background-color: #ffff;
+  background-color: #F6F8FB;
   height: 3rem;
   padding: 0.5rem 1rem 0.5rem 0.75rem;
   align-items: center;
@@ -89,7 +89,7 @@
   align-self: stretch;
   flex: 1;
   border-radius: 1rem;
-  background-color: #ffff;
+  background-color: #F6F8FB;
   display: flex;
   flex-direction: row;
   padding: 0.5rem 1rem 0.5rem 0.75rem;
@@ -142,9 +142,9 @@
 .search {
   position: relative;
   border-radius: 24px;
-  background: rgba(0, 152, 58, 0.2);
-  box-shadow: 0 40px 30px rgba(35, 34, 99, 0.02),
-    0 16px 10px rgba(35, 34, 99, 0.02), 0 0 15px rgba(35, 34, 99, 0.02);
+  background: rgba(0, 152, 58, 0.3);
+  box-shadow: 0 40px 30px rgba(35, 34, 99, 0.03),
+    0 16px 10px rgba(35, 34, 99, 0.03), 0 0 15px rgba(35, 34, 99, 0.03);
   width: 100%;
   padding: 1rem;
   align-items: flex-start;
