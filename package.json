@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "deploy-es": "aws s3 sync out/ s3://evasalud-es.com --acl public-read",
+    "deploy-en": "aws s3 sync out/ s3://evasalud-en.com --acl public-read",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
