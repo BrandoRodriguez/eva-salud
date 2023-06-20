@@ -6,10 +6,11 @@
 }
 
 .appImage {
-  background: url("/images/application/app.png");
+  background: url("/images/application/phone.webp");
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
+  margin-left: 100px;
 }
 
 .scanQR {
@@ -71,6 +72,12 @@
 
 .openApp {
   display: none;
+}
+
+@media (max-width: 1200px) {
+  .appImage {
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 1050px) {
