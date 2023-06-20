@@ -26,10 +26,15 @@ export function getLanguage(language = 'es') {
 		domainIndex = 1
 		language = 'es'
 	}
-	else if (domain.includes('heriotzaasegurua.com')) {
+	else if (domain.includes('evahealth.com')) {
 		url = '/euskera/get_euskera_document'
 		domainIndex = 2
 		language = 'en'
+	}
+	else if (domain.includes('evasvaasth.com')) {
+		url = '/hindi/get_euskera_document'
+		domainIndex = 3
+		language = 'hi'
 	}
 
 	domain = domain.replace('www.', '')

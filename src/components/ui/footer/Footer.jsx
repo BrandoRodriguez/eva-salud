@@ -23,6 +23,9 @@ export const Footer = () => {
   const { language } = useLanguage();
   const content = FooterText[language];
 
+  console.log('footer content')
+  console.log(content)
+
   const services_styles = [
     styles.wellness,
     styles.surgery,
