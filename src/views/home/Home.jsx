@@ -38,16 +38,16 @@ const Home = () => {
         <section className={styles.section_hero}>
           <Hero />
         </section>
-        <section className={styles.section_banner}>
+        <section className={styles.section_banner} data-aos="fade-right">
           <Banner />
         </section>
-        <section className={styles.section_bannerinformative}>
+        <section className={styles.section_bannerinformative} data-aos="fade-left">
           <BannerInformative />
         </section>
-        <section className={styles.section_callaction}>
+        <section className={styles.section_callaction} data-aos="fade-left">
           <CallAction />
         </section>
-        <section className={styles.application}>
+        <section className={styles.application} data-aos="fade-right">
           <Application />
         </section>
         <HireMessage />
@@ -55,7 +55,7 @@ const Home = () => {
         <Fundation />
       </main>
 
-      {loadingPage && <PrincipalLoader />}
+      {/* {loadingPage && <PrincipalLoader />} */}
     </Layout>
   );
 };

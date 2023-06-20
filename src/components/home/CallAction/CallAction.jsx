@@ -15,7 +15,7 @@ const CallAction = () => {
 
   return (
     <section className={`${styles.call_action} container`} id="callaction">
-      <div className={styles.content}>
+      <div className={styles.content} data-aos="fade-left">
         <Title45>{content.title}</Title45>
         <div className={styles.margin}>
           <Text20>{content.description}</Text20>

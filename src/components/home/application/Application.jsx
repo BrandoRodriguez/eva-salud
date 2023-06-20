@@ -18,7 +18,7 @@ export const Application = () => {
                 </div> */}
         </div>
         <div className={styles.appDescription}>
-          <h2>
+          <h2 data-aos='fade-right'>
             {processBoldText(content.title).map(({ type, content }, index) => {
               switch (type) {
                 case "text":
@@ -29,7 +29,7 @@ export const Application = () => {
             })}
           </h2>
 
-          <div className={styles.featureApp}>
+          <div className={styles.featureApp} data-aos='fade-right'>
             <VideoCall />
             <span>
               <p>{content.feature[0].title}</p>
@@ -39,7 +39,8 @@ export const Application = () => {
               <ButtonArrow name={content.feature[0].button_text} />
             </span>
           </div>
-          <div className={styles.featureApp}>
+
+          <div className={styles.featureApp} data-aos='fade-right' data-aos-delay='200'>
             <MedicalCheck />
             <span>
               <p>{content.feature[1].title}</p>
@@ -49,7 +50,8 @@ export const Application = () => {
               <ButtonArrow name={content.feature[1].button_text} />
             </span>
           </div>
-          <div className={styles.featureApp}>
+
+          <div className={styles.featureApp} data-aos='fade-right' data-aos-delay='400'>
             <DoctorHome />
             <span>
               <p>{content.feature[2].title}</p>
@@ -59,6 +61,7 @@ export const Application = () => {
               <ButtonArrow name={content.feature[2].button_text} />
             </span>
           </div>
+
           <button className={styles.openApp}>Abrir la App</button>
         </div>
       </div>

@@ -20,8 +20,8 @@ const HireMessage = () => {
   const [isOpenModal, setIsOpenModal] = useState(false);
 
   return (
-    <section className={`${styles.hire_message} container`}>
-      <div className={styles.content}>
+    <section className={`${styles.hire_message} container`} data-aos='fade-left'>
+      <div className={styles.content} data-aos='fade-left' data-aos-delay='300'>
         <div className={styles.logo_container}>
           <EvaMovilColor />
         </div>
