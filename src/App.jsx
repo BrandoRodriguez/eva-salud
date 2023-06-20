@@ -1,17 +1,17 @@
 import { BrowserRouter } from "react-router-dom";
 import Router from "./router";
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+// import { useEffect } from "react";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
 
 function App() {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      easing: "ease-out-back",
-      once: true,
-    });
-  }, []);
+  // useEffect(() => {
+  //   AOS.init({
+  //     duration: 1000,
+  //     easing: "ease-out-back",
+  //     once: true,
+  //   });
+  // }, []);
 
   return (
     <BrowserRouter>

@@ -58,7 +58,7 @@ const Home = () => {
         <Fundation />
       </main>
 
-      {/* {loadingPage && <PrincipalLoader />} */}
+      {loadingPage && <PrincipalLoader />}
     </Layout>
   );
 };
