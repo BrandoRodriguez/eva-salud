@@ -132,6 +132,7 @@ export const CardBanner = ({
 export const CardBannerInformative = ({
   title = "¡Descubre nuestras especialidades no incluidas!",
   description = "¡Obtén un asombroso descuento de hasta el 40% sobre el precio de venta al público (PVP) en especialidades médicas, pruebas de diagnóstico e intervenciones no gratuitas! Además, te ofrecemos una financiación de hasta 36 meses. ¡No pierdas esta increíble oportunidad y accede a los mejores servicios de salud con grandes beneficios económicos!.",
+  button_text = 'Ver Especialidades'
 }) => {
   return (
     <div className={styles.cardbannerinformative}>
@@ -140,7 +141,7 @@ export const CardBannerInformative = ({
           {/* <h2>{title}</h2> */}
           <h3>{description}</h3>
           <div className={styles.ctn_button_banner}>
-            <button className={styles.viewCenter}>Ver Especialidades</button>
+            <button className={styles.viewCenter}>{button_text}</button>
           </div>
         </div>
       </div>
