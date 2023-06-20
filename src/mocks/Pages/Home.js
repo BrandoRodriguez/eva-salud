@@ -37,18 +37,18 @@ export const HeroText = {
 				image: "/images/products/Pediatría.webp",
 			},
 			{
-				specialty: "Consulta de Ginecología",
-				category: "Ginecología",
+				specialty: "Consulta de Dermatología",
+				category: "Dermatología",
 				image: "/images/products/Dermatología.webp",
 			},
 			{
-				specialty: "Consulta de Medicina General",
-				category: "Medicina General",
+				specialty: "Consulta de Traumatología",
+				category: "Traumatología",
 				image: "/images/products/Traumatología.webp",
 			},
 			{
-				specialty: "Consulta de Pediatría",
-				category: "Pediatría",
+				specialty: "Consulta de Oftalmólogía",
+				category: "Oftalmólogía",
 				image: "/images/products/Oftalmólogía.webp",
 			},
 			{
@@ -106,18 +106,18 @@ export const HeroText = {
 				image: "/images/products/Pediatría.webp",
 			},
 			{
-				specialty: "Gynecology Consultation",
-				category: "Gynecology",
+				specialty: "Dermatology Consultation",
+				category: "Dermatology",
 				image: "/images/products/Dermatología.webp",
 			},
 			{
-				specialty: "General Medicine Consultation",
-				category: "General Medicine",
+				specialty: "Traumatology Consultation",
+				category: "Traumatology",
 				image: "/images/products/Traumatología.webp",
 			},
 			{
-				specialty: "Pediatrics Consultation",
-				category: "Pediatrics",
+				specialty: "Ophthalmology Consultation",
+				category: "Ophthalmology",
 				image: "/images/products/Oftalmólogía.webp",
 			},
 			{
@@ -133,6 +133,75 @@ export const HeroText = {
 			{
 				specialty: "Geriatrics Consultation",
 				category: "Geriatrics",
+				image: "/images/products/Geriatría.webp",
+			},
+		]
+	},
+	hi: {
+		title: 'सेब को काटो!',
+		subtitle: 'Eva स्वास्थ्य की सदस्यता लें',
+		subscribe_button: 'सदस्यता लें',
+		card_button: 'केंद्रों को देखें',
+		description: 'बाजार के सबसे अद्वितीय उत्पादों के साथ आपके प्रियजनों की स्वास्थ्य की सुरक्षा करें।',
+		search: {
+			input_placeholder: 'आप क्या ढूंढ रहे हैं?',
+			location: {
+				title: 'स्थान',
+				cities: ['Gotham, USA']
+			},
+			specialty: {
+				title: 'विशेषताएं',
+				specialties: ['त्वचा विशेषज्ञ की सलाह..']
+
+			},
+			button_text: 'खोजें'
+		},
+		categories: ['सामान्य चिकित्सा', 'त्वचा विज्ञान', 'प्रसूति एवं स्त्री रोग', 'नेत्र विज्ञान', 'नर्सिंग'],
+		card_title: 'Eva स्वास्थ्य के नि:शुल्क परामर्श',
+		cards: [
+			{
+				specialty: "प्रसूति विज्ञान की सलाह",
+				category: "प्रसूति एवं स्त्री रोग",
+				image: "/images/products/Ginecología.webp",
+			},
+			{
+				specialty: "सामान्य चिकित्सा की सलाह",
+				category: "सामान्य चिकित्सा",
+				image: "/images/products/MedicinaGeneral.webp",
+			},
+			{
+				specialty: "बाल रोग विशेषज्ञ की सलाह",
+				category: "बाल रोग विशेषज्ञ",
+				image: "/images/products/Pediatría.webp",
+			},
+			{
+				specialty: "त्वचा विशेषज्ञ की सलाह",
+				category: "त्वचा विज्ञान",
+				image: "/images/products/Dermatología.webp",
+			},
+			{
+				specialty: "चोट और चोट की सलाह",
+				category: "चोट और चोट",
+				image: "/images/products/Traumatología.webp",
+			},
+			{
+				specialty: "नेत्र विज्ञान की सलाह",
+				category: "नेत्र विज्ञान",
+				image: "/images/products/Oftalmólogía.webp",
+			},
+			{
+				specialty: "नर्सिंग सलाह",
+				category: "नर्सिंग",
+				image: "/images/products/Enfermería.webp",
+			},
+			{
+				specialty: "मनोविज्ञान की सलाह",
+				category: "मनोविज्ञान",
+				image: "/images/products/Psicología.webp",
+			},
+			{
+				specialty: "गेरियाट्रिक्स की सलाह",
+				category: "गेरियाट्रिक्स",
 				image: "/images/products/Geriatría.webp",
 			},
 		]
@@ -161,7 +230,18 @@ export const HeaderSectionText = {
 			description: "\"Your well-being moves us, Find the right specialty for a fulfilling life\""
 		},
 		button_text: "View All Specialties"
-	}
+	},
+	hi: {
+		products: {
+			title: 'सबसे लोकप्रिय चिकित्सा परामर्श।',
+			description: "“आपकी खुशी हमें प्रेरित करती है, एक पूर्ण जीवन के लिए उपयुक्त विशेषता का पता लगाएं”"
+		},
+		about: {
+			title: "Eva स्वास्थ्य का हिस्सा बनने से एक आसान जीवन के लिए लाभ",
+			description: "“आपकी खुशी हमें प्रेरित करती है, एक पूर्ण जीवन के लिए उपयुक्त विशेषता का पता लगाएं”"
+		},
+		button_text: "सभी विशेषताएं देखें"
+	},
 }
 
 export const ProductsText = {
@@ -196,6 +276,23 @@ export const ProductsText = {
 		{
 			specialty: "General Medicine Consultation",
 			category: "General Medicine",
+			image: "/images/specialty/MedicinaGeneral_.webp",
+		},
+	],
+	hi: [
+		{
+			specialty: "प्रसूति विज्ञान की सलाह",
+			category: "प्रसूति एवं स्त्री रोग",
+			image: "/images/specialty/Ginecología_.webp",
+		},
+		{
+			specialty: "बाल रोग विशेषज्ञ की सलाह",
+			category: "बाल रोग विशेषज्ञ",
+			image: "/images/specialty/Pediatría.webp",
+		},
+		{
+			specialty: "सामान्य चिकित्सा की सलाह",
+			category: "सामान्य चिकित्सा",
 			image: "/images/specialty/MedicinaGeneral_.webp",
 		},
 	],
@@ -235,7 +332,7 @@ export const ProductsOnlineText = {
 			description: "We help you protect them",
 			image: "/images/about/1.png",
 		},
-	]
+	],
 
 }
 
@@ -247,7 +344,11 @@ export const CardProductText = {
 	en: {
 		concept: 'consultation',
 		button_text: 'See Centers'
-	}
+	},
+	hi: {
+		concept: 'परामर्श',
+		button_text: 'केंद्रों को देखें'
+	},
 }
 
 export const AboutText = {
@@ -284,7 +385,24 @@ export const AboutText = {
 			description: "We help you protect them",
 			image: "/images/about/1.png",
 		},
-	]
+	],
+	hi: [
+		{
+			title: "यदि आपकी एक चिकित्सा समस्या है",
+			description: "हम तत्परता से आपकी सहायता करते हैं",
+			image: "/images/about/1.png",
+		},
+		{
+			title: "अगर आप अच्छे महसूस कर रहे हैं",
+			description: "हम आपको बेहतर महसूस कराएंगे",
+			image: "/images/about/2.png",
+		},
+		{
+			title: "अगर आपका परिवार बढ़ रहा है",
+			description: "हम आपकी सहायता करते हैं उन्हें सुरक्षित रखने में",
+			image: "/images/about/1.png",
+		},
+	],
 
 }
 
@@ -332,7 +450,28 @@ export const AplicationText = {
 			},
 
 		]
-	}
+	},
+	hi: {
+		title: 'अपनी खुशहाली को नियंत्रित करें /*Eva स्वास्थ्य ऐप*/ के साथ',
+		qr_title: 'कोड स्कैन करें और इसका उपयोग शुरू करें।',
+		feature: [
+			{
+				title: 'निःशुल्क वीडियो मेडिकल कंसल्टेशन',
+				description: 'सामान्य चिकित्सा और बाल चिकित्सा के लिए डिजिटल अंतर्राष्ट्रीय क्लिनिक की सेवाएं प्राप्त करें आपकी योजना के अनुसार।',
+				button_text: 'अपनी अपॉइंटमेंट बुक करें'
+			},
+			{
+				title: 'निःशुल्क प्राथमिक चेकअप',
+				description: 'निःशुल्क वार्षिक प्राथमिक चेकअप प्राप्त करें और अपने स्वास्थ्य को नियंत्रण में रखें।',
+				button_text: 'जानें कैसे'
+			},
+			{
+				title: 'घर पर डॉक्टर',
+				description: 'घर पर मेडिकल देखभाल प्राप्त करें और केवल परामर्श के लिए भुगतान करें (मैड्रिड मेट्रोपोलिटन और बार्सिलोना)।',
+				button_text: 'अपनी अपॉइंटमेंट बुक करें'
+			},
+		]
+	},
 }
 
 export const DetailsText = {
@@ -435,19 +574,59 @@ export const TestimonialText = {
 				description: '"Finally a site where I can compare multiple agricultural insurances. The amount of options is unbeatable"'
 			}
 		]
-	}
+	},
+	hi: {
+		subtitle: 'हमारे ग्राहकों की राय बहुत महत्वपूर्ण है',
+		title: 'हमारे ग्राहक हमारे बारे में क्या कहते हैं',
+		description: 'स्पष्ट खाते, लंबी दोस्ती। स्पष्टता और ज्ञान आवश्यक है। न केवल उद्धरण प्रक्रिया के लिए, बल्कि आपको विश्वास हो कि आप ठीक वही प्राप्त कर रहे हैं जो आपने चुना है।',
+		cards: [
+			{
+				name: 'अंतोनियो गार्सिया अर्गुदास',
+				city: 'जिरोना',
+				description: '"मैं अपनी बीमाएं स्वत: नवीनीकरण करने और तुलना करने के बिना के आदी हूँ, निश्चित रूप से मैंने बहुत सारे पैसे बर्बाद किए हैं"'
+			},
+			{
+				name: 'लुसिया सांचेज',
+				city: 'माद्रिद',
+				description: '"मैंने अपनी कार के लिए सस्ती और सबसे पूर्ण बीमा की तलाश की थी और मैंने अपनी पॉलिसी की तुलना कर ली"'
+			},
+			{
+				name: 'फर्नांडो रुबियो',
+				city: 'सलामांका',
+				description: '"अंत में एक जगह जहां कई कृषि बीमा की तुलना की जा सकती है। विकल्पों की मात्रा अतुलनीय है"'
+			}
+		]
+	},
+}
+
+export const BannerInformativeText = {
+	es: {
+		title: '¡Descubre nuestras especialidades no incluidas!',
+		description: "Para las especialidades, pruebas de diagnóstico e intervenciones no gratuitas ofrecemos hasta un 40% de descuento sobre PvP y financiación de hasta 36 meses",
+		button_text: 'Ver Especialidades'
+	},
+	en: {
+		title: 'Discover our non-inclusive specialties!',
+		description: "For non-free specialties, diagnostic tests, and interventions, we offer up to a 40% discount on PvP and financing for up to 36 months",
+		button_text: 'See Specialties'
+	},
 }
 
 export const HireMessageText = {
-	'es': {
-		title1: 'CONTRATA TU PÓLIZA CON EVA SEGUROS',
-		title2: 'Y CONSIGUE /*2 LÍNEAS MÓVIL*/ CON LLAMADAS ILIMITADAS 	+ 20 GB',
+	es: {
+		title1: 'SUBSCRIBETE A EVA SALUD',
+		title2: 'Y CONSIGUE /*2 LÍNEAS MÓVILES*/ CON LLAMADAS ILIMITADAS 	+ 20 GB',
 		button: 'Más información'
 	},
 	en: {
-		title1: 'HIRE YOUR POLICY WITH EVA INSURANCE',
+		title1: 'SUBSCRIBE TO EVA HEALTH',
 		title2: 'AND GET /*2 MOBILE LINES*/ WITH UNLIMITED CALLS + 20 GB',
 		button: 'More information'
+	},
+	hi: {
+		title1: 'EVA स्वास्थ्य की सदस्यता लें',
+		title2: 'और प्राप्त करें /*2 मोबाइल लाइनें*/ असीमित कॉल के साथ + 20 GB',
+		button: 'अधिक जानकारी'
 	},
 }
 
@@ -512,7 +691,30 @@ export const FundationText = {
 				description: "At Eva, we work for a greener world, which is why EVA, as a collaborating company of Plant For The Planet, will plant a tree for each new customer."
 			}
 		]
-	}
+	},
+	hi: {
+		title: "डिजिटल अनुभव के माध्यम से मानव संपर्क बना रहे हैं",
+		description: "“हम भविष्य का अनुमान नहीं लगा सकते, लेकिन हम इसे बनाने में मदद कर सकते हैं”",
+		buttons: [
+			{
+				text: "सामर्थ्य परियोजनाओं को देखें",
+			}
+		],
+		cards: [
+			{
+				title: "ईवा प्लस",
+				description: "ईवा प्लस कार्यक्रम के माध्यम से, ईवा स्वास्थ्य के सभी ग्राहक हमारे समूह की अन्य कंपनियों में मुफ्त सेवाओं प्राप्त करेंगे।"
+			},
+			{
+				title: "फ़ाउंडेशन यूनिवर्सो एक्सेसिबल",
+				description: "ईवा बीमा एक अधिक न्यायपूर्ण दुनिया के लिए संवाददाता फ़ाउंडेशन यूनिवर्सो एक्सेसिबल और उनकी परियोजना यूनिवर्सो सांती के साथ सहयोग करता है।"
+			},
+			{
+				title: "प्लांट फॉर द प्लैनेट",
+				description: "ईवा में हम एक हरीयाली दुनिया के लिए काम कर रहे हैं, इसलिए EVA, प्लांट फॉर द प्लैनेट की सहयोगी कंपनी के रूप में, हर नए ग्राहक के लिए एक पेड़ लगाएगा।"
+			}
+		]
+	},
 }
 
 export const BannerText = {
