@@ -5,9 +5,11 @@ import { HeroText } from "@mocks/Pages/Home";
 import { ButtonPrimary } from "../../../components";
 import { useLanguage } from "@context/LanguageContext/useLanguage";
 
-export const Hero = () => {
+export const Hero = ({closeLoader}) => {
+  
   const { language } = useLanguage();
   const content = HeroText[language];
+
   return (
     <>
       <div className={styles.background}>
@@ -17,6 +19,7 @@ export const Hero = () => {
           muted={true}
           loop={true}
           // poster="/bg-hero.webp"
+          onLoadedData={closeLoader}
         ></video>
         <div className={styles.over}></div>
         <Shape />
