@@ -212,11 +212,28 @@
   .ctn_chiplist {
     display: none;
   }
+
 }
 
 @media (max-width: 500px) {
   .cardlist {
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+
+  .presentation>div {
+    display: block;
+  }
+
+  .presentation h2 {
+    padding-bottom: 15px;
+  }
+
+  .background {
+    height: 14rem;
+  }
+
+  .over {
+    height: 14rem;
   }
 }
 
