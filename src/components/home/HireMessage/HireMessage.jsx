@@ -1,7 +1,7 @@
 import styles from "./HireMessage.module.css";
 import { useMediaQuery } from "react-responsive";
-import banner_desktop from "@assets/imgs/banner_desktop_desktop.webp";
-import banner_mobile from "@assets/imgs/banner_mobile_mobil.webp";
+import banner_desktop from "@assets/imgs/banner_desktop.webp";
+import banner_mobile from "@assets/imgs/banner_mobile.webp";
 import HireMessageModal from "./HireMessageModal/HireMessageModal";
 import { useState } from "react";
 import Button from "@UI/ButtonDecesos/Button";
@@ -20,8 +20,11 @@ const HireMessage = () => {
   const [isOpenModal, setIsOpenModal] = useState(false);
 
   return (
-    <section className={`${styles.hire_message} container`} data-aos='fade-left'>
-      <div className={styles.content} data-aos='fade-left' data-aos-delay='300'>
+    <section
+      className={`${styles.hire_message} container`}
+      data-aos="fade-left"
+    >
+      <div className={styles.content} data-aos="fade-left" data-aos-delay="300">
         <div className={styles.logo_container}>
           <EvaMovilColor />
         </div>
