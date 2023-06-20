@@ -500,7 +500,7 @@ export const DetailsText = {
 
 export const CallActionText = {
 	es: {
-		title: "Queremos ayudarte a encontrar el mejor seguro",
+		title: "Gestión de citas médicas sin complicaciones: Solo preocúpese por acudir al médico",
 		description: "Permítanos ocuparnos de todos los detalles para que pueda disfrutar plenamente de su atención médica. Nuestro equipo de asesores de Eva Salud está a su disposición, encargándose de gestionar su cita previa y asegurando que usted solo tenga que preocuparse por su salud.",
 		schedule: [
 			"Lunes a viernes: 9 a.m. - 21 p.m.",
@@ -601,21 +601,26 @@ export const TestimonialText = {
 
 export const BannerInformativeText = {
 	es: {
-		title: '¡Descubre nuestras especialidades no incluidas!',
-		description: "Para las especialidades, pruebas de diagnóstico e intervenciones no gratuitas ofrecemos hasta un 40% de descuento sobre PvP y financiación de hasta 36 meses",
+		title: "¡Descubre nuestras especialidades no incluidas!",
+		description: "¡Obtén un asombroso descuento de hasta el 40% sobre el precio de venta al público (PVP) en especialidades médicas, pruebas de diagnóstico e intervenciones no gratuitas! Además, te ofrecemos una financiación de hasta 36 meses. ¡No pierdas esta increíble oportunidad y accede a los mejores servicios de salud con grandes beneficios económicos!.",
 		button_text: 'Ver Especialidades'
 	},
 	en: {
-		title: 'Discover our non-inclusive specialties!',
-		description: "For non-free specialties, diagnostic tests, and interventions, we offer up to a 40% discount on PvP and financing for up to 36 months",
-		button_text: 'See Specialties'
+		title: "Discover our not included specialties!",
+		description: "Get an amazing discount of up to 40% on the public selling price (PVP) on medical specialties, diagnostic tests, and non-free interventions! In addition, we offer financing of up to 36 months. Don't miss this incredible opportunity and access the best health services with great economic benefits.",
+		button_text: 'View Specialties'
+	},
+	hi: {
+		title: "हमारे शामिल नहीं किए गए विशेषताओं की खोज करें!",
+		description: "मेडिकल विशेषताओं, निदान परीक्षणों और मुफ्त नहीं होने वाले हस्तक्षेपों पर जनता की विक्रय मूल्य (PVP) के ऊपर तक 40% की अद्भुत छूट प्राप्त करें! इसके अलावा, हम आपको 36 महीनों तक की वित्तपोषण सुविधा देते हैं। इस अद्भुत अवसर को न खोएं और बड़े आर्थिक लाभ के साथ स्वास्थ्य सेवाओं के सर्वश्रेष्ठ सेवाओं तक पहुंचें!.",
+		button_text: 'विशेषताएं देखें'
 	},
 }
 
 export const HireMessageText = {
-	es: {
-		title1: 'SUBSCRIBETE A EVA SALUD',
-		title2: 'Y CONSIGUE /*2 LÍNEAS MÓVILES*/ CON LLAMADAS ILIMITADAS 	+ 20 GB',
+	'es': {
+		title1: 'Al suscribirte a Eva Salud',
+		title2: 'puedes obtener /*2 LÍNEAS MÓVIL*/ CON LLAMADAS ILIMITADAS 	+ 20 GB',
 		button: 'Más información'
 	},
 	en: {
@@ -727,5 +732,10 @@ export const BannerText = {
 		title: 'Dental Consultation',
 		subtitle: 'Includes free oral cleaning.',
 		button_text: 'Reserve now'
-	}
+	},
+	hi: {
+		title: 'दंत चिकित्सा',
+		subtitle: 'मुफ्त मुंह की सफाई शामिल है।',
+		button_text: 'अब बुक करें'
+	},
 }

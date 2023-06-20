@@ -31,6 +31,7 @@
     letter-spacing: 0.03em;
     font-variant: small-caps;
     color: #232263;
+    text-transform: uppercase;
 }
 
 .title2 {
@@ -39,6 +40,7 @@
     line-height: 30px;
     letter-spacing: 0.03em;
     color: #232263;
+    text-transform: uppercase;
 }
 
 .bold_title {
@@ -47,6 +49,7 @@
     line-height: 25px;
     letter-spacing: 0.03em;
     color: #00983A;
+    text-transform: uppercase;
 }
 
 .button_container {

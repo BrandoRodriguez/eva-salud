@@ -110,19 +110,13 @@ export const Card = ({
 };
 
 export const CardBanner = ({
-  // image = "./images/products/Dental.webp",
   title = "Consulta Dental",
   description = "Incluye limpieza bucal gratuita.",
   button_text = "Reservar Ahora",
 }) => {
   return (
     <div className={styles.cardbanner}>
-      <div
-        className={styles.bg_banner}
-        // style={{
-        //   backgroundImage: `url(${image})`,
-        // }}
-      >
+      <div className={styles.bg_banner}>
         <div className={styles.banner_content} data-aos="fade-right">
           <h2>{title}</h2>
           <h3>{description}</h3>
@@ -136,19 +130,13 @@ export const CardBanner = ({
 };
 
 export const CardBannerInformative = ({
-  // image = "./images/products/Banner.webp",
   title = "¡Descubre nuestras especialidades no incluidas!",
-  description = "Ofrecemos pruebas de diagnóstico, intervenciones quirúrgicas y  especialistas con descuentos de hasta el 40%. En Eva Salud, nuestra prioridad es ofrecerle atención médica y de calidad, a precios accesibles. ¡Contáctanos hoy mismo para más información y programar tu cita! Además, ofrecemos financiación de hasta 36 meses con un tipo de interés preferente. Tu bienestar es nuestra prioridad.",
+  description = "¡Obtén un asombroso descuento de hasta el 40% sobre el precio de venta al público (PVP) en especialidades médicas, pruebas de diagnóstico e intervenciones no gratuitas! Además, te ofrecemos una financiación de hasta 36 meses. ¡No pierdas esta increíble oportunidad y accede a los mejores servicios de salud con grandes beneficios económicos!.",
   button_text = 'Ver Especialidades'
 }) => {
   return (
     <div className={styles.cardbannerinformative}>
-      <div
-        className={styles.bg_bannerinformative}
-        // style={{
-        //   backgroundImage: `url(${image})`,
-        // }}
-      >
+      <div className={styles.bg_bannerinformative}>
         <div className={styles.banner_content} data-aos="fade-left">
           {/* <h2>{title}</h2> */}
           <h3>{description}</h3>
