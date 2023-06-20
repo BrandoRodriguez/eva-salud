@@ -38,10 +38,10 @@ const Home = () => {
         <section className={styles.section_hero}>
           <Hero />
         </section>
-        <section className={styles.section_banner}>
+        <section className={styles.section_banner} data-aos="fade-right">
           <Banner />
         </section>
-        <section className={styles.section_bannerinformative}>
+        <section className={styles.section_bannerinformative} data-aos="fade-right">
           <BannerInformative />
         </section>
         <section className={styles.section_callaction}>
@@ -55,7 +55,7 @@ const Home = () => {
         <Fundation />
       </main>
 
-      {loadingPage && <PrincipalLoader />}
+      {/* {loadingPage && <PrincipalLoader />} */}
     </Layout>
   );
 };
