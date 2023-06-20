@@ -31,14 +31,14 @@ export const Header = () => {
             return <li key={index}>{item}</li>;
           })}
         </ul>
-        <div className={styles.ctn_languages}>
+        {/* <div className={styles.ctn_languages}>
           <div className={styles.languages}>
             <Spain /> <span>ESP</span>
           </div>
           <div className={styles.languages}>
             <UnitedStatesofAmerica /> <span>ENG</span>
           </div>
-        </div>
+        </div> */}
         <div className={styles.group}>
           <div className={styles.group_desktop}>
             <SearchPrimary />
