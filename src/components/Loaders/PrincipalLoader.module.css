@@ -74,7 +74,6 @@
 
 .logo_container {
 	width: 280px;
-	height: 89px;
 	margin-bottom: 15px;
 }
 
@@ -138,8 +137,7 @@
 
 	.logo_container {
 		width: 400px;
-		height: 128px;
-		margin-bottom: 44px;
+		margin-bottom: 30px;
 	}
 
 	.title {

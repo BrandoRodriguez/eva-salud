@@ -3,7 +3,7 @@ export const EvaSalud = (props) => {
   let wordColor = "white";
 
   try {
-    if (props.type === "footer") {
+    if (props.type === "color") {
       sheetColor = "#00983A";
       wordColor = "#232263";
     }

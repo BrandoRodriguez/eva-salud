@@ -5,7 +5,6 @@ import { Text16 } from '@UI/Tags/Texts';
 import { OldFooterText } from '@mocks/General';
 import { useLanguage } from '@context/LanguageContext/useLanguage';
 import { getLogo } from '@utils/getLogo';
-import { EvaSalud } from '..';
 import { getVersion } from '@utils/functions';
 
 const Footer = () => {
@@ -22,8 +21,7 @@ const Footer = () => {
 
 
 					<div className={styles.logo_container}>
-						{/* {getLogo(language)} */}
-						<EvaSalud type={'footer'}/>
+						{getLogo(language, 'color')}
 					</div>
 
 					<div className={styles.social}>
