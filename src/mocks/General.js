@@ -15,6 +15,11 @@ export const NavBarText = {
 		login_button: 'लॉग इन करें',
 		register_button: 'रजिस्टर करें'
 	},
+	pt: {
+		items: ['Início', 'Especialidades', 'Centros em destaque', 'Atendimento ao cliente'],
+		login_button: 'Entrar',
+		register_button: 'Registrar-se'
+	},
 }
 
 export const FooterText = {
@@ -104,6 +109,35 @@ export const FooterText = {
 			'नियम और शर्तें',
 		],
 		copyright: '©Evasalud.com 2023। सभी अधिकार सुरक्षित।'
+	},
+	pt: {
+		description: 'Vamos proteger o que é mais importante para alcançar o bem-estar em nossas vidas: a sua saúde e a dos seus.',
+		social_title: 'Siga-nos nas nossas redes:',
+		services: [
+			'Bem-estar e Estética', 'Cirurgias', 'Consultas médicas', 'Dental', 'Incluído na Eva Saúde', 'Exames médicos', 'Tratamentos e terapias'
+		],
+		app_section: {
+			title: 'Baixar aplicativo',
+			description: 'Baixe nossos Apps e obtenha 15% de desconto.'
+		},
+		newsletter: {
+			title: 'Inscreva-se no nosso newsletter',
+			description: 'Seja o primeiro a saber sobre descontos, ofertas e eventos semanais na sua caixa de entrada.',
+			input_placeholder: 'Digite seu e-mail',
+			button_text: 'Inscreva-se'
+		},
+		menu: [
+			'Sobre nós',
+			'Especialidades',
+			'Blog',
+			'Imprensa',
+			'Perguntas frequentes',
+			'Trabalhe conosco',
+			'Contate-nos',
+			'Política de privacidade',
+			'Termos e Condições',
+		],
+		copyright: '©Evasaude.com 2023. Todos os direitos reservados.'
 	},
 }
 
@@ -237,6 +271,53 @@ export const OldFooterText = {
 		},
 		copyright: 'EvaSalud.com 2023। सभी अधिकार सुरक्षित।'
 	},
+	pt: {
+		social_title: 'Viva a tranquilidade de contar com o melhor quadro médico.',
+		social_description: 'Siga-nos nas nossas redes sociais',
+		section1: {
+			title: 'Sobre Nós',
+			options: [
+				{ title: 'Missão Visão', href: '' },
+				{ title: 'Nossa equipe', href: '' },
+				// { title: 'Carreiras', href: '' },
+				// { title: 'Imprensa e Mídia', href: '' },
+				// { title: 'Publicidade', href: '' },
+				// { title: 'Testemunhos', href: '' },
+			]
+		},
+		section2: {
+			title: 'Mais informação',
+			options: [
+				{ title: 'Conheça Eva', href: '' },
+				// { title: 'Perguntas Frequentes', href: '' },
+				// { title: 'Área do Cliente', href: '' },
+				{ title: 'Plant-for-the-Planet', href: '' },
+				{ title: 'Universo Acessível', href: '' },
+				{ title: 'Universo Santi', href: '' },
+			]
+		},
+		section3: {
+			title: 'Nós Oferecemos',
+			options: [
+				// { title: 'Seguro de Vida', href: '' },
+				// { title: 'Seguro de Saúde', href: '' },
+				// { title: 'Seguro Residencial', href: '' },
+				{ title: 'Seguro de Saúde', href: '' },
+				// { title: 'Seguro de Automóvel', href: '' },
+				// { title: 'Seguro de Animais de Estimação', href: '' },
+			]
+		},
+		section4: {
+			title: 'Legal',
+			options: [
+				{ title: 'Aviso Legal', href: '' },
+				{ title: 'Política de Privacidade', href: '' },
+				{ title: 'Política de Cookies', href: '' },
+				// { title: 'Termos e Condições', href: '' },
+			]
+		},
+		copyright: 'EvaSaude.com 2023. Todos os direitos reservados.'
+	},
 }
 
 export const PrincipalLoaderText = {
@@ -252,6 +333,10 @@ export const PrincipalLoaderText = {
 		title: 'ईवा स्वास्थ्य के माध्यम से सर्वश्रेष्ठ चिकित्सा दल पर भरोसा करें',
 		description: 'EvaSalud.com 2023। सभी अधिकार सुरक्षित।'
 	},
+	pt: {
+		title: 'Conte com o melhor quadro médico através da Eva Saúde',
+		description: 'EvaSaude.com 2023. Todos os direitos reservados.'
+	},
 }
 
 export const AtencionTelefonicaText = {
@@ -263,5 +348,8 @@ export const AtencionTelefonicaText = {
 	},
 	hi: {
 		title: 'ईवा हेल्थ सलाहकार'
-	}
+	},
+	pt: {
+		title: 'Consultor de Eva Saúde'
+	},
 }

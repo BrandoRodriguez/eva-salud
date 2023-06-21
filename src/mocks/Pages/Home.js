@@ -209,6 +209,76 @@ export const HeroText = {
 			},
 		]
 	},
+	pt: {
+		title: 'MORDE A MAÇÃ!',
+		subtitle: 'Assine a Eva Saúde',
+		subscribe_button: 'Assinar',
+		price_title: 'Custo',
+		card_button: 'Ver Centros',
+		description: 'Proteja a saúde daqueles que você mais ama com os produtos mais inovadores do mercado.',
+		search: {
+			input_placeholder: 'O que você está procurando?',
+			location: {
+				title: 'localização',
+				cities: ['Gotham, USA']
+			},
+			specialty: {
+				title: 'Especialidades',
+				specialties: ['Consulta de der..']
+
+			},
+			button_text: 'Procurar'
+		},
+		categories: ['Medicina geral', 'Dermatologia', 'Ginecologia', 'Oftalmologia', 'Enfermagem'],
+		card_title: 'Consultas gratuitas da Eva Saúde',
+		cards: [
+			{
+				specialty: "Consulta de Ginecologia",
+				category: "Ginecologia",
+				image: "/images/products/Ginecología.webp",
+			},
+			{
+				specialty: "Consulta de Medicina Geral",
+				category: "Medicina Geral",
+				image: "/images/products/MedicinaGeneral.webp",
+			},
+			{
+				specialty: "Consulta de Pediatria",
+				category: "Pediatria",
+				image: "/images/products/Pediatría.webp",
+			},
+			{
+				specialty: "Consulta de Dermatologia",
+				category: "Dermatologia",
+				image: "/images/products/Dermatología.webp",
+			},
+			{
+				specialty: "Consulta de Traumatologia",
+				category: "Traumatologia",
+				image: "/images/products/Traumatología.webp",
+			},
+			{
+				specialty: "Consulta de Oftalmologia",
+				category: "Oftalmologia",
+				image: "/images/products/Oftalmólogía.webp",
+			},
+			{
+				specialty: "Consulta de Enfermagem",
+				category: "Enfermagem",
+				image: "/images/products/Enfermería.webp",
+			},
+			{
+				specialty: "Consulta de Psicologia",
+				category: "Psicologia",
+				image: "/images/products/Psicología.webp",
+			},
+			{
+				specialty: "Consulta de Geriatria",
+				category: "Geriatria",
+				image: "/images/products/Geriatría.webp",
+			},
+		]
+	},
 }
 
 export const HeaderSectionText = {
@@ -244,6 +314,17 @@ export const HeaderSectionText = {
 			description: "“आपकी खुशी हमें प्रेरित करती है, एक पूर्ण जीवन के लिए उपयुक्त विशेषता का पता लगाएं”"
 		},
 		button_text: "सभी विशेषताएं देखें"
+	},
+	pt: {
+		products: {
+			title: 'Consultas médicas mais populares.',
+			description: "“O seu bem-estar nos move, Encontre a especialidade adequada para uma vida plena”"
+		},
+		about: {
+			title: "Benefícios para uma vida mais fácil ao pertencer à Eva Saúde",
+			description: "“O seu bem-estar nos move, Encontre a especialidade adequada para uma vida plena”"
+		},
+		button_text: "Ver Todas as Especialidades"
 	},
 }
 
@@ -299,6 +380,23 @@ export const ProductsText = {
 			image: "/images/specialty/MedicinaGeneral_.webp",
 		},
 	],
+	pt: [
+		{
+			specialty: "Consulta de Ginecologia",
+			category: "Ginecologia",
+			image: "/images/specialty/Ginecología_.webp",
+		},
+		{
+			specialty: "Consulta de Pediatria",
+			category: "Pediatria",
+			image: "/images/specialty/Pediatría.webp",
+		},
+		{
+			specialty: "Consulta de Medicina Geral",
+			category: "Medicina Geral",
+			image: "/images/specialty/MedicinaGeneral_.webp",
+		},
+	],
 }
 
 export const ProductsOnlineText = {
@@ -336,7 +434,6 @@ export const ProductsOnlineText = {
 			image: "/images/about/1.png",
 		},
 	],
-
 }
 
 export const CardProductText = {
@@ -351,6 +448,10 @@ export const CardProductText = {
 	hi: {
 		concept: 'परामर्श',
 		button_text: 'केंद्रों को देखें'
+	},
+	pt: {
+		concept: 'consulta',
+		button_text: 'Ver Centros'
 	},
 }
 
@@ -406,7 +507,23 @@ export const AboutText = {
 			image: "/images/about/1.png",
 		},
 	],
-
+	pt: [
+		{
+			title: "Se você tem um problema médico",
+			description: "Nós assistimos você imediatamente",
+			image: "/images/about/1.png",
+		},
+		{
+			title: "Se você se sente bem",
+			description: "Vamos fazer você se sentir melhor",
+			image: "/images/about/2.png",
+		},
+		{
+			title: "Se sua família está crescendo",
+			description: "Nós ajudamos a protegê-los",
+			image: "/images/about/1.png",
+		},
+	],
 }
 
 export const AplicationText = {
@@ -475,6 +592,28 @@ export const AplicationText = {
 			},
 		]
 	},
+	pt: {
+		title: 'Tenha controle do seu bem-estar com o /*App da Eva Saúde*/',
+		qr_title: 'Escaneie o código e comece a usar.',
+		feature: [
+			{
+				title: 'Videoconsultas médicas sem custo',
+				description: 'Acesse a Clínica Internacional Digital e solicite para Medicina Geral e Pediatria de acordo com o seu plano.',
+				button_text: 'Agende sua consulta'
+			},
+			{
+				title: 'Check-ups preventivos sem custo',
+				description: 'Obtenha um check-up preventivo anual sem custo e mantenha sua saúde sob controle.',
+				button_text: 'Saiba como'
+			},
+			{
+				title: 'Médico em casa',
+				description: 'Receba atendimento médico em casa e pague apenas a consulta (Madrid Metropolitana e Barcelona).',
+				button_text: 'Agende sua consulta'
+			},
+
+		]
+	},
 }
 
 export const DetailsText = {
@@ -541,6 +680,21 @@ export const CallActionText = {
 		buttons: [
 			{
 				text: "अपॉइंटमेंट सेट करें",
+				url: "#"
+			}
+		],
+		contact_phone: "(01) 411-6001"
+	},
+	pt: {
+		title: "Gestão de consultas médicas sem complicações: Apenas se preocupe em ir ao médico",
+		description: "Deixe-nos cuidar de todos os detalhes para que você possa aproveitar totalmente seus cuidados médicos. Nossa equipe de consultores da Eva Saúde está à sua disposição, cuidando do agendamento de sua consulta e garantindo que você só precise se preocupar com a sua saúde.",
+		schedule: [
+			"Segunda a sexta: 9h - 21h",
+			"Sábado e domingo: 9h - 17h"
+		],
+		buttons: [
+			{
+				text: "Agendar Consulta",
 				url: "#"
 			}
 		],
@@ -615,6 +769,28 @@ export const TestimonialText = {
 			}
 		]
 	},
+	pt: {
+		subtitle: 'A opinião dos nossos clientes é muito importante',
+		title: 'O que os nossos clientes dizem sobre nós',
+		description: 'Contas claras, amizades longas. Ter clareza e conhecimento é essencial. Não só para o processo de cotação, mas para que você tenha confiança de que está obtendo exatamente o que escolheu.',
+		cards: [
+			{
+				name: 'Antonio García Arguedas',
+				city: 'Girona',
+				description: '"Estou acostumado a renovar meus seguros automaticamente e sem comparar, sem dúvida, desperdicei muito dinheiro"'
+			},
+			{
+				name: 'Lucía Sánchez',
+				city: 'Madrid',
+				description: '"Procurava um seguro barato e o mais completo para o meu carro, comparando a apólice encontrei"'
+			},
+			{
+				name: 'Fernando Rubio',
+				city: 'Salamanca',
+				description: '"Finalmente, um site onde posso comparar vários seguros agrícolas. A quantidade de opções é imbatível"'
+			}
+		]
+	},
 }
 
 export const BannerInformativeText = {
@@ -633,10 +809,15 @@ export const BannerInformativeText = {
 		description: "मेडिकल विशेषताओं, निदान परीक्षणों और मुफ्त नहीं होने वाले हस्तक्षेपों पर जनता की विक्रय मूल्य (PVP) के ऊपर तक 40% की अद्भुत छूट प्राप्त करें! इसके अलावा, हम आपको 36 महीनों तक की वित्तपोषण सुविधा देते हैं। इस अद्भुत अवसर को न खोएं और बड़े आर्थिक लाभ के साथ स्वास्थ्य सेवाओं के सर्वश्रेष्ठ सेवाओं तक पहुंचें!.",
 		button_text: 'विशेषताएं देखें'
 	},
+	pt: {
+		title: "Descubra nossas especialidades não incluídas!",
+		description: "Obtenha um incrível desconto de até 40% sobre o preço de venda ao público (PVP) em especialidades médicas, testes de diagnóstico e intervenções não gratuitas! Além disso, oferecemos um financiamento de até 36 meses. Não perca esta incrível oportunidade e tenha acesso aos melhores serviços de saúde com grandes benefícios econômicos!.",
+		button_text: 'Ver Especialidades'
+	},
 }
 
 export const HireMessageText = {
-	'es': {
+	es: {
 		title1: 'Al suscribirte a Eva Salud',
 		title2: 'puedes obtener /*2 LÍNEAS MÓVIL*/ CON LLAMADAS ILIMITADAS 	+ 20 GB',
 		button: 'Más información'
@@ -650,6 +831,11 @@ export const HireMessageText = {
 		title1: 'EVA स्वास्थ्य की सदस्यता लें',
 		title2: 'और प्राप्त करें /*2 मोबाइल लाइनें*/ असीमित कॉल के साथ + 20 GB',
 		button: 'अधिक जानकारी'
+	},
+	pt: {
+		title1: 'Ao se inscrever na Eva Saúde',
+		title2: 'você pode obter /*2 LINHAS MÓVEL*/ COM CHAMADAS ILIMITADAS + 20 GB',
+		button: 'Mais informações'
 	},
 }
 
@@ -689,7 +875,19 @@ export const HireMessageModalText = {
 			'हम आपको बेहतरीन असीमित संचार अनुभव प्रदान करने के लिए प्रतिबद्ध हैं।',
 			'हमारे साथ जुड़ें और संभावनाओं की दुनिया की खोज करें!'
 		]
-	}
+	},
+	pt: {
+		title: 'Linhas Móveis Grátis',
+		description1: [
+			'Ao se inscrever na Eva Saúde, você poderá ter até 2 linhas móveis totalmente gratuitas, estas linhas incluem chamadas ilimitadas e 20GB de dados móveis em cada uma para que você possa estar conectado o tempo todo.',
+
+			'Mas isso não é tudo, também oferecemos roaming gratuito na União Europeia para que você possa desfrutar de seus serviços mesmo quando está viajando.'
+		],
+		description2: [
+			'Estamos comprometidos em oferecer a melhor experiência de comunicação sem limites.',
+			'Junte-se a nós e descubra um mundo de possibilidades!'
+		]
+	},
 }
 
 export const FundationText = {
@@ -762,6 +960,29 @@ export const FundationText = {
 			}
 		]
 	},
+	pt: {
+		title: "Criando conexão humana através da experiência digital",
+		description: "“Não podemos adivinhar o futuro, mas podemos ajudar a construí-lo”",
+		buttons: [
+			{
+				text: "Ver projetos solidários",
+			}
+		],
+		cards: [
+			{
+				title: "Eva Plus",
+				description: "Através do programa Eva Plus, todos os clientes da Eva Saúde receberão serviços gratuitos em outras empresas do nosso grupo."
+			},
+			{
+				title: "Fundação Universo Acessível",
+				description: "Eva Seguros aposta por um mundo mais justo colaborando com a fundação Universo Acessível e seu projeto Universo Santi."
+			},
+			{
+				title: "Plant For The Planet",
+				description: "Na Eva trabalhamos por um mundo mais verde, por isso EVA, como empresa colaboradora da Plant For The Planet, plantará uma árvore para cada novo cliente."
+			}
+		]
+	},
 }
 
 export const BannerText = {
@@ -779,5 +1000,10 @@ export const BannerText = {
 		title: 'दंत चिकित्सा',
 		subtitle: 'मुफ्त मुंह की सफाई शामिल है।',
 		button_text: 'अब बुक करें'
+	},
+	pt: {
+		title: 'Consulta Dental',
+		subtitle: 'Inclui limpeza oral gratuita.',
+		button_text: 'Reservar Agora'
 	},
 }

@@ -33,4 +33,13 @@ export function getLogo(language, type= 'white') {
 		}
 	}
 
+	if (language === 'pt'){
+
+		if (type === 'white'){
+			return <EvaHindiWhite />
+		} else if (type === 'color'){
+			return <EvaHindiColor/>
+		}
+	}
+
 }

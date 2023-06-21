@@ -37,23 +37,23 @@
 }
 
 .facebook {
-	background: url('src/assets/icons/facebook.png') no-repeat;
+	background: url('../../../assets/icons/facebook.png') no-repeat;
 }
 
 .instagram {
-	background: url('src/assets/icons/instagram.png') no-repeat;
+	background: url('../../../assets/icons/instagram.png') no-repeat;
 }
 
 .twitter {
-	background: url('src/assets/icons/twitter.png') no-repeat;
+	background: url('../../../assets/icons/twitter.png') no-repeat;
 }
 
 .linkedin {
-	background: url('src/assets/icons/linkedin.png') no-repeat;
+	background: url('../../../assets/icons/linkedin.png') no-repeat;
 }
 
 .youtube {
-	background: url('src/assets/icons/youtube.png') no-repeat;
+	background: url('../../../assets/icons/youtube.png') no-repeat;
 }
 
 .footer_copyright {

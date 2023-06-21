@@ -1,0 +1,37 @@
+.especiality_item {
+	display: grid;
+	grid-template-columns: 1fr auto;
+	justify-content: space-between;
+	gap: 10px;
+  }
+  
+  .especiality_item:not(:last-child) {
+	margin-bottom: 10px;
+  }
+  
+  .especiality_item_left {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	grid-gap: 10px;
+  }
+
+  .checkbox {
+	background: #FFFFFF;
+	border: 1px solid #E0E6F7;
+	border-radius: 7px;
+	width: 24px;
+	height: 24px;
+  }
+
+  .count {
+	display: grid;
+	place-content: center;
+	width: 24px;
+	height: 28px;
+	background: #E0E6F7;
+	border-radius: 7px;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+	color: #3C65F5;
+  }

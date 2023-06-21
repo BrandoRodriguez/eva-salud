@@ -22,4 +22,4 @@ const Ubication = (props) => {
 	)
 }
 
-export default Ubication
+export default Ubication;
