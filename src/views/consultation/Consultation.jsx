@@ -12,6 +12,8 @@ import Filter from "@UI/Filter/Filter";
 import { Fragment } from "react";
 import Blog from "@UI/Blog/Blog";
 import Subscribe from "@UI/Subscribe/Subscribe";
+import FilterSection from "@components/pages/consultation/FilterSection/FilterSection";
+import Card1 from "@UI/Card1/Card1";
 
 const Consultation = () => {
 
@@ -156,29 +158,16 @@ const Consultation = () => {
           {
             showFilter && (
               <div className={styles.filter}>
-                <h3>Consultas Médicas </h3>
 
-                {
-                  consultas.map((consulta, index) => {
-
-                    return (
-                      <div key={index} className={styles.especiality_item}>
-                        <div className={styles.especiality_item_left}>
-                          <div className={styles.checkbox}></div>
-                          <span>{consulta}</span>
-                        </div>
-
-                        <div className={styles.count}>
-                          {Math.floor(Math.random() * (99 - 10 + 1)) + 10}
-                        </div>
-                      </div>
-                    )
-                  })
-                }
+                <FilterSection
+                  title={'Consultas Médicas'}
+                  items={consultas}
+                />
 
               </div>
             )
           }
+
           <div>
             <div className={styles.cards_container}>
 
@@ -186,8 +175,11 @@ const Consultation = () => {
 
                 cards.map((card, index) => {
                   return (
-                    <div key={index} className={styles.card}>
-                      <div className={styles.img_container}>
+                    <Fragment key={index}>
+
+                      <Card1>
+                        <h1>hpoal mundo</h1>
+                        {/* <div className={styles.img_container}>
                         <img src="" alt="" />
                       </div>
 
@@ -210,8 +202,11 @@ const Consultation = () => {
                           <Button>Ver Centros</Button>
                         </div>
 
-                      </div>
-                    </div>
+                      </div> */}
+                      </Card1>
+                    </Fragment>
+
+
                   )
                 })
               }

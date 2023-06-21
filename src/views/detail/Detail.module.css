@@ -376,14 +376,14 @@
   height: 444.54px; */
   overflow: hidden;
   flex-shrink: 0;
-  background-image: url(/public/1jpg@3x.png);
+  background-image: url(/1jpg@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
 }
 
 .jpg1 {
-  background-image: url(/public/2jpg@3x.png);
+  background-image: url(/2jpg@3x.png);
 }
 
 .divelementorContainer {

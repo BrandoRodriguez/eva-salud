@@ -1,9 +1,4 @@
 
-
-
-
-
-
 .selects_container {
   display: flex;
   gap: 20px;
@@ -71,6 +66,9 @@
 }
 
 .filter {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
   max-width: 252px;
   border-top: 1px solid #B4C0E0;
   padding: 25px 0;
@@ -84,59 +82,12 @@
   margin-bottom: 20px;
 }
 
-.checkbox {
-  background: #FFFFFF;
-  border: 1px solid #E0E6F7;
-  border-radius: 7px;
-  width: 24px;
-  height: 24px;
-}
-
-.especiality_item {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  justify-content: space-between;
-  gap: 10px;
-}
-
-.especiality_item:not(:last-child) {
-  margin-bottom: 10px;
-}
-
-.especiality_item_left {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  grid-gap: 10px;
-}
-
-.count {
-  display: grid;
-  place-content: center;
-  width: 24px;
-  height: 28px;
-  background: #E0E6F7;
-  border-radius: 7px;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 18px;
-  color: #3C65F5;
-}
-
 .cards_container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 15px;
   border-top: 1px solid #B4C0E0;
   padding: 25px 0;
-}
-
-.card {
-  /* max-width: 312px; */
-  min-width: 200px;
-  background: #F8FAFF;
-  border: 1px solid #E0E6F7;
-  border-radius: 8px;
-  padding: 9px;
 }
 
 .card_content .title {
