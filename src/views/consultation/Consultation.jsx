@@ -167,6 +167,7 @@ const Consultation = () => {
               </div>
             )
           }
+
           <div>
             <div className={styles.cards_container}>
 
@@ -174,8 +175,11 @@ const Consultation = () => {
 
                 cards.map((card, index) => {
                   return (
-                    <Card1 key={index}>
-                      <div className={styles.img_container}>
+                    <Fragment key={index}>
+
+                      <Card1>
+                        <h1>hpoal mundo</h1>
+                        {/* <div className={styles.img_container}>
                         <img src="" alt="" />
                       </div>
 
@@ -198,8 +202,9 @@ const Consultation = () => {
                           <Button>Ver Centros</Button>
                         </div>
 
-                      </div>
-                    </Card1>
+                      </div> */}
+                      </Card1>
+                    </Fragment>
 
 
                   )

@@ -10,10 +10,14 @@ import {
   WhatsappColor,
 } from "../../components";
 import { Layout } from "../../layouts/Layout";
+import PanelSection from "./PanelSection/PanelSection";
 
 const Detail = () => {
   return (
     <div className={`${styles.detail} container`}>
+
+      <PanelSection />
+      
       <div className={styles.content}>
         <div className={styles.div}>
           <div className={styles.head}>
