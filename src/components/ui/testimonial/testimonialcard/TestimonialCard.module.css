@@ -82,4 +82,17 @@
     .card:nth-child(3) {
         margin-left: 25px;
     }
+
+    /* styles arabe; */
+    .card:nth-child(1) {
+        margin-right: 45px;
+    }
+
+    .card:nth-child(2) {
+        margin-right: 90px;
+    }
+
+    .card:nth-child(3) {
+        margin-right: 25px;
+    }
 }

@@ -131,12 +131,6 @@
 
 @media (min-width: 1024px) {
 
-
-
-    /* .hire_message img {
-        border-radius: 36px;
-    } */
-
     .content {
         top: 0;
         left: 0;
@@ -144,6 +138,9 @@
         margin-left: 4%;
         max-width: 590px;
         text-align: left;
+
+        /* styles arabe; */
+        text-align: right;
     }
 
     .title {

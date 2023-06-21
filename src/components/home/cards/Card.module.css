@@ -90,6 +90,10 @@
   justify-content: center;
   position: relative;
   padding-left: 70px;
+  align-items: start;
+
+  /* styles arabe; */
+  align-items: end;
 }
 
 
@@ -152,6 +156,8 @@
   position: relative;
   align-items: end;
   padding-right: 70px;
+  /* styles arabe; */
+  align-items: start;
 }
 
 .cardbannerinformative h2 {
