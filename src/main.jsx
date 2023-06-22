@@ -6,7 +6,7 @@ import { LanguageProvider } from "@context/LanguageContext/LanguageProvider.jsx"
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <LanguageProvider initialLanguage="es">
+    <LanguageProvider initialLanguage="ar">
       <App />
     </LanguageProvider>
   </React.StrictMode>

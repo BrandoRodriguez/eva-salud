@@ -1,3 +1,21 @@
+export const HeroSeo = {
+	es: {
+		title: '{company} | Consultas y citas médicas, todo en un solo lugar'
+	},
+	en: {
+		title: '{company} | Medical inquiries and appointments, all in one place'
+	},
+	hi: {
+		title: '{company} | चिकित्सा परामर्श और नियामक, सब एक ही स्थान पर'
+	},
+	pt: {
+		title: '{company} | Consultas e compromissos médicos, tudo em um só lugar'
+	},
+	ar: {
+		title: '{company} | استفسارات طبية ومواعيد ، كل ذلك في مكان واحد'
+	}
+}
+
 export const HeroText = {
 	es: {
 		title: '¡MUERDE LA MANZANA!',
@@ -279,6 +297,76 @@ export const HeroText = {
 			},
 		]
 	},
+	ar: {
+		title: 'اعض حبة التفاح!',
+		subtitle: 'اشترك في إيفا الصحة',
+		subscribe_button: 'اشتراك',
+		price_title: 'التكلفة',
+		card_button: 'عرض المراكز',
+		description: 'دعنا نحمي صحة أولئك الذين تحبهم الأكثر مع أكثر المنتجات الابتكارية في السوق.',
+		search: {
+			input_placeholder: 'ما الذي تبحث عنه؟',
+			location: {
+				title: 'الموقع',
+				cities: ['غوثام، الولايات المتحدة الأمريكية']
+			},
+			specialty: {
+				title: 'التخصصات',
+				specialties: ['استشارة الجلدية..']
+
+			},
+			button_text: 'بحث'
+		},
+		categories: ['الطب العام', 'الأمراض الجلدية', 'طب النساء والتوليد', 'طب العيون', 'التمريض'],
+		card_title: 'استشارات إيفا الصحية المجانية',
+		cards: [
+			{
+				specialty: "استشارة طب النساء والتوليد",
+				category: "طب النساء والتوليد",
+				image: "/images/products/Ginecología.webp",
+			},
+			{
+				specialty: "استشارة الطب العام",
+				category: "الطب العام",
+				image: "/images/products/MedicinaGeneral.webp",
+			},
+			{
+				specialty: "استشارة طب الأطفال",
+				category: "طب الأطفال",
+				image: "/images/products/Pediatría.webp",
+			},
+			{
+				specialty: "استشارة الأمراض الجلدية",
+				category: "الأمراض الجلدية",
+				image: "/images/products/Dermatología.webp",
+			},
+			{
+				specialty: "استشارة الطب العظمي",
+				category: "الطب العظمي",
+				image: "/images/products/Traumatología.webp",
+			},
+			{
+				specialty: "استشارة طب العيون",
+				category: "طب العيون",
+				image: "/images/products/Oftalmólogía.webp",
+			},
+			{
+				specialty: "استشارة التمريض",
+				category: "التمريض",
+				image: "/images/products/Enfermería.webp",
+			},
+			{
+				specialty: "استشارة الطب النفسي",
+				category: "الطب النفسي",
+				image: "/images/products/Psicología.webp",
+			},
+			{
+				specialty: "استشارة الجراحة",
+				category: "الجراحة",
+				image: "/images/products/Geriatría.webp",
+			},
+		]
+	},
 }
 
 export const HeaderSectionText = {
@@ -325,6 +413,17 @@ export const HeaderSectionText = {
 			description: "“O seu bem-estar nos move, Encontre a especialidade adequada para uma vida plena”"
 		},
 		button_text: "Ver Todas as Especialidades"
+	},
+	ar: {
+		products: {
+			title: 'الاستشارات الطبية الأكثر شعبية.',
+			description: "راحتك تهمنا، ابحث عن التخصص المناسب لحياة متكاملة"
+		},
+		about: {
+			title: "الفوائد لحياة أسهل عند الانضمام إلى إيفا للصحة",
+			description: "راحتك تهمنا، ابحث عن التخصص المناسب لحياة متكاملة"
+		},
+		button_text: "عرض جميع التخصصات"
 	},
 }
 
@@ -397,6 +496,23 @@ export const ProductsText = {
 			image: "/images/specialty/MedicinaGeneral_.webp",
 		},
 	],
+	ar: [
+		{
+			specialty: "استشارة طب النساء والتوليد",
+			category: "طب النساء والتوليد",
+			image: "/images/specialty/Ginecología_.webp",
+		},
+		{
+			specialty: "استشارة طب الأطفال",
+			category: "طب الأطفال",
+			image: "/images/specialty/Pediatría.webp",
+		},
+		{
+			specialty: "استشارة الطب العام",
+			category: "الطب العام",
+			image: "/images/specialty/MedicinaGeneral_.webp",
+		},
+	],
 }
 
 export const ProductsOnlineText = {
@@ -452,6 +568,10 @@ export const CardProductText = {
 	pt: {
 		concept: 'consulta',
 		button_text: 'Ver Centros'
+	},
+	ar: {
+		concept: 'استشارة',
+		button_text: 'عرض المراكز'
 	},
 }
 
@@ -521,6 +641,23 @@ export const AboutText = {
 		{
 			title: "Se sua família está crescendo",
 			description: "Nós ajudamos a protegê-los",
+			image: "/images/about/1.png",
+		},
+	],
+	ar: [
+		{
+			title: "إذا كان لديك مشكلة طبية",
+			description: "نقدم لك المساعدة فوراً",
+			image: "/images/about/1.png",
+		},
+		{
+			title: "إذا كنت تشعر بالراحة",
+			description: "سوف نجعلك تشعر أفضل",
+			image: "/images/about/2.png",
+		},
+		{
+			title: "إذا كانت عائلتك تكبر",
+			description: "نحن هنا لمساعدتك في حمايتهم",
 			image: "/images/about/1.png",
 		},
 	],
@@ -614,6 +751,28 @@ export const AplicationText = {
 
 		]
 	},
+	ar: {
+		title: 'تحكم في راحتك مع /*تطبيق إيفا الصحة*/',
+		qr_title: 'امسح الرمز وابدأ في استخدامه.',
+		feature: [
+			{
+				title: 'استشارات طبية بالفيديو بدون تكلفة',
+				description: 'تواصل مع العيادة الدولية الرقمية واطلبها للطب العام والطب البيطري وفقًا لخطتك.',
+				button_text: 'احجز موعدك'
+			},
+			{
+				title: 'فحوصات وقائية بدون تكلفة',
+				description: 'احصل على فحص وقائي سنوي بدون تكلفة وابق على صحتك تحت السيطرة.',
+				button_text: 'تعرف على الطريقة'
+			},
+			{
+				title: 'الطبيب في المنزل',
+				description: 'تلقى الرعاية الطبية في المنزل وادفع فقط الرسوم الاستشارية (مدريد المتروبوليتان وبرشلونة).',
+				button_text: 'احجز موعدك'
+			},
+
+		]
+	},
 }
 
 export const DetailsText = {
@@ -695,6 +854,21 @@ export const CallActionText = {
 		buttons: [
 			{
 				text: "Agendar Consulta",
+				url: "#"
+			}
+		],
+		contact_phone: "(01) 411-6001"
+	},
+	ar: {
+		title: "إدارة مواعيد الطبيب بدون تعقيد: فقط اهتم بحضور الموعد الطبي",
+		description: "دعنا نتعامل مع جميع التفاصيل حتى تتمكن من الاستمتاع برعايتك الطبية بشكل كامل. فريق المستشارين في إيفا الصحة متاح لخدمتك، يتولى تنظيم موعدك المسبق ويضمن أنك فقط تحتاج للقلق حول صحتك.",
+		schedule: [
+			"من الاثنين إلى الجمعة: 9 صباحاً - 21 مساءً",
+			"السبت والأحد: 9 صباحاً - 5 مساءً"
+		],
+		buttons: [
+			{
+				text: "حجز موعد",
 				url: "#"
 			}
 		],
@@ -791,6 +965,28 @@ export const TestimonialText = {
 			}
 		]
 	},
+	ar: {
+		subtitle: 'رأي عملائنا مهم جدا',
+		title: 'ما يقوله عملاؤنا عنا',
+		description: 'الحسابات الواضحة تؤدي إلى علاقات طويلة. من الضروري أن يكون لديك الوضوح والمعرفة. ليس فقط لعملية الاقتباس ولكن لكي تكون واثقًا أنك تحصل بالضبط على ما اخترت.',
+		cards: [
+			{
+				name: 'Antonio García Arguedas',
+				city: 'Girona',
+				description: '"أنا معتاد على تجديد تأميناتي تلقائيًا وبدون مقارنة، لا شك أنني أهدرت الكثير من المال"'
+			},
+			{
+				name: 'Lucía Sánchez',
+				city: 'Madrid',
+				description: '"كنت أبحث عن تأمين رخيص وشامل بقدر الإمكان لسيارتي، وجدته في compara tu póliza"'
+			},
+			{
+				name: 'Fernando Rubio',
+				city: 'Salamanca',
+				description: '"أخيراً موقع يتيح لي مقارنة العديد من التأمينات الزراعية. الخيارات المتاحة لا تعد ولا تحصى"'
+			}
+		]
+	},
 }
 
 export const BannerInformativeText = {
@@ -814,6 +1010,11 @@ export const BannerInformativeText = {
 		description: "Obtenha um incrível desconto de até 40% sobre o preço de venda ao público (PVP) em especialidades médicas, testes de diagnóstico e intervenções não gratuitas! Além disso, oferecemos um financiamento de até 36 meses. Não perca esta incrível oportunidade e tenha acesso aos melhores serviços de saúde com grandes benefícios econômicos!.",
 		button_text: 'Ver Especialidades'
 	},
+	ar: {
+		title: "اكتشف تخصصاتنا غير المدرجة!",
+		description: "احصل على خصم مدهش يصل إلى 40% على سعر البيع للجمهور (PVP) في التخصصات الطبية، والاختبارات التشخيصية والتدخلات غير المجانية! بالإضافة إلى ذلك، نقدم لك تمويل يصل إلى 36 شهرًا. لا تفوت هذه الفرصة الرائعة واحصل على أفضل الخدمات الصحية مع فوائد اقتصادية كبيرة!",
+		button_text: 'عرض التخصصات'
+	},
 }
 
 export const HireMessageText = {
@@ -836,6 +1037,11 @@ export const HireMessageText = {
 		title1: 'Ao se inscrever na Eva Saúde',
 		title2: 'você pode obter /*2 LINHAS MÓVEL*/ COM CHAMADAS ILIMITADAS + 20 GB',
 		button: 'Mais informações'
+	},
+	ar: {
+		title1: 'عند الاشتراك في Eva Salud',
+		title2: 'يمكنك الحصول على /*2 خطوط موبايل*/ مع مكالمات غير محدودة + 20 جيجابايت',
+		button: 'مزيد من المعلومات'
 	},
 }
 
@@ -886,6 +1092,18 @@ export const HireMessageModalText = {
 		description2: [
 			'Estamos comprometidos em oferecer a melhor experiência de comunicação sem limites.',
 			'Junte-se a nós e descubra um mundo de possibilidades!'
+		]
+	},
+	ar: {
+		title: 'خطوط موبايل مجانية',
+		description1: [
+			'عند الاشتراك في Eva Salud، يمكنك الحصول على ما يصل إلى 2 خطوط موبايل مجانية تمامًا، تشمل هذه الخطوط مكالمات غير محدودة و 20 جيجابايت من البيانات المتنقلة في كل خط حتى تتمكن من البقاء متصلاً في كل الأوقات.',
+
+			'ولكن هذا ليس كل شيء، نقدم لك أيضًا التجوال المجاني في الاتحاد الأوروبي حتى تتمكن من الاستمتاع بخدماتك حتى عند السفر.'
+		],
+		description2: [
+			'نحن ملتزمون بتقديم أفضل تجربة اتصال بلا حدود لك.',
+			'انضم إلينا واكتشف عالمًا من الإمكانيات!'
 		]
 	},
 }
@@ -983,6 +1201,117 @@ export const FundationText = {
 			}
 		]
 	},
+	ar: {
+		title: "خلق الاتصال البشري من خلال الخبرة الرقمية",
+		description: "“لا يمكننا التنبؤ بالمستقبل، ولكن يمكننا المساعدة في بنائه”",
+		buttons: [
+			{
+				text: "عرض المشاريع الخيرية",
+			}
+		],
+		cards: [
+			{
+				title: "Eva Plus",
+				description: "من خلال برنامج Eva Plus، سيحصل جميع عملاء Eva Salud على خدمات مجانية في الشركات الأخرى المنتمية لمجموعتنا."
+			},
+			{
+				title: "Fundación Universo Accesible",
+				description: "تعمل Eva Seguros على تحقيق عالم أكثر عدالة من خلال التعاون مع Fundación Universo Accesible ومشروعها Universo Santi."
+			},
+			{
+				title: "Plant For The Planet",
+				description: "في Eva، نعمل من أجل عالم أكثر خضرة، ولهذا السبب Eva، كشركة متعاونة مع Plant For The Planet، ستزرع شجرة لكل عميل جديد."
+			}
+		]
+	},
+}
+
+export const FundationModalText = {
+	es: [
+		{
+			title: 'UNIVERSO SANTI',
+			description: "La finalidad del restaurante Universo Santi es la de contribuir a la mejora de la calidad y de las condiciones de vida de las personas con discapacidad, para su plena vida autónoma e independiente, respetando el legado culinario del gran chef Santi Santamaría. Y lo hacemos en un lugar emblemático en Jerez de la Frontera: El Altillo.",
+			button_text: 'Ver más'
+		},
+		{
+			title: 'REFORESTANDO ANDALUCÍA',
+			description: 'Junto con nuestros socios queremos recuperar los bosques perdidos en los alrededores de Granada y Doñana. Nuestro objetivo es plantar un total de 1 Millón árboles hasta 2030.',
+			button_text: 'Ver más',
+			options: [
+				"Reforestación Doñana, incendio 2017",
+				"Creación Anillo Verde Granada / Restauración cerro",
+				"Contra “la seca” en Alcalá de los Gazules",
+			]
+		}
+	],
+	en: [
+		{
+			title: 'UNIVERSO SANTI',
+			description: "The purpose of the Universo Santi restaurant is to contribute to the improvement of the quality and conditions of life of people with disabilities, for their full autonomous and independent life, respecting the culinary legacy of the great chef Santi Santamaría. And we do it in an emblematic place in Jerez de la Frontera: El Altillo.",
+			button_text: 'See more'
+		},
+		{
+			title: 'REFORESTING ANDALUCÍA',
+			description: 'Together with our partners, we want to recover the lost forests around Granada and Doñana. Our goal is to plant a total of 1 Million trees by 2030.',
+			button_text: 'See more',
+			options: [
+				"Reforestation Doñana, fire 2017",
+				"Creation of Green Ring Granada / Hill restoration",
+				"Against “the drought” in Alcalá de los Gazules",
+			]
+		}
+	],
+	hi: [
+		{
+			title: 'UNIVERSO SANTI',
+			description: "यूनिवर्सो सांति रेस्टोरेंट का उद्देश्य विकलांग व्यक्तियों के जीवन की गुणवत्ता और स्थितियों में सुधार करने में योगदान देना है, ताकि उनका पूर्ण स्वतंत्र और स्वतंत्र जीवन हो, महान शेफ सांति संतामरिया की खाद्य धरोहर का सम्मान करते हुए। और हम यह जेरेज दे ला फ्रोंटेरा में एक प्रतीकात्मक स्थान पर करते हैं: एल अल्टिल्लो।",
+			button_text: 'और देखें'
+		},
+		{
+			title: 'ANDALUCÍA का पुनर्वाण',
+			description: 'हमारे साझेदारों के साथ, हम ग्रेनादा और दोनाना के चारों ओर खोए गए वनों को वापस प्राप्त करना चाहते हैं। हमारा लक्ष्य 2030 तक कुल 1 मिलियन पेड़ लगाना है।',
+			button_text: 'और देखें',
+			options: [
+				"Doñana पुनर्वाण, आग 2017",
+				"Granada के हरे रिंग का निर्माण / पहाड़ी की बहाली",
+				"Alcalá de los Gazules में “सूखे” के खिलाफ",
+			]
+		}
+	],
+	pt: [
+		{
+			title: 'UNIVERSO SANTI',
+			description: "O objetivo do restaurante Universo Santi é contribuir para a melhoria da qualidade e condições de vida das pessoas com deficiência, para uma vida autônoma e independente, respeitando o legado culinário do grande chef Santi Santamaría. E fazemos isso em um local emblemático em Jerez de la Frontera: El Altillo.",
+			button_text: 'Ver mais'
+		},
+		{
+			title: 'REFLORESTANDO ANDALUCÍA',
+			description: 'Juntamente com nossos parceiros, queremos recuperar as florestas perdidas ao redor de Granada e Doñana. Nosso objetivo é plantar um total de 1 milhão de árvores até 2030.',
+			button_text: 'Ver mais',
+			options: [
+				"Reflorestamento Doñana, incêndio 2017",
+				"Criação de Anel Verde Granada / Restauração de cerro",
+				"Contra “a seca” em Alcalá de los Gazules",
+			]
+		}
+	],
+	ar: [
+		{
+			title: 'UNIVERSO SANTI',
+			description: "الهدف من مطعم Universo Santi هو المساهمة في تحسين جودة حياة الأشخاص ذوي الإعاقة وظروفها، من أجل حياة مستقلة ومستقلة بالكامل، مع احترام التراث الطهي للشيف العظيم Santi Santamaría. ونقوم بذلك في مكان بارز في Jerez de la Frontera: El Altillo.",
+			button_text: 'المزيد'
+		},
+		{
+			title: 'إعادة تشجير ANDALUCÍA',
+			description: 'بالشراكة مع شركائنا، نرغب في استعادة الغابات المفقودة حول Granada و Doñana. هدفنا هو زراعة ما مجموعه 1 مليون شجرة بحلول 2030.',
+			button_text: 'المزيد',
+			options: [
+				"إعادة تشجير Doñana، حريق 2017",
+				"إنشاء حلقة خضراء Granada / استعادة التل",
+				"ضد “الجفاف” في Alcalá de los Gazules",
+			]
+		}
+	]
 }
 
 export const BannerText = {
@@ -1005,5 +1334,10 @@ export const BannerText = {
 		title: 'Consulta Dental',
 		subtitle: 'Inclui limpeza oral gratuita.',
 		button_text: 'Reservar Agora'
+	},
+	ar: {
+		title: 'الاستشارة الطبية الفموية',
+		subtitle: 'تشمل تنظيف الفم مجانًا.',
+		button_text: 'احجز الآن'
 	},
 }
