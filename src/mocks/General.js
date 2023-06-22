@@ -429,3 +429,21 @@ export const AtencionTelefonicaText = {
 		title: 'مستشار Evasvaasth'
 	},
 }
+
+export const ModalStyle2Text = {
+	es: {
+		close_button: 'Cerrar'
+	},
+	en: {
+		close_button: 'Close'
+	},
+	hi: {
+		close_button: 'बंद करें'
+	},
+	pt: {
+		close_button: 'Fechar'
+	},
+	ar: {
+		close_button: 'إغلاق'
+	}
+}

@@ -8,18 +8,18 @@ import Hoja from "@components/icons/Hoja";
 import { Title45 } from "@UI/Tags/Titles";
 import Button from "@UI/ButtonDecesos/Button";
 import ModalStyle2 from "@UI/ModalStyle2/ModalStyle2";
+import { useLanguage } from "@context/LanguageContext/useLanguage";
+import { FundationModalText } from "@mocks/Pages/Home";
 
 const FundationModal = ({ closeModal }) => {
-  const options = [
-    "Reforestación Doñana, incendio 2017",
-    "Creación Anillo Verde Granada / Restauración cerro",
-    "Contra “la seca” en Alcalá de los Gazules",
-  ];
 
   const url = {
     'universo_santi': 'https://universosanti.com/',
     'reforesando_andalucia': 'https://www.plant-for-the-planet.org/es/andalucia/'
   }
+
+  const {language} = useLanguage()
+  const content = FundationModalText[language]
 
   useEffect(() => {
 
@@ -39,7 +39,7 @@ const FundationModal = ({ closeModal }) => {
             <div className={styles.company}>
               <img src={universo_santi} alt="" />
               <div>
-                <Title45 style={{ marginBottom: '7px' }}>UNIVERSO SANTI</Title45>
+                <Title45 style={{ marginBottom: '7px' }}>{content[0].title}</Title45>
                 <a
                   className={styles.link}
                   href={url['universo_santi']}
@@ -51,19 +51,14 @@ const FundationModal = ({ closeModal }) => {
               </div>
             </div>
             <p className={styles.description}>
-              La finalidad del restaurante Universo Santi es la de contribuir a
-              la mejora de la calidad y de las condiciones de vida de las
-              personas con discapacidad, para su plena vida autónoma e
-              independiente, respetando el legado culinario del gran chef Santi
-              Santamaría. Y lo hacemos en un lugar emblemático en Jerez de la
-              Frontera: El Altillo.
+              {content[0].description}
             </p>
             <a
               href={url['universo_santi']}
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button>Ver más</Button>
+              <Button>{content[0].button_text}</Button>
             </a>
           </div>
         </div>
@@ -76,7 +71,7 @@ const FundationModal = ({ closeModal }) => {
             <div className={styles.company}>
               <img src={reforestando_andalucia} alt="" />
               <div>
-                <Title45 style={{ marginBottom: '7px' }}>REFORESTANDO ANDALUCÍA</Title45>
+                <Title45 style={{ marginBottom: '7px' }}>{content[1].title}</Title45>
                 <a
                   className={styles.link}
                   href={url['reforesando_andalucia']}
@@ -88,12 +83,10 @@ const FundationModal = ({ closeModal }) => {
               </div>
             </div>
             <p className={styles.description}>
-              Junto con nuestros socios queremos recuperar los bosques perdidos
-              en los alrededores de Granada y Doñana. Nuestro objetivo es
-              plantar un total de 1 Millón árboles hasta 2030.
+            {content[1].description}
             </p>
             <div>
-              {options.map((option, i) => {
+              {content[1].options.map((option, i) => {
                 return (
                   <div key={i} className={styles.option}>
                     <Hoja />
@@ -107,7 +100,7 @@ const FundationModal = ({ closeModal }) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button>Ver más</Button>
+              <Button>{content[1].button_text}</Button>
             </a>
           </div>
 

@@ -1226,6 +1226,94 @@ export const FundationText = {
 	},
 }
 
+export const FundationModalText = {
+	es: [
+		{
+			title: 'UNIVERSO SANTI',
+			description: "La finalidad del restaurante Universo Santi es la de contribuir a la mejora de la calidad y de las condiciones de vida de las personas con discapacidad, para su plena vida autónoma e independiente, respetando el legado culinario del gran chef Santi Santamaría. Y lo hacemos en un lugar emblemático en Jerez de la Frontera: El Altillo.",
+			button_text: 'Ver más'
+		},
+		{
+			title: 'REFORESTANDO ANDALUCÍA',
+			description: 'Junto con nuestros socios queremos recuperar los bosques perdidos en los alrededores de Granada y Doñana. Nuestro objetivo es plantar un total de 1 Millón árboles hasta 2030.',
+			button_text: 'Ver más',
+			options: [
+				"Reforestación Doñana, incendio 2017",
+				"Creación Anillo Verde Granada / Restauración cerro",
+				"Contra “la seca” en Alcalá de los Gazules",
+			]
+		}
+	],
+	en: [
+		{
+			title: 'UNIVERSO SANTI',
+			description: "The purpose of the Universo Santi restaurant is to contribute to the improvement of the quality and conditions of life of people with disabilities, for their full autonomous and independent life, respecting the culinary legacy of the great chef Santi Santamaría. And we do it in an emblematic place in Jerez de la Frontera: El Altillo.",
+			button_text: 'See more'
+		},
+		{
+			title: 'REFORESTING ANDALUCÍA',
+			description: 'Together with our partners, we want to recover the lost forests around Granada and Doñana. Our goal is to plant a total of 1 Million trees by 2030.',
+			button_text: 'See more',
+			options: [
+				"Reforestation Doñana, fire 2017",
+				"Creation of Green Ring Granada / Hill restoration",
+				"Against “the drought” in Alcalá de los Gazules",
+			]
+		}
+	],
+	hi: [
+		{
+			title: 'UNIVERSO SANTI',
+			description: "यूनिवर्सो सांति रेस्टोरेंट का उद्देश्य विकलांग व्यक्तियों के जीवन की गुणवत्ता और स्थितियों में सुधार करने में योगदान देना है, ताकि उनका पूर्ण स्वतंत्र और स्वतंत्र जीवन हो, महान शेफ सांति संतामरिया की खाद्य धरोहर का सम्मान करते हुए। और हम यह जेरेज दे ला फ्रोंटेरा में एक प्रतीकात्मक स्थान पर करते हैं: एल अल्टिल्लो।",
+			button_text: 'और देखें'
+		},
+		{
+			title: 'ANDALUCÍA का पुनर्वाण',
+			description: 'हमारे साझेदारों के साथ, हम ग्रेनादा और दोनाना के चारों ओर खोए गए वनों को वापस प्राप्त करना चाहते हैं। हमारा लक्ष्य 2030 तक कुल 1 मिलियन पेड़ लगाना है।',
+			button_text: 'और देखें',
+			options: [
+				"Doñana पुनर्वाण, आग 2017",
+				"Granada के हरे रिंग का निर्माण / पहाड़ी की बहाली",
+				"Alcalá de los Gazules में “सूखे” के खिलाफ",
+			]
+		}
+	],
+	pt: [
+		{
+			title: 'UNIVERSO SANTI',
+			description: "O objetivo do restaurante Universo Santi é contribuir para a melhoria da qualidade e condições de vida das pessoas com deficiência, para uma vida autônoma e independente, respeitando o legado culinário do grande chef Santi Santamaría. E fazemos isso em um local emblemático em Jerez de la Frontera: El Altillo.",
+			button_text: 'Ver mais'
+		},
+		{
+			title: 'REFLORESTANDO ANDALUCÍA',
+			description: 'Juntamente com nossos parceiros, queremos recuperar as florestas perdidas ao redor de Granada e Doñana. Nosso objetivo é plantar um total de 1 milhão de árvores até 2030.',
+			button_text: 'Ver mais',
+			options: [
+				"Reflorestamento Doñana, incêndio 2017",
+				"Criação de Anel Verde Granada / Restauração de cerro",
+				"Contra “a seca” em Alcalá de los Gazules",
+			]
+		}
+	],
+	ar: [
+		{
+			title: 'UNIVERSO SANTI',
+			description: "الهدف من مطعم Universo Santi هو المساهمة في تحسين جودة حياة الأشخاص ذوي الإعاقة وظروفها، من أجل حياة مستقلة ومستقلة بالكامل، مع احترام التراث الطهي للشيف العظيم Santi Santamaría. ونقوم بذلك في مكان بارز في Jerez de la Frontera: El Altillo.",
+			button_text: 'المزيد'
+		},
+		{
+			title: 'إعادة تشجير ANDALUCÍA',
+			description: 'بالشراكة مع شركائنا، نرغب في استعادة الغابات المفقودة حول Granada و Doñana. هدفنا هو زراعة ما مجموعه 1 مليون شجرة بحلول 2030.',
+			button_text: 'المزيد',
+			options: [
+				"إعادة تشجير Doñana، حريق 2017",
+				"إنشاء حلقة خضراء Granada / استعادة التل",
+				"ضد “الجفاف” في Alcalá de los Gazules",
+			]
+		}
+	]
+}
+
 export const BannerText = {
 	es: {
 		title: 'Consulta Dental',
