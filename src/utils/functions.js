@@ -26,7 +26,7 @@ export function getLanguage(language = 'es') {
 		domainIndex = 1
 		language = 'es'
 	}
-	else if (domain.includes('evahealth.com')) {
+	else if (domain.includes('evacard.com')) {
 		url = '/euskera/get_euskera_document'
 		domainIndex = 2
 		language = 'en'
