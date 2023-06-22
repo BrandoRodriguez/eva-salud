@@ -20,6 +20,11 @@ export const NavBarText = {
 		login_button: 'Entrar',
 		register_button: 'Registrar-se'
 	},
+	ar: {
+		items: ['الصفحة الرئيسية', 'التخصصات', 'المراكز المتميزة', 'خدمة العملاء'],
+		login_button: 'تسجيل الدخول',
+		register_button: 'تسجيل'
+	},
 }
 
 export const FooterText = {
@@ -138,6 +143,35 @@ export const FooterText = {
 			'Termos e Condições',
 		],
 		copyright: '©Evasaude.com 2023. Todos os direitos reservados.'
+	},
+	ar: {
+		description: 'لنحمي ما هو الأكثر أهمية لتحقيق الراحة في حياتنا: صحتك وصحة أحبائك.',
+		social_title: 'تابعونا على شبكاتنا الاجتماعية:',
+		services: [
+			'الرفاهية والجمال', 'الجراحات', 'الاستشارات الطبية', 'طب الأسنان', 'مدرج في Eva Salud', 'الفحوصات الطبية', 'العلاجات والعلاجات'
+		],
+		app_section: {
+			title: 'تحميل التطبيق',
+			description: 'قم بتنزيل تطبيقاتنا واحصل على خصم 15٪.'
+		},
+		newsletter: {
+			title: 'اشترك في نشرتنا الإخبارية',
+			description: 'كن أول من يعرف عن الخصومات، العروض والأحداث الأسبوعية في صندوق الوارد الخاص بك.',
+			input_placeholder: 'أدخل بريدك الإلكتروني',
+			button_text: 'اشترك'
+		},
+		menu: [
+			'معلومات عنا',
+			'التخصصات',
+			'مدونة',
+			'الصحافة',
+			'الأسئلة المتكررة',
+			'العمل معنا',
+			'اتصل بنا',
+			'سياسة الخصوصية',
+			'الأحكام والشروط',
+		],
+		copyright: '©Evasalud.com 2023. كل الحقوق محفوظة.'
 	},
 }
 
@@ -318,6 +352,41 @@ export const OldFooterText = {
 		},
 		copyright: 'EvaSaude.com 2023. Todos os direitos reservados.'
 	},
+	ar: {
+		social_title: 'تجربة الهدوء من توفر أفضل الأطباء.',
+		social_description: 'تابعنا على شبكاتنا الاجتماعية',
+		section1: {
+			title: 'معلومات عنا',
+			options: [
+				{ title: 'الرؤية والرسالة', href: '' },
+				{ title: 'فريقنا', href: '' },
+			]
+		},
+		section2: {
+			title: 'مزيد من المعلومات',
+			options: [
+				{ title: 'تعرف على Eva', href: '' },
+				{ title: 'Plant-for-the-Planet', href: '' },
+				{ title: 'Universo Accesible', href: '' },
+				{ title: 'Universo Santi', href: '' },
+			]
+		},
+		section3: {
+			title: 'نحن نقدم',
+			options: [
+				{ title: 'تأمين الصحة', href: '' },
+			]
+		},
+		section4: {
+			title: 'قانوني',
+			options: [
+				{ title: 'إشعار قانوني', href: '' },
+				{ title: 'سياسة الخصوصية', href: '' },
+				{ title: 'سياسة الكوكيز', href: '' },
+			]
+		},
+		copyright: 'EvaSalud.com 2023. كل الحقوق محفوظة.'
+	},
 }
 
 export const PrincipalLoaderText = {
@@ -337,6 +406,10 @@ export const PrincipalLoaderText = {
 		title: 'Conte com o melhor quadro médico através da Eva Saúde',
 		description: 'EvaSaude.com 2023. Todos os direitos reservados.'
 	},
+	ar: {
+		title: 'توفر لك Eva Salud أفضل الأطباء',
+		description: 'EvaSalud.com 2023. كل الحقوق محفوظة.'
+	},
 }
 
 export const AtencionTelefonicaText = {
@@ -351,5 +424,8 @@ export const AtencionTelefonicaText = {
 	},
 	pt: {
 		title: 'Consultor de Eva Saúde'
+	},
+	ar: {
+		title: 'مستشار Eva Salud'
 	},
 }

@@ -279,6 +279,76 @@ export const HeroText = {
 			},
 		]
 	},
+	ar: {
+		title: 'اعض حبة التفاح!',
+		subtitle: 'اشترك في إيفا الصحة',
+		subscribe_button: 'اشتراك',
+		price_title: 'التكلفة',
+		card_button: 'عرض المراكز',
+		description: 'دعنا نحمي صحة أولئك الذين تحبهم الأكثر مع أكثر المنتجات الابتكارية في السوق.',
+		search: {
+			input_placeholder: 'ما الذي تبحث عنه؟',
+			location: {
+				title: 'الموقع',
+				cities: ['غوثام، الولايات المتحدة الأمريكية']
+			},
+			specialty: {
+				title: 'التخصصات',
+				specialties: ['استشارة الجلدية..']
+
+			},
+			button_text: 'بحث'
+		},
+		categories: ['الطب العام', 'الأمراض الجلدية', 'طب النساء والتوليد', 'طب العيون', 'التمريض'],
+		card_title: 'استشارات إيفا الصحية المجانية',
+		cards: [
+			{
+				specialty: "استشارة طب النساء والتوليد",
+				category: "طب النساء والتوليد",
+				image: "/images/products/Ginecología.webp",
+			},
+			{
+				specialty: "استشارة الطب العام",
+				category: "الطب العام",
+				image: "/images/products/MedicinaGeneral.webp",
+			},
+			{
+				specialty: "استشارة طب الأطفال",
+				category: "طب الأطفال",
+				image: "/images/products/Pediatría.webp",
+			},
+			{
+				specialty: "استشارة الأمراض الجلدية",
+				category: "الأمراض الجلدية",
+				image: "/images/products/Dermatología.webp",
+			},
+			{
+				specialty: "استشارة الطب العظمي",
+				category: "الطب العظمي",
+				image: "/images/products/Traumatología.webp",
+			},
+			{
+				specialty: "استشارة طب العيون",
+				category: "طب العيون",
+				image: "/images/products/Oftalmólogía.webp",
+			},
+			{
+				specialty: "استشارة التمريض",
+				category: "التمريض",
+				image: "/images/products/Enfermería.webp",
+			},
+			{
+				specialty: "استشارة الطب النفسي",
+				category: "الطب النفسي",
+				image: "/images/products/Psicología.webp",
+			},
+			{
+				specialty: "استشارة الجراحة",
+				category: "الجراحة",
+				image: "/images/products/Geriatría.webp",
+			},
+		]
+	},
 }
 
 export const HeaderSectionText = {
@@ -325,6 +395,17 @@ export const HeaderSectionText = {
 			description: "“O seu bem-estar nos move, Encontre a especialidade adequada para uma vida plena”"
 		},
 		button_text: "Ver Todas as Especialidades"
+	},
+	ar: {
+		products: {
+			title: 'الاستشارات الطبية الأكثر شعبية.',
+			description: "راحتك تهمنا، ابحث عن التخصص المناسب لحياة متكاملة"
+		},
+		about: {
+			title: "الفوائد لحياة أسهل عند الانضمام إلى إيفا للصحة",
+			description: "راحتك تهمنا، ابحث عن التخصص المناسب لحياة متكاملة"
+		},
+		button_text: "عرض جميع التخصصات"
 	},
 }
 
@@ -397,6 +478,23 @@ export const ProductsText = {
 			image: "/images/specialty/MedicinaGeneral_.webp",
 		},
 	],
+	ar: [
+		{
+			specialty: "استشارة طب النساء والتوليد",
+			category: "طب النساء والتوليد",
+			image: "/images/specialty/Ginecología_.webp",
+		},
+		{
+			specialty: "استشارة طب الأطفال",
+			category: "طب الأطفال",
+			image: "/images/specialty/Pediatría.webp",
+		},
+		{
+			specialty: "استشارة الطب العام",
+			category: "الطب العام",
+			image: "/images/specialty/MedicinaGeneral_.webp",
+		},
+	],
 }
 
 export const ProductsOnlineText = {
@@ -452,6 +550,10 @@ export const CardProductText = {
 	pt: {
 		concept: 'consulta',
 		button_text: 'Ver Centros'
+	},
+	ar: {
+		concept: 'استشارة',
+		button_text: 'عرض المراكز'
 	},
 }
 
@@ -521,6 +623,23 @@ export const AboutText = {
 		{
 			title: "Se sua família está crescendo",
 			description: "Nós ajudamos a protegê-los",
+			image: "/images/about/1.png",
+		},
+	],
+	ar: [
+		{
+			title: "إذا كان لديك مشكلة طبية",
+			description: "نقدم لك المساعدة فوراً",
+			image: "/images/about/1.png",
+		},
+		{
+			title: "إذا كنت تشعر بالراحة",
+			description: "سوف نجعلك تشعر أفضل",
+			image: "/images/about/2.png",
+		},
+		{
+			title: "إذا كانت عائلتك تكبر",
+			description: "نحن هنا لمساعدتك في حمايتهم",
 			image: "/images/about/1.png",
 		},
 	],
@@ -614,6 +733,28 @@ export const AplicationText = {
 
 		]
 	},
+	ar: {
+		title: 'تحكم في راحتك مع /*تطبيق إيفا الصحة*/',
+		qr_title: 'امسح الرمز وابدأ في استخدامه.',
+		feature: [
+			{
+				title: 'استشارات طبية بالفيديو بدون تكلفة',
+				description: 'تواصل مع العيادة الدولية الرقمية واطلبها للطب العام والطب البيطري وفقًا لخطتك.',
+				button_text: 'احجز موعدك'
+			},
+			{
+				title: 'فحوصات وقائية بدون تكلفة',
+				description: 'احصل على فحص وقائي سنوي بدون تكلفة وابق على صحتك تحت السيطرة.',
+				button_text: 'تعرف على الطريقة'
+			},
+			{
+				title: 'الطبيب في المنزل',
+				description: 'تلقى الرعاية الطبية في المنزل وادفع فقط الرسوم الاستشارية (مدريد المتروبوليتان وبرشلونة).',
+				button_text: 'احجز موعدك'
+			},
+
+		]
+	},
 }
 
 export const DetailsText = {
@@ -695,6 +836,21 @@ export const CallActionText = {
 		buttons: [
 			{
 				text: "Agendar Consulta",
+				url: "#"
+			}
+		],
+		contact_phone: "(01) 411-6001"
+	},
+	ar: {
+		title: "إدارة مواعيد الطبيب بدون تعقيد: فقط اهتم بحضور الموعد الطبي",
+		description: "دعنا نتعامل مع جميع التفاصيل حتى تتمكن من الاستمتاع برعايتك الطبية بشكل كامل. فريق المستشارين في إيفا الصحة متاح لخدمتك، يتولى تنظيم موعدك المسبق ويضمن أنك فقط تحتاج للقلق حول صحتك.",
+		schedule: [
+			"من الاثنين إلى الجمعة: 9 صباحاً - 21 مساءً",
+			"السبت والأحد: 9 صباحاً - 5 مساءً"
+		],
+		buttons: [
+			{
+				text: "حجز موعد",
 				url: "#"
 			}
 		],
@@ -791,6 +947,28 @@ export const TestimonialText = {
 			}
 		]
 	},
+	ar: {
+		subtitle: 'رأي عملائنا مهم جدا',
+		title: 'ما يقوله عملاؤنا عنا',
+		description: 'الحسابات الواضحة تؤدي إلى علاقات طويلة. من الضروري أن يكون لديك الوضوح والمعرفة. ليس فقط لعملية الاقتباس ولكن لكي تكون واثقًا أنك تحصل بالضبط على ما اخترت.',
+		cards: [
+			{
+				name: 'Antonio García Arguedas',
+				city: 'Girona',
+				description: '"أنا معتاد على تجديد تأميناتي تلقائيًا وبدون مقارنة، لا شك أنني أهدرت الكثير من المال"'
+			},
+			{
+				name: 'Lucía Sánchez',
+				city: 'Madrid',
+				description: '"كنت أبحث عن تأمين رخيص وشامل بقدر الإمكان لسيارتي، وجدته في compara tu póliza"'
+			},
+			{
+				name: 'Fernando Rubio',
+				city: 'Salamanca',
+				description: '"أخيراً موقع يتيح لي مقارنة العديد من التأمينات الزراعية. الخيارات المتاحة لا تعد ولا تحصى"'
+			}
+		]
+	},
 }
 
 export const BannerInformativeText = {
@@ -814,6 +992,11 @@ export const BannerInformativeText = {
 		description: "Obtenha um incrível desconto de até 40% sobre o preço de venda ao público (PVP) em especialidades médicas, testes de diagnóstico e intervenções não gratuitas! Além disso, oferecemos um financiamento de até 36 meses. Não perca esta incrível oportunidade e tenha acesso aos melhores serviços de saúde com grandes benefícios econômicos!.",
 		button_text: 'Ver Especialidades'
 	},
+	ar: {
+		title: "اكتشف تخصصاتنا غير المدرجة!",
+		description: "احصل على خصم مدهش يصل إلى 40% على سعر البيع للجمهور (PVP) في التخصصات الطبية، والاختبارات التشخيصية والتدخلات غير المجانية! بالإضافة إلى ذلك، نقدم لك تمويل يصل إلى 36 شهرًا. لا تفوت هذه الفرصة الرائعة واحصل على أفضل الخدمات الصحية مع فوائد اقتصادية كبيرة!",
+		button_text: 'عرض التخصصات'
+	},
 }
 
 export const HireMessageText = {
@@ -836,6 +1019,11 @@ export const HireMessageText = {
 		title1: 'Ao se inscrever na Eva Saúde',
 		title2: 'você pode obter /*2 LINHAS MÓVEL*/ COM CHAMADAS ILIMITADAS + 20 GB',
 		button: 'Mais informações'
+	},
+	ar: {
+		title1: 'عند الاشتراك في Eva Salud',
+		title2: 'يمكنك الحصول على /*2 خطوط موبايل*/ مع مكالمات غير محدودة + 20 جيجابايت',
+		button: 'مزيد من المعلومات'
 	},
 }
 
@@ -886,6 +1074,18 @@ export const HireMessageModalText = {
 		description2: [
 			'Estamos comprometidos em oferecer a melhor experiência de comunicação sem limites.',
 			'Junte-se a nós e descubra um mundo de possibilidades!'
+		]
+	},
+	ar: {
+		title: 'خطوط موبايل مجانية',
+		description1: [
+			'عند الاشتراك في Eva Salud، يمكنك الحصول على ما يصل إلى 2 خطوط موبايل مجانية تمامًا، تشمل هذه الخطوط مكالمات غير محدودة و 20 جيجابايت من البيانات المتنقلة في كل خط حتى تتمكن من البقاء متصلاً في كل الأوقات.',
+
+			'ولكن هذا ليس كل شيء، نقدم لك أيضًا التجوال المجاني في الاتحاد الأوروبي حتى تتمكن من الاستمتاع بخدماتك حتى عند السفر.'
+		],
+		description2: [
+			'نحن ملتزمون بتقديم أفضل تجربة اتصال بلا حدود لك.',
+			'انضم إلينا واكتشف عالمًا من الإمكانيات!'
 		]
 	},
 }
@@ -983,6 +1183,29 @@ export const FundationText = {
 			}
 		]
 	},
+	ar: {
+		title: "خلق الاتصال البشري من خلال الخبرة الرقمية",
+		description: "“لا يمكننا التنبؤ بالمستقبل، ولكن يمكننا المساعدة في بنائه”",
+		buttons: [
+			{
+				text: "عرض المشاريع الخيرية",
+			}
+		],
+		cards: [
+			{
+				title: "Eva Plus",
+				description: "من خلال برنامج Eva Plus، سيحصل جميع عملاء Eva Salud على خدمات مجانية في الشركات الأخرى المنتمية لمجموعتنا."
+			},
+			{
+				title: "Fundación Universo Accesible",
+				description: "تعمل Eva Seguros على تحقيق عالم أكثر عدالة من خلال التعاون مع Fundación Universo Accesible ومشروعها Universo Santi."
+			},
+			{
+				title: "Plant For The Planet",
+				description: "في Eva، نعمل من أجل عالم أكثر خضرة، ولهذا السبب Eva، كشركة متعاونة مع Plant For The Planet، ستزرع شجرة لكل عميل جديد."
+			}
+		]
+	},
 }
 
 export const BannerText = {
@@ -1005,5 +1228,10 @@ export const BannerText = {
 		title: 'Consulta Dental',
 		subtitle: 'Inclui limpeza oral gratuita.',
 		button_text: 'Reservar Agora'
+	},
+	ar: {
+		title: 'الاستشارة الطبية الفموية',
+		subtitle: 'تشمل تنظيف الفم مجانًا.',
+		button_text: 'احجز الآن'
 	},
 }
