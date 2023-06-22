@@ -93,7 +93,7 @@
   align-items: start;
 
   /* styles arabe; */
-  align-items: end;
+  /* align-items: end; */
 }
 
 
@@ -156,7 +156,7 @@
   padding-right: 70px;
 
   /* styles arabe; */
-  align-items: start;
+  /* align-items: start; */
 }
 
 .cardbannerinformative h2 {

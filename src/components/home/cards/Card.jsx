@@ -1,5 +1,6 @@
 import { useLanguage } from "@context/LanguageContext/useLanguage";
 import styles from "./Card.module.css";
+import { Link } from "react-router-dom";
 import { CardProductText, HeroText } from "@mocks/Pages/Home";
 
 export const CardSmall = ({
@@ -26,7 +27,9 @@ export const CardSmall = ({
           {content.price_title} /<span className={styles.price}>{price}</span>
         </div>
         <div className={styles.ctn_button}>
-          <button className={styles.viewCenter}>{content.card_button}</button>
+          <Link to="/detail">
+            <button className={styles.viewCenter}>{content.card_button}</button>
+          </Link>
         </div>
       </div>
     </div>
