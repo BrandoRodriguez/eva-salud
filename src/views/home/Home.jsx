@@ -12,32 +12,36 @@ import {
   Banner,
   BannerInformative,
 } from "../../components";
-import { HeaderSectionText } from "@mocks/Pages/Home";
+import { HeaderSectionText, HeroSeo } from "@mocks/Pages/Home";
 import { useLanguage } from "@context/LanguageContext/useLanguage";
 import Details from "@components/home/Details/Details";
 import CallAction from "@components/home/CallAction/CallAction";
 import { useEffect, useState } from "react";
 import PrincipalLoader from "@components/Loaders/PrincipalLoader";
 import HireMessage from "@components/home/HireMessage/HireMessage";
+import { Helmet } from 'react-helmet';
 
 const Home = () => {
 
   const [loadingPage, setLoadingPage] = useState(true);
   const [videoLoad, setVideoLoad] = useState(false)
 
+  const {language, company } = useLanguage()
+  const content = HeroSeo[language]
+
   useEffect(() => {
 
     let interval, timer;
-    
+
     timer = setTimeout(() => {
 
-      if (videoLoad){
+      if (videoLoad) {
         setLoadingPage(false);
       } else {
 
         interval = setInterval(() => {
-          
-          if (videoLoad){
+
+          if (videoLoad) {
             setLoadingPage(false);
             clearInterval(interval)
           }
@@ -46,7 +50,7 @@ const Home = () => {
       }
     }, 1000);
 
-    return ()=> {
+    return () => {
       clearTimeout(timer)
       clearInterval(interval)
     }
@@ -55,9 +59,12 @@ const Home = () => {
 
   return (
     <Layout>
+      <Helmet>
+        <title>{content.title.replace('{company}', company)}</title>
+      </Helmet>
       <main className={styles.fullpage}>
         <section className={styles.section_hero}>
-          <Hero isLoadVideo={()=>{ setVideoLoad(true)}}/>
+          <Hero isLoadVideo={() => { setVideoLoad(true) }} />
         </section>
         <section className={styles.section_banner} data-aos="fade-right">
           <Banner />

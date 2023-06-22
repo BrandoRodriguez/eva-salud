@@ -1,3 +1,21 @@
+export const HeroSeo = {
+	es: {
+		title: '{company} | Consultas y citas médicas, todo en un solo lugar'
+	},
+	en: {
+		title: '{company} | Medical inquiries and appointments, all in one place'
+	},
+	hi: {
+		title: '{company} | चिकित्सा परामर्श और नियामक, सब एक ही स्थान पर'
+	},
+	pt: {
+		title: '{company} | Consultas e compromissos médicos, tudo em um só lugar'
+	},
+	ar: {
+		title: '{company} | استفسارات طبية ومواعيد ، كل ذلك في مكان واحد'
+	}
+}
+
 export const HeroText = {
 	es: {
 		title: '¡MUERDE LA MANZANA!',

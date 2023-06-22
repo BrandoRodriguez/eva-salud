@@ -385,7 +385,7 @@ export const OldFooterText = {
 				{ title: 'سياسة الكوكيز', href: '' },
 			]
 		},
-		copyright: 'EvaSalud.com 2023. كل الحقوق محفوظة.'
+		copyright: 'Evasvaasth.com 2023. كل الحقوق محفوظة.'
 	},
 }
 
@@ -407,8 +407,8 @@ export const PrincipalLoaderText = {
 		description: 'EvaSaude.com 2023. Todos os direitos reservados.'
 	},
 	ar: {
-		title: 'توفر لك Eva Salud أفضل الأطباء',
-		description: 'EvaSalud.com 2023. كل الحقوق محفوظة.'
+		title: 'توفر لك Evasvaasth أفضل الأطباء',
+		description: 'Evasvaasth.com 2023. كل الحقوق محفوظة.'
 	},
 }
 
@@ -426,6 +426,6 @@ export const AtencionTelefonicaText = {
 		title: 'Consultor de Eva Saúde'
 	},
 	ar: {
-		title: 'مستشار Eva Salud'
+		title: 'مستشار Evasvaasth'
 	},
 }
