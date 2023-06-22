@@ -140,8 +140,6 @@
   }
 }
 
-
-
 .bg_bannerinformative {
   background: url("/images/products/Banner.webp");
   aspect-ratio: 2.075;
@@ -156,6 +154,7 @@
   position: relative;
   align-items: end;
   padding-right: 70px;
+
   /* styles arabe; */
   align-items: start;
 }

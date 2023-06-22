@@ -23,3 +23,7 @@ export const ButtonPrimarySmall = ({ name = "Button" }) => {
 export const ButtonSecondarySmall = ({ name = "Button" }) => {
   return <div className={styles.buttonsecondarysmall}>{name}</div>;
 };
+
+export const ButtonSecondarySmallColor = ({ name = "Button" }) => {
+  return <div className={styles.buttonsecondarysmallcolor}>{name}</div>;
+};

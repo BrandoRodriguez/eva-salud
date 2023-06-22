@@ -1,0 +1,33 @@
+.center {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detail {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.center h2 {
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--secondary-500);
+  padding-bottom: 15px;
+}
+
+
+
+@media(max-width: 768px) {
+  .center {
+    flex-direction: column;
+  }
+
+  .center h2 {
+    font-size: 20px;
+  }
+
+  .rigth {
+    padding-bottom: 15px;
+  }
+}

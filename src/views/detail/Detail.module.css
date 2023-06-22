@@ -1,3 +1,37 @@
+.detail {
+  display: grid;
+  gap: 30px;
+  padding-top: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .title,
 .frameIcon {
   position: relative;

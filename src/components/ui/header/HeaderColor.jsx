@@ -1,4 +1,4 @@
-import styles from "./Header.module.css";
+import styles from "./HeaderColor.module.css";
 import {
   EvaSalud,
   Phone,
@@ -8,6 +8,7 @@ import {
   SearchPrimary,
   ButtonPrimarySmall,
   ButtonSecondarySmall,
+  ButtonSecondarySmallColor,
   Spain,
   India,
   Portugal,
@@ -17,14 +18,14 @@ import { useLanguage } from "@context/LanguageContext/useLanguage";
 import { NavBarText } from "@mocks/General";
 import { getLogo } from "@utils/getLogo";
 
-export const Header = () => {
+export const HeaderColor = () => {
   const { language } = useLanguage();
   const content = NavBarText[language];
 
   return (
     <header className={`${styles.header} container`}>
       <nav className={styles.navegation}>
-        <div className={styles.logo}>{getLogo(language, "white")}</div>
+        <div className={styles.logo}>{getLogo(language, "color")}</div>
         <ul className={styles.link}>
           {content.items.map((item, index) => {
             return <li key={index}>{item}</li>;
@@ -36,7 +37,7 @@ export const Header = () => {
             <PhoneDesktop />
           </div>
           <div className={styles.group_button}>
-            <ButtonSecondarySmall name={content.login_button} />
+            <ButtonSecondarySmallColor name={content.login_button} />
             <ButtonPrimarySmall name={content.register_button} />
           </div>
         </div>
