@@ -15,10 +15,9 @@ import PanelSection from "./PanelSection/PanelSection";
 const Detail = () => {
   return (
     <div className={`${styles.detail} container`}>
-
       <PanelSection />
-      
-      <div className={styles.content}>
+
+      {/* <div className={styles.content}>
         <div className={styles.div}>
           <div className={styles.head}>
             <div className={styles.headTitle}>
@@ -127,30 +126,7 @@ const Detail = () => {
                   <div className={styles.div8} />
                 </div>
               </div>
-            </div>
-            {/* <div className={styles.share}>
-              <div className={styles.shareChild} />
-              <div className={styles.div10}>
-                <div className={styles.div11}>
-                  <div className={styles.frameParent}>
-                    <CheckReserve />
-                    <b className={styles.reservar}>Reservar</b>
-                  </div>
-                  <div className={styles.button1}>
-                    <b className={styles.guardar}>{`Guardar `}</b>
-                  </div>
-                </div>
-                <div className={styles.div12}>
-                  <div className={styles.compartirCon}>Compartir con</div>
-                  <div className={styles.groupParent}>
-                    <Twitter />
-                    <FacebookColor />
-                    <Reddit />
-                    <WhatsappColor />
-                  </div>
-                </div>
-              </div>
-            </div> */}
+            </div>          
           </div>
         </div>
         <div className={styles.div13}>
@@ -213,7 +189,7 @@ const Detail = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
