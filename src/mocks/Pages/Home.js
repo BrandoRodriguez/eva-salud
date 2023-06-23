@@ -1017,6 +1017,35 @@ export const BannerInformativeText = {
 	},
 }
 
+export const BannerInformativeTextDelivery = {
+	es: {
+		title: "¡Descubre nuestras especialidades no incluidas!",
+		description: "Solicita tu receta a través de nuestro equipo médico y recibirás el medicamento en un plazo máximo de 90 minutos en la comodidad de tu hogar.",
+		button_text: 'Solicitar Receta'
+	},
+	// en: {
+	// 	title: "Discover our not included specialties!",
+	// 	description: "Get an amazing discount of up to 40% on the public selling price (PVP) on medical specialties, diagnostic tests, and non-free interventions! In addition, we offer financing of up to 36 months. Don't miss this incredible opportunity and access the best health services with great economic benefits.",
+	// 	button_text: 'View Specialties'
+	// },
+	// hi: {
+	// 	title: "हमारे शामिल नहीं किए गए विशेषताओं की खोज करें!",
+	// 	description: "मेडिकल विशेषताओं, निदान परीक्षणों और मुफ्त नहीं होने वाले हस्तक्षेपों पर जनता की विक्रय मूल्य (PVP) के ऊपर तक 40% की अद्भुत छूट प्राप्त करें! इसके अलावा, हम आपको 36 महीनों तक की वित्तपोषण सुविधा देते हैं। इस अद्भुत अवसर को न खोएं और बड़े आर्थिक लाभ के साथ स्वास्थ्य सेवाओं के सर्वश्रेष्ठ सेवाओं तक पहुंचें!.",
+	// 	button_text: 'विशेषताएं देखें'
+	// },
+	// pt: {
+	// 	title: "Descubra nossas especialidades não incluídas!",
+	// 	description: "Obtenha um incrível desconto de até 40% sobre o preço de venda ao público (PVP) em especialidades médicas, testes de diagnóstico e intervenções não gratuitas! Além disso, oferecemos um financiamento de até 36 meses. Não perca esta incrível oportunidade e tenha acesso aos melhores serviços de saúde com grandes benefícios econômicos!.",
+	// 	button_text: 'Ver Especialidades'
+	// },
+	// ar: {
+	// 	title: "اكتشف تخصصاتنا غير المدرجة!",
+	// 	description: "احصل على خصم مدهش يصل إلى 40% على سعر البيع للجمهور (PVP) في التخصصات الطبية، والاختبارات التشخيصية والتدخلات غير المجانية! بالإضافة إلى ذلك، نقدم لك تمويل يصل إلى 36 شهرًا. لا تفوت هذه الفرصة الرائعة واحصل على أفضل الخدمات الصحية مع فوائد اقتصادية كبيرة!",
+	// 	button_text: 'عرض التخصصات'
+	// },
+}
+
+
 export const HireMessageText = {
 	es: {
 		title1: 'Al suscribirte a Eva Salud',

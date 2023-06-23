@@ -1,6 +1,14 @@
-import { CardBanner, CardBannerInformative } from "../../../components";
+import {
+  CardBanner,
+  CardBannerInformative,
+  CardBannerInformativeDelivery,
+} from "../../../components";
 import { useLanguage } from "@context/LanguageContext/useLanguage";
-import { BannerInformativeText, BannerText } from "@mocks/Pages/Home";
+import {
+  BannerInformativeText,
+  BannerText,
+  BannerInformativeTextDelivery,
+} from "@mocks/Pages/Home";
 
 export const Banner = () => {
   const { language } = useLanguage();
@@ -19,13 +27,27 @@ export const Banner = () => {
 };
 
 export const BannerInformative = () => {
-
-  const {language} = useLanguage()
-  const content = BannerInformativeText[language]
+  const { language } = useLanguage();
+  const content = BannerInformativeText[language];
 
   return (
     <div className="container">
       <CardBannerInformative
+        title={content.title}
+        description={content.description}
+        button_text={content.button_text}
+      />
+    </div>
+  );
+};
+
+export const BannerInformativeDelivery = () => {
+  const { language } = useLanguage();
+  const content = BannerInformativeTextDelivery[language];
+
+  return (
+    <div className="container">
+      <CardBannerInformativeDelivery
         title={content.title}
         description={content.description}
         button_text={content.button_text}

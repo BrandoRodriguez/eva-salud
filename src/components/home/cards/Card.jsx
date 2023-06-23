@@ -149,3 +149,21 @@ export const CardBannerInformative = ({
     </div>
   );
 };
+
+export const CardBannerInformativeDelivery = ({
+  description = "Solicita tu receta a través de nuestro equipo médico y recibirás el medicamento en un plazo máximo de 90 minutos en la comodidad de tu hogar.",
+  button_text = "Ver Especialidades",
+}) => {
+  return (
+    <div className={styles.cardbannerinformativedelivery}>
+      <div className={styles.bg_bannerinformativedelivery}>
+        <div className={styles.banner_content}>
+          <h3>{description}</h3>
+          <div className={styles.ctn_button_banner}>
+            <button className={styles.viewCenter}>{button_text}</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};

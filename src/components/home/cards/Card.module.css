@@ -120,7 +120,9 @@
     background-size: cover;
     padding-left: 0px;
     padding: 0 15px;
+    align-items: center;
   }
+
 
   .cardbanner h2 {
     width: 100%;
@@ -240,6 +242,122 @@
     justify-content: center;
   }
 }
+
+
+
+
+.bg_bannerinformativedelivery {
+  background: url("/images/products/BannerInformativeDelivery.webp");
+  aspect-ratio: 2.49;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  filter: drop-shadow(0px 15px 40px rgba(35, 34, 99, 0.15));
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  align-items: start;
+  padding-left: 70px;
+
+  /* styles arabe; */
+  /* align-items: start; */
+}
+
+.cardbannerinformativedelivery h2 {
+  font-weight: 600;
+  font-size: 45px;
+  letter-spacing: 0.03em;
+  color: var(--secondary-500);
+  width: 550px;
+  line-height: 50px;
+}
+
+.cardbannerinformativedelivery h3 {
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 0.03em;
+  color: var(--white);
+  padding-bottom: 24px;
+  width: 550px;
+
+  line-height: 1.5em;
+  padding-top: 15px;
+}
+
+@media (max-width: 1245px) {
+  .bg_bannerinformative {
+    padding-right: 30px;
+  }
+
+  .cardbannerinformativedelivery h2 {
+    font-size: 35px;
+    line-height: 40px;
+    width: 500px;
+  }
+
+  .cardbannerinformativedelivery h3 {
+    font-size: 18px;
+    width: 500px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .bg_bannerinformative {
+    padding-right: 30px;
+  }
+
+  .cardbannerinformativedelivery h2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .cardbannerinformativedelivery h3 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .bg_bannerinformativedelivery {
+    background: url("/images/products/BannerInformativeDeliveryMobil.webp");
+    aspect-ratio: 0.5658682634730539;
+    padding-right: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    padding: 30px 15px;
+  }
+
+  .cardbannerinformativedelivery h2 {
+    width: 100%;
+    text-align: center;
+
+  }
+
+  .cardbannerinformativedelivery h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .cardbannerinformativedelivery {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .content {

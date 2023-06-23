@@ -1,5 +1,5 @@
 import styles from "./Details.module.css";
-import decesos_details1 from "@assets/imgs/decesos_details1.png";
+import decesos_details1 from "@assets/imgs/BannerInformative.webp";
 import DetailsOptions from "./DetailsOptions/DetailsOptions";
 import { Title45 } from "@UI/Tags/Titles";
 import { useLanguage } from "@context/LanguageContext/useLanguage";
@@ -14,16 +14,20 @@ const Details = () => {
     <section className={`${styles.details} container`}>
       {content.length !== 0 && (
         <>
+          <img src={decesos_details1} alt={""} />
+
           <div className={styles.content}>
             {/* <Title45>{content.title}</Title45> */}
-            <LogoColor />
             <p>
-              La única membresía que cuida de toda tu familia y colabora con un
-              mundo mejor
+              ¡Obtén un asombroso descuento de hasta el 40% sobre el precio de
+              venta al público (PVP) en especialidades médicas, pruebas de
+              diagnóstico e intervenciones no gratuitas! Además, te ofrecemos
+              una financiación de hasta 36 meses. ¡No pierdas esta increíble
+              oportunidad y accede a los mejores servicios de salud con grandes
+              beneficios económicos!.
             </p>
-            <DetailsOptions options={content.list_info} />
+            <button className={styles.viewCenter}>Ver Especialidades</button>
           </div>
-          <img src={decesos_details1} alt={""} />
         </>
       )}
     </section>
