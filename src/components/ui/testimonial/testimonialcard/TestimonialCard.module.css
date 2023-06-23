@@ -84,7 +84,7 @@
     }
 
     /* styles arabe; */
-    .card:nth-child(1) {
+    /* .card:nth-child(1) {
         margin-right: 45px;
     }
 
@@ -94,5 +94,5 @@
 
     .card:nth-child(3) {
         margin-right: 25px;
-    }
+    } */
 }
