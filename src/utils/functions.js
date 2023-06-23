@@ -15,8 +15,23 @@ export function getLanguage(language = 'es') {
 			break;
 
 		case 'en':
-			url = '/euskera/get_euskera_document'
+			url = '/english/get_english_document'
 			domainIndex = 2
+			break;
+
+		case 'hi':
+			url = '/hindi/get_hindi_document'
+			domainIndex = 3
+			break;
+
+		case 'pt':
+			url = '/portugues/get_portugues_document'
+			domainIndex = 4
+			break;
+
+		case 'ar':
+			url = '/arabe/get_arabe_document'
+			domainIndex = 5
 			break;
 
 	}
@@ -35,6 +50,16 @@ export function getLanguage(language = 'es') {
 		url = '/hindi/get_euskera_document'
 		domainIndex = 3
 		language = 'hi'
+	}
+	else if (domain.includes('evasaude.com')) {
+		url = '/portugues/portugues_document'
+		domainIndex = 4
+		language = 'pt'
+	}
+	else if (domain.includes('sehahawae.com')) {
+		url = '/arabe/arabe_document'
+		domainIndex = 5
+		language = 'ar'
 	}
 
 	domain = domain.replace('www.', '')

@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "deploy": "aws s3 sync dist/ s3://eva-salud --acl public-read",
+    "deploy-ar": "aws s3 sync dist/ s3://eva-salud-arab --acl public-read",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
