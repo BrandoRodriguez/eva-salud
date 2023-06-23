@@ -1,10 +1,11 @@
 
-const EvaArabeWhite = () => {
+const EvaArabeWhite = (props) => {
 	return (
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			width={220}
 			height={47}
+			viewBox="0 0 220 47"
 			fill="none"
 			{...props}
 		>

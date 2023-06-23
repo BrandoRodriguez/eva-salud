@@ -1,4 +1,5 @@
 import { EvaSalud } from "@UI/index";
+import EvaArabeColor from "@components/Logos/EvaArabeColor";
 import EvaArabeWhite from "@components/Logos/EvaArabeWhite";
 import EvaHealthColor from "@components/Logos/EvaHealthColor";
 import EvaHealthWhite from "@components/Logos/EvaHealthWhite";
@@ -50,7 +51,7 @@ export function getLogo(language, type= 'white') {
 		if (type === 'white'){
 			return <EvaArabeWhite />
 		} else if (type === 'color'){
-			return <EvaHealthColor />
+			return <EvaArabeColor />
 		}
 	}
 

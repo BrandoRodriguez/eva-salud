@@ -80,7 +80,7 @@ const Home = () => {
           <CallAction />
         </section>
 
-        <Details3 />
+        {/* <Details3 /> */}
         <section className={styles.application} data-aos="fade-right">
           <Application />
         </section>
