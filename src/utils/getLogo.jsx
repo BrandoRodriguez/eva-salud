@@ -3,6 +3,8 @@ import EvaHealthColor from "@components/Logos/EvaHealthColor";
 import EvaHealthWhite from "@components/Logos/EvaHealthWhite";
 import EvaHindiColor from "@components/Logos/EvaHindiColor";
 import EvaHindiWhite from "@components/Logos/EvaHindiWhite";
+import EvaSaudeColor from "@components/Logos/EvaSaudeColor";
+import EvaSaudeWhite from "@components/Logos/EvaSaudeWhite";
 
 export function getLogo(language, type= 'white') {
 
@@ -36,9 +38,9 @@ export function getLogo(language, type= 'white') {
 	if (language === 'pt'){
 
 		if (type === 'white'){
-			return <EvaHindiWhite />
+			return <EvaSaudeWhite/>
 		} else if (type === 'color'){
-			return <EvaHindiColor/>
+			return <EvaSaudeColor/>
 		}
 	}
 
