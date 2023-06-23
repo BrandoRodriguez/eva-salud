@@ -9,7 +9,7 @@ import { getVersion } from '@utils/functions';
 
 const Footer = () => {
 
-	const { language } = useLanguage()
+	const { language, domain } = useLanguage()
 	const content = OldFooterText[language]
 
 	return (
@@ -117,7 +117,7 @@ const Footer = () => {
 			</div>
 
 			<div className={styles.footer_copyright}>
-				<p>©{content.copyright} Ver. {getVersion()}</p>
+				<p>©{content.copyright.replace('{domain}', domain)} Ver. {getVersion()}</p>
 			</div>
 
 		</section>
