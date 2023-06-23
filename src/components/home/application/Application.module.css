@@ -3,6 +3,7 @@
   grid-template-columns: repeat(auto-fill, minmax(460px, 1fr));
   gap: 15px;
   font-family: var(--noto-sans);
+  align-items: center;
 }
 
 .appImage {
@@ -11,6 +12,8 @@
   background-size: contain;
   position: relative;
   margin-left: 100px;
+  background-size: cover;
+  aspect-ratio: 0.84399375975039;
 }
 
 .scanQR {
