@@ -101,7 +101,7 @@
 	align-items: center;
 	grid-gap: 10px;
 	padding: 10px 0 0 0;
-	color: var(--secondary-500);
+	color: var(--grey-900);
 	font-size: 18px;
 	line-height: 22px;
 	/* font-weight: 500; */

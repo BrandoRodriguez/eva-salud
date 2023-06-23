@@ -27,7 +27,7 @@ export const CardSmall = ({
           {content.price_title} /<span className={styles.price}>{price}</span>
         </div>
         <div className={styles.ctn_button}>
-          <Link to="/detail">
+          <Link to="/centers">
             <button className={styles.viewCenter}>{content.card_button}</button>
           </Link>
         </div>

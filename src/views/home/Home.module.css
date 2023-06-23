@@ -1,5 +1,7 @@
 .fullpage {
-  display: grid;
+  /* display: grid; */
+  display: flex;
+  flex-direction: column;
   gap: 50px;
   overflow: hidden;
 }
