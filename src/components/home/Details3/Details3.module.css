@@ -1,0 +1,22 @@
+.details {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 25px;
+	margin-bottom: var(--section-margin-mobile);
+}
+
+.content {
+	grid-row: 1;
+}
+
+@media (min-width: 1024px) {
+	.details {
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 60px;
+		margin-bottom: var(--section-margin-desktop);
+	}
+
+	.content {
+		grid-row: auto;
+	}
+}

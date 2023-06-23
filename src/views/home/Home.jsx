@@ -20,6 +20,7 @@ import { useEffect, useState } from "react";
 import PrincipalLoader from "@components/Loaders/PrincipalLoader";
 import HireMessage from "@components/home/HireMessage/HireMessage";
 import { Helmet } from 'react-helmet';
+import Details3 from "@components/home/Details3/Details3";
 
 const Home = () => {
 
@@ -78,6 +79,8 @@ const Home = () => {
         <section className={styles.section_callaction} data-aos="fade-left">
           <CallAction />
         </section>
+
+        <Details3 />
         <section className={styles.application} data-aos="fade-right">
           <Application />
         </section>
