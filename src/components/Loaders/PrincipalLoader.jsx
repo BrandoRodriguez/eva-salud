@@ -8,7 +8,7 @@ import { getLogo } from '@utils/getLogo';
 
 const PrincipalLoader = () => {
 
-	const { language } = useLanguage()
+	const { language, domain, company } = useLanguage()
 	const content = PrincipalLoaderText[language]
 
 	const LoaderRef = useRef(null)
@@ -44,11 +44,11 @@ const PrincipalLoader = () => {
 				</div>
 
 				<p className={styles.title}>
-					{content.title}
+					{content.title.replace('{company}', company)}
 				</p>
 
 				<p className={styles.description}>
-					{content.description}
+					{content.description.replace('{domain}', domain)}
 					<br />
 					{
 						getVersion()

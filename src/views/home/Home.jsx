@@ -17,6 +17,7 @@ import { useEffect, useState } from "react";
 import PrincipalLoader from "@components/Loaders/PrincipalLoader";
 import HireMessage from "@components/home/HireMessage/HireMessage";
 import { Helmet } from "react-helmet";
+import Details3 from "@components/home/Details3/Details3";
 
 const Home = () => {
   const [loadingPage, setLoadingPage] = useState(true);
@@ -63,19 +64,12 @@ const Home = () => {
         <section className={styles.section_banner} data-aos="fade-right">
           <Banner />
         </section>
-        {/* <section
-          className={styles.section_bannerinformative}
-          data-aos="fade-left"
-        >
-          <BannerInformative />
-        </section> */}
         <section>
           <Details />
         </section>
         <section className={styles.section_bannerinformative}>
           <BannerInformativeDelivery />
         </section>
-
         <section className={styles.section_callaction} data-aos="fade-left">
           <CallAction />
         </section>

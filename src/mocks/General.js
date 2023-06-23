@@ -221,7 +221,7 @@ export const OldFooterText = {
 				// { title: 'Términos y Condiciones', href: '' },
 			]
 		},
-		copyright: 'EvaSalud.com 2023. Todos los derechos reservados.'
+		copyright: '{domain} 2023. Todos los derechos reservados.'
 	},
 	en: {
 		social_title: 'Experience the tranquility of having the best medical staff.',
@@ -268,7 +268,7 @@ export const OldFooterText = {
 				// { title: 'Terms and Conditions', href: '' },
 			]
 		},
-		copyright: 'EvaHealth.com 2023. All rights reserved.'
+		copyright: '{domain} 2023. All rights reserved.'
 	},
 	hi: {
 		social_title: 'सबसे अच्छे मेडिकल स्टाफ के साथ शांति का अनुभव करें।',
@@ -303,7 +303,7 @@ export const OldFooterText = {
 				{ title: 'कुकीज़ की नीति', href: '' },
 			]
 		},
-		copyright: 'EvaSalud.com 2023। सभी अधिकार सुरक्षित।'
+		copyright: '{domain} 2023। सभी अधिकार सुरक्षित।'
 	},
 	pt: {
 		social_title: 'Viva a tranquilidade de contar com o melhor quadro médico.',
@@ -350,7 +350,7 @@ export const OldFooterText = {
 				// { title: 'Termos e Condições', href: '' },
 			]
 		},
-		copyright: 'EvaSaude.com 2023. Todos os direitos reservados.'
+		copyright: '{domain} 2023. Todos os direitos reservados.'
 	},
 	ar: {
 		social_title: 'تجربة الهدوء من توفر أفضل الأطباء.',
@@ -385,30 +385,30 @@ export const OldFooterText = {
 				{ title: 'سياسة الكوكيز', href: '' },
 			]
 		},
-		copyright: 'Evasvaasth.com 2023. كل الحقوق محفوظة.'
+		copyright: '{domain} 2023. كل الحقوق محفوظة.'
 	},
 }
 
 export const PrincipalLoaderText = {
 	es: {
-		title: 'Cuenta con el mejor cuadro médico a través de Eva Salud',
-		description: 'EvaSalud.com 2023. Todos los derechos reservados.'
+		title: 'Cuenta con el mejor cuadro médico a través de {company}',
+		description: '{domain} 2023. Todos los derechos reservados.'
 	},
 	en: {
-		title: 'Count on the best medical staff through Eva Salud',
-		description: 'EvaSalud.com 2023. All rights reserved.'
+		title: 'Count on the best medical staff through {company}',
+		description: '{domain} 2023. All rights reserved.'
 	},
 	hi: {
-		title: 'ईवा स्वास्थ्य के माध्यम से सर्वश्रेष्ठ चिकित्सा दल पर भरोसा करें',
-		description: 'EvaSalud.com 2023। सभी अधिकार सुरक्षित।'
+		title: '{company} के माध्यम से सर्वश्रेष्ठ चिकित्सा टीम का उपयोग करें',
+		description: '{domain} 2023। सभी अधिकार सुरक्षित।'
 	},
 	pt: {
-		title: 'Conte com o melhor quadro médico através da Eva Saúde',
-		description: 'EvaSaude.com 2023. Todos os direitos reservados.'
+		title: 'Conte com o melhor quadro médico através da {company}',
+		description: '{domain} 2023. Todos os direitos reservados.'
 	},
 	ar: {
-		title: 'توفر لك Evasvaasth أفضل الأطباء',
-		description: 'Evasvaasth.com 2023. كل الحقوق محفوظة.'
+		title: 'توفر لك {company} أفضل الأطباء',
+		description: '{domain} 2023. كل الحقوق محفوظة.'
 	},
 }
 

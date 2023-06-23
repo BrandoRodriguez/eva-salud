@@ -12,26 +12,31 @@ export function getLanguage(language = 'es') {
 		case 'es':
 			url = '/spanish/get_spanish_document'
 			domainIndex = 1
+			domain= 'evasalud.com'
 			break;
 
 		case 'en':
 			url = '/english/get_english_document'
 			domainIndex = 2
+			domain= 'evahealth.com'
 			break;
 
 		case 'hi':
 			url = '/hindi/get_hindi_document'
 			domainIndex = 3
+			domain= 'evasvaasth.com'
 			break;
 
 		case 'pt':
 			url = '/portugues/get_portugues_document'
 			domainIndex = 4
+			domain= 'evasaude.com'
 			break;
 
 		case 'ar':
 			url = '/arabe/get_arabe_document'
 			domainIndex = 5
+			domain= 'sehahawae.com'
 			break;
 
 	}
