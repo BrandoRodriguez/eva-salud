@@ -244,8 +244,6 @@
 }
 
 
-
-
 .bg_bannerinformativedelivery {
   background: url("/images/products/BannerInformativeDelivery.webp");
   aspect-ratio: 2.49;
@@ -298,7 +296,7 @@
   }
 
   .cardbannerinformativedelivery h3 {
-    font-size: 18px;
+    font-size: 20px;
     width: 500px;
   }
 }
@@ -314,7 +312,7 @@
   }
 
   .cardbannerinformativedelivery h3 {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 

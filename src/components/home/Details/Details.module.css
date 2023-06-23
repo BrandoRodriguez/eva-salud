@@ -51,13 +51,21 @@
 	}
 
 	.content>p {
-		font-size: 24px;
+		font-size: 20px;
 		color: var(--secondary-500);
 		font-weight: 500;
 		padding-top: 80px;
 	}
 
 	.viewCenter {
-		width: 40%;
+		width: 45%;
 	}
+}
+
+
+@media (min-width: 1245px) {
+	.content>p {
+		font-size: 24px;
+	}
+
 }
