@@ -9,6 +9,7 @@ import EvaMovilColor from "@assets/Logos/EvaMovilColor";
 import { HireMessageText } from "@mocks/Pages/Home";
 import { useLanguage } from "@context/LanguageContext/useLanguage";
 import { processBoldText } from "@utils/functions";
+import EvaMobileColor from "@assets/Logos/EvaMobileColor";
 
 const HireMessage = () => {
   const isDesktop = useMediaQuery({ minWidth: 1024 });
@@ -19,6 +20,16 @@ const HireMessage = () => {
 
   const [isOpenModal, setIsOpenModal] = useState(false);
 
+  const getEvaMovilLogo = () => {
+    
+    if (language === 'es'){
+      return <EvaMovilColor />
+    }
+    else {
+      return <EvaMobileColor />
+    }
+  }
+
   return (
     <section
       className={`${styles.hire_message} container`}
@@ -26,7 +37,10 @@ const HireMessage = () => {
     >
       <div className={styles.content} data-aos="fade-left" data-aos-delay="300">
         <div className={styles.logo_container}>
-          <EvaMovilColor />
+          {
+            getEvaMovilLogo()
+          }
+          
         </div>
 
         <p className={styles.title}>{content.title1}</p>

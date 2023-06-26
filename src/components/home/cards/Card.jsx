@@ -9,8 +9,11 @@ export const CardSmall = ({
   category = "Oftalmología",
   price = "00€",
 }) => {
+
   const { language } = useLanguage();
   const content = HeroText[language];
+
+  price = language === 'hi' ? "00₹" : "00€"
 
   return (
     <div className={styles.freespecialties} data-aos="fade-down">

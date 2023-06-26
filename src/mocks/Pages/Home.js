@@ -801,8 +801,8 @@ export const DetailsText = {
 
 export const CallActionText = {
 	es: {
-		title: "Gestión de citas médicas sin complicaciones: Solo preocúpese por acudir al médico",
-		description: "Permítanos ocuparnos de todos los detalles para que pueda disfrutar plenamente de su atención médica. Nuestro equipo de asesores de Eva Salud está a su disposición, encargándose de gestionar su cita previa y asegurando que usted solo tenga que preocuparse por su salud.",
+		title: "Gestión de citas médicas sin complicaciones",
+		description: "Nuestra App te geolocalizará y buscará el especialista más próximo a tu ubicación, y un asesor de Eva Salud gestionará la cita médica por ti.",
 		schedule: [
 			"Lunes a viernes: 9 a.m. - 21 p.m.",
 			"Sábado y domingo: 9 a.m. - 5 p.m."
@@ -816,40 +816,41 @@ export const CallActionText = {
 		contact_phone: "(01) 411-6001"
 	},
 	en: {
-		title: "We want to help you find the best insurance",
-		description: "We are at your disposal to resolve all your queries and help you choose the insurance that best suits your needs and those of your family.",
+		title: "Hassle-free medical appointment management",
+		description: "Our App will geolocate you and search for the closest specialist to your location, and an Eva Health advisor will manage the medical appointment for you.",
 		schedule: [
 			"Monday to Friday: 9 a.m. - 9 p.m.",
+			"Saturday and Sunday: 9 a.m. - 5 p.m."
 		],
 		buttons: [
 			{
-				text: "Schedule call",
-				url: ""
+				text: "Schedule Appointment",
+				url: "#"
 			}
 		],
 		contact_phone: "(01) 411-6001"
 	},
 	hi: {
-		title: "चिकित्सा अपॉइंटमेंट प्रबंधन संप्लेषण बिना: केवल चिकित्सक के पास जाने की चिंता करें",
-		description: "हमें सभी विवरणों का ध्यान रखने दें ताकि आप अपनी चिकित्सा देखभाल का पूरी तरह से आनंद ले सकें। हमारी ईवा स्वास्थ्य सलाहकार टीम आपकी सेवा में है, आपकी पूर्व नियुक्ति का प्रबंधन करते हुए और सुनिश्चित करते हुए कि आपको केवल अपने स्वास्थ्य की चिंता करनी है।",
+		title: "परेशानी मुक्त चिकित्सा नियोजन प्रबंधन",
+		description: "हमारा ऐप आपका भू-स्थान निर्धारित करेगा और आपके स्थान के नजदीकी विशेषज्ञ की खोज करेगा, और एक ईवा हेल्थ सलाहकार आपके लिए चिकित्सा नियोजन का प्रबंधन करेगा.",
 		schedule: [
-			"सोमवार से शुक्रवार: सुबह 9 बजे - शाम 9 बजे।",
-			"शनिवार और रविवार: सुबह 9 बजे - दोपहर 5 बजे।"
+			"सोमवार से शुक्रवार: सुबह 9 बजे - शाम 9 बजे",
+			"शनिवार और रविवार: सुबह 9 बजे - शाम 5 बजे"
 		],
 		buttons: [
 			{
-				text: "अपॉइंटमेंट सेट करें",
+				text: "नियोजन अनुसूचित करें",
 				url: "#"
 			}
 		],
 		contact_phone: "(01) 411-6001"
 	},
 	pt: {
-		title: "Gestão de consultas médicas sem complicações: Apenas se preocupe em ir ao médico",
-		description: "Deixe-nos cuidar de todos os detalhes para que você possa aproveitar totalmente seus cuidados médicos. Nossa equipe de consultores da Eva Saúde está à sua disposição, cuidando do agendamento de sua consulta e garantindo que você só precise se preocupar com a sua saúde.",
+		title: "Gerenciamento de consultas médicas sem complicações",
+		description: "Nosso App irá geolocalizá-lo e buscará o especialista mais próximo de sua localização, e um consultor da Eva Saúde irá gerenciar a consulta médica para você.",
 		schedule: [
-			"Segunda a sexta: 9h - 21h",
-			"Sábado e domingo: 9h - 17h"
+			"Segunda a Sexta: 9 a.m. - 9 p.m.",
+			"Sábado e Domingo: 9 a.m. - 5 p.m."
 		],
 		buttons: [
 			{
@@ -860,15 +861,15 @@ export const CallActionText = {
 		contact_phone: "(01) 411-6001"
 	},
 	ar: {
-		title: "إدارة مواعيد الطبيب بدون تعقيد: فقط اهتم بحضور الموعد الطبي",
-		description: "دعنا نتعامل مع جميع التفاصيل حتى تتمكن من الاستمتاع برعايتك الطبية بشكل كامل. فريق المستشارين في إيفا الصحة متاح لخدمتك، يتولى تنظيم موعدك المسبق ويضمن أنك فقط تحتاج للقلق حول صحتك.",
+		title: "إدارة المواعيد الطبية بدون تعقيد",
+		description: "ستقوم تطبيقنا بتحديد موقعك الجغرافي والبحث عن الأخصائي الأقرب إلى موقعك، وسيدير مستشار إيفا الصحي موعدك الطبي لك.",
 		schedule: [
-			"من الاثنين إلى الجمعة: 9 صباحاً - 21 مساءً",
-			"السبت والأحد: 9 صباحاً - 5 مساءً"
+			"من الاثنين إلى الجمعة: 9 صباحًا - 9 مساءً",
+			"السبت والأحد: 9 صباحًا - 5 مساءً"
 		],
 		buttons: [
 			{
-				text: "حجز موعد",
+				text: "جدولة الموعد",
 				url: "#"
 			}
 		],
@@ -1020,29 +1021,29 @@ export const BannerInformativeText = {
 export const BannerInformativeTextDelivery = {
 	es: {
 		title: "¡Descubre nuestras especialidades no incluidas!",
-		description: "Solicita tu receta a través de nuestro equipo médico y recibirás el medicamento en un plazo máximo de 90 minutos en la comodidad de tu hogar.",
+		description: "Solicita tu receta a través de nuestro equipo médico y recibirás en tu domicilio el médicamento en 90 minutos",
 		button_text: 'Solicitar Receta'
 	},
-	// en: {
-	// 	title: "Discover our not included specialties!",
-	// 	description: "Get an amazing discount of up to 40% on the public selling price (PVP) on medical specialties, diagnostic tests, and non-free interventions! In addition, we offer financing of up to 36 months. Don't miss this incredible opportunity and access the best health services with great economic benefits.",
-	// 	button_text: 'View Specialties'
-	// },
-	// hi: {
-	// 	title: "हमारे शामिल नहीं किए गए विशेषताओं की खोज करें!",
-	// 	description: "मेडिकल विशेषताओं, निदान परीक्षणों और मुफ्त नहीं होने वाले हस्तक्षेपों पर जनता की विक्रय मूल्य (PVP) के ऊपर तक 40% की अद्भुत छूट प्राप्त करें! इसके अलावा, हम आपको 36 महीनों तक की वित्तपोषण सुविधा देते हैं। इस अद्भुत अवसर को न खोएं और बड़े आर्थिक लाभ के साथ स्वास्थ्य सेवाओं के सर्वश्रेष्ठ सेवाओं तक पहुंचें!.",
-	// 	button_text: 'विशेषताएं देखें'
-	// },
-	// pt: {
-	// 	title: "Descubra nossas especialidades não incluídas!",
-	// 	description: "Obtenha um incrível desconto de até 40% sobre o preço de venda ao público (PVP) em especialidades médicas, testes de diagnóstico e intervenções não gratuitas! Além disso, oferecemos um financiamento de até 36 meses. Não perca esta incrível oportunidade e tenha acesso aos melhores serviços de saúde com grandes benefícios econômicos!.",
-	// 	button_text: 'Ver Especialidades'
-	// },
-	// ar: {
-	// 	title: "اكتشف تخصصاتنا غير المدرجة!",
-	// 	description: "احصل على خصم مدهش يصل إلى 40% على سعر البيع للجمهور (PVP) في التخصصات الطبية، والاختبارات التشخيصية والتدخلات غير المجانية! بالإضافة إلى ذلك، نقدم لك تمويل يصل إلى 36 شهرًا. لا تفوت هذه الفرصة الرائعة واحصل على أفضل الخدمات الصحية مع فوائد اقتصادية كبيرة!",
-	// 	button_text: 'عرض التخصصات'
-	// },
+	en: {
+		title: "Discover our non-included specialties!",
+		description: "Request your prescription through our medical team and you will receive the medication at your home in 90 minutes",
+		button_text: 'Request Prescription'
+	},
+	hi: {
+		title: "हमारे शामिल नहीं किए गए विशेषज्ञताओं की खोज करें!",
+		description: "हमारी चिकित्सा टीम के माध्यम से अपना प्रिस्क्रिप्शन अनुरोध करें और आपको 90 मिनट में अपने घर पर दवा मिलेगी",
+		button_text: 'प्रिस्क्रिप्शन का अनुरोध करें'
+	},
+	pt: {
+		title: "Descubra nossas especialidades não incluídas!",
+		description: "Solicite sua receita através de nossa equipe médica e você receberá o medicamento em sua casa em 90 minutos",
+		button_text: 'Solicitar Receita'
+	},
+	ar: {
+		title: "اكتشف تخصصاتنا غير المدرجة!",
+		description: "اطلب وصفتك الطبية من خلال فريقنا الطبي وسوف تتلقى الدواء في منزلك خلال 90 دقيقة",
+		button_text: 'طلب وصفة طبية'
+	},
 }
 
 
