@@ -9,8 +9,11 @@ export const CardSmall = ({
   category = "Oftalmología",
   price = "00€",
 }) => {
+
   const { language } = useLanguage();
   const content = HeroText[language];
+
+  price = language === 'hi' ? "00₹" : "00€"
 
   return (
     <div className={styles.freespecialties} data-aos="fade-down">
@@ -133,7 +136,7 @@ export const CardBanner = ({
 };
 
 export const CardBannerInformative = ({
-  description = "¡Obtén un asombroso descuento de hasta el 40% sobre el precio de venta al público (PVP) en especialidades médicas, pruebas de diagnóstico e intervenciones no gratuitas! Además, te ofrecemos una financiación de hasta 36 meses. ¡No pierdas esta increíble oportunidad y accede a los mejores servicios de salud con grandes beneficios económicos!.",
+  description = "¡Obtén un asombrosooo descuento de hasta el 40% sobre el precio de venta al público (PVP) en especialidades médicas, pruebas de diagnóstico e intervenciones no gratuitas! Además, te ofrecemos una financiación de hasta 36 meses. ¡No pierdas esta increíble oportunidad y accede a los mejores servicios de salud con grandes beneficios económicos!.",
   button_text = "Ver Especialidades",
 }) => {
   return (
