@@ -7,6 +7,8 @@ export function getLanguage(language = 'es') {
 	let domain = window.location.hostname;
 	let url, domainIndex;
 
+	console.log('lenguage inicial', language)
+
 	switch (language) {
 
 		case 'es':
@@ -41,31 +43,36 @@ export function getLanguage(language = 'es') {
 
 	}
 
-	if (domain.includes('evasalud.com')) {
+	if (window.location.hostname.includes('evasalud.com')) {
 		url = '/spanish/get_spanish_document'
 		domainIndex = 1
 		language = 'es'
+		console.log('cambiando a español')
 	}
-	else if (domain.includes('evacard.com')) {
+	else if (window.location.hostname.includes('evacard.com')) {
 		url = '/euskera/get_euskera_document'
 		domainIndex = 2
 		language = 'en'
 	}
-	else if (domain.includes('evasvaasth.com')) {
+	else if (window.location.hostname.includes('evasvaasth.com')) {
 		url = '/hindi/get_euskera_document'
 		domainIndex = 3
 		language = 'hi'
+		console.log('cambiando a hindiiiiiiiiii')
 	}
-	else if (domain.includes('evasaude.com')) {
+	else if (window.location.hostname.includes('evasaude.com')) {
 		url = '/portugues/portugues_document'
 		domainIndex = 4
 		language = 'pt'
 	}
-	else if (domain.includes('sehahawae.com')) {
+	else if (window.location.hostname.includes('sehahawae.com')) {
 		url = '/arabe/arabe_document'
 		domainIndex = 5
 		language = 'ar'
+		console.log('cambiando a arabe')
 	}
+
+	console.log('lenguage final', language)
 
 	domain = domain.replace('www.', '')
 

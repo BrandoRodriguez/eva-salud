@@ -8,7 +8,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     {/* styles arabe */}
     {/* <LanguageProvider initialLanguage="ar"> */}
-    <LanguageProvider initialLanguage="es">
+    <LanguageProvider initialLanguage="hi">
       <App />
     </LanguageProvider>
   </React.StrictMode>
