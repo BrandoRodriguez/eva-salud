@@ -992,27 +992,27 @@ export const TestimonialText = {
 export const BannerInformativeText = {
 	es: {
 		title: "¡Descubre nuestras especialidades no incluidas!",
-		description: "¡Obtén un asombroso descuento de hasta el 40% sobre el precio de venta al público (PVP) en especialidades médicas, pruebas de diagnóstico e intervenciones no gratuitas! Además, te ofrecemos una financiación de hasta 36 meses. ¡No pierdas esta increíble oportunidad y accede a los mejores servicios de salud con grandes beneficios económicos!.",
+		description: "¡ Consigue /*hasta un 40% de descuento*/ en las especialidades, pruebas de diagnóstico, e intervenciones no gratuitas y además contarás con /*financiación de hasta 36 meses*/ para cualquier prueba médica o estética !",
 		button_text: 'Ver Especialidades'
 	},
 	en: {
-		title: "Discover our not included specialties!",
-		description: "Get an amazing discount of up to 40% on the public selling price (PVP) on medical specialties, diagnostic tests, and non-free interventions! In addition, we offer financing of up to 36 months. Don't miss this incredible opportunity and access the best health services with great economic benefits.",
+		title: "Discover our non-included specialties!",
+		description: "Get /*up to 40% discount*/ on specialties, diagnostic tests, and non-free interventions, and also you will have /*financing up to 36 months*/ for any medical or aesthetic test!",
 		button_text: 'View Specialties'
 	},
 	hi: {
-		title: "हमारे शामिल नहीं किए गए विशेषताओं की खोज करें!",
-		description: "मेडिकल विशेषताओं, निदान परीक्षणों और मुफ्त नहीं होने वाले हस्तक्षेपों पर जनता की विक्रय मूल्य (PVP) के ऊपर तक 40% की अद्भुत छूट प्राप्त करें! इसके अलावा, हम आपको 36 महीनों तक की वित्तपोषण सुविधा देते हैं। इस अद्भुत अवसर को न खोएं और बड़े आर्थिक लाभ के साथ स्वास्थ्य सेवाओं के सर्वश्रेष्ठ सेवाओं तक पहुंचें!.",
-		button_text: 'विशेषताएं देखें'
+		title: "हमारे शामिल नहीं किए गए विशेषज्ञताओं की खोज करें!",
+		description: "विशेषताओं, निदान परीक्षणों, और नि:शुल्क हस्तक्षेपों पर /*अधिकतम 40% छूट*/ प्राप्त करें, और साथ ही आपके पास किसी भी चिकित्सा या सौंदर्य परीक्षण के लिए /*36 महीने तक की वित्तपोषण*/ होगी!",
+		button_text: 'विशेषताओं का दृश्य'
 	},
 	pt: {
 		title: "Descubra nossas especialidades não incluídas!",
-		description: "Obtenha um incrível desconto de até 40% sobre o preço de venda ao público (PVP) em especialidades médicas, testes de diagnóstico e intervenções não gratuitas! Além disso, oferecemos um financiamento de até 36 meses. Não perca esta incrível oportunidade e tenha acesso aos melhores serviços de saúde com grandes benefícios econômicos!.",
+		description: "Consiga /*até 40% de desconto*/ em especialidades, testes de diagnóstico e intervenções não gratuitas, e ainda terá /*financiamento de até 36 meses*/ para qualquer teste médico ou estético!",
 		button_text: 'Ver Especialidades'
 	},
 	ar: {
 		title: "اكتشف تخصصاتنا غير المدرجة!",
-		description: "احصل على خصم مدهش يصل إلى 40% على سعر البيع للجمهور (PVP) في التخصصات الطبية، والاختبارات التشخيصية والتدخلات غير المجانية! بالإضافة إلى ذلك، نقدم لك تمويل يصل إلى 36 شهرًا. لا تفوت هذه الفرصة الرائعة واحصل على أفضل الخدمات الصحية مع فوائد اقتصادية كبيرة!",
+		description: "احصل على /*خصم يصل إلى 40٪*/ على التخصصات والاختبارات التشخيصية والتدخلات غير المجانية، وسوف تتوفر لديك أيضًا /*تمويل يصل إلى 36 شهرًا*/ لأي اختبار طبي أو جمالي!",
 		button_text: 'عرض التخصصات'
 	},
 }
