@@ -680,7 +680,7 @@ export const AplicationText = {
 			},
 			{
 				title: 'Médico a domicilio',
-				description: 'Recibe atención médica en casa y paga solo la consulta (Madrid Metropolitana y Barcelona).',
+				description: 'Recibe atención médica en casa y paga solo la consulta.',
 				button_text: 'Reserva tu cita'
 			},
 
@@ -702,7 +702,7 @@ export const AplicationText = {
 			},
 			{
 				title: 'Doctor at home',
-				description: 'Receive medical attention at home and pay only for the consultation (Metropolitan Madrid and Barcelona).',
+				description: 'Receive medical attention at home and pay only for the consultation.',
 				button_text: 'Book your appointment'
 			},
 
@@ -724,7 +724,7 @@ export const AplicationText = {
 			},
 			{
 				title: 'घर पर डॉक्टर',
-				description: 'घर पर मेडिकल देखभाल प्राप्त करें और केवल परामर्श के लिए भुगतान करें (मैड्रिड मेट्रोपोलिटन और बार्सिलोना)।',
+				description: 'घर पर मेडिकल देखभाल प्राप्त करें और केवल परामर्श के लिए भुगतान करें',
 				button_text: 'अपनी अपॉइंटमेंट बुक करें'
 			},
 		]
@@ -745,7 +745,7 @@ export const AplicationText = {
 			},
 			{
 				title: 'Médico em casa',
-				description: 'Receba atendimento médico em casa e pague apenas a consulta (Madrid Metropolitana e Barcelona).',
+				description: 'Receba atendimento médico em casa e pague apenas a consulta.',
 				button_text: 'Agende sua consulta'
 			},
 
@@ -767,7 +767,7 @@ export const AplicationText = {
 			},
 			{
 				title: 'الطبيب في المنزل',
-				description: 'تلقى الرعاية الطبية في المنزل وادفع فقط الرسوم الاستشارية (مدريد المتروبوليتان وبرشلونة).',
+				description: 'تلقى الرعاية الطبية في المنزل وادفع فقط الرسوم الاستشارية.',
 				button_text: 'احجز موعدك'
 			},
 
