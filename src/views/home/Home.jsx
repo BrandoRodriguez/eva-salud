@@ -4,13 +4,10 @@ import Testimonial from "@UI/testimonial/Testimonial";
 import Fundation from "@UI/Fundation/Fundation";
 import {
   Hero,
-  HeaderSecction,
-  ProductsOnline,
-  Products,
-  About,
   Application,
   Banner,
   BannerInformative,
+  BannerInformativeDelivery,
 } from "../../components";
 import { HeaderSectionText, HeroSeo } from "@mocks/Pages/Home";
 import { useLanguage } from "@context/LanguageContext/useLanguage";
@@ -19,68 +16,63 @@ import CallAction from "@components/home/CallAction/CallAction";
 import { useEffect, useState } from "react";
 import PrincipalLoader from "@components/Loaders/PrincipalLoader";
 import HireMessage from "@components/home/HireMessage/HireMessage";
-import { Helmet } from 'react-helmet';
+import { Helmet } from "react-helmet";
 import Details3 from "@components/home/Details3/Details3";
 
 const Home = () => {
-
   const [loadingPage, setLoadingPage] = useState(true);
-  const [videoLoad, setVideoLoad] = useState(false)
+  const [videoLoad, setVideoLoad] = useState(false);
 
-  const {language, company } = useLanguage()
-  const content = HeroSeo[language]
+  const { language, company } = useLanguage();
+  const content = HeroSeo[language];
 
   useEffect(() => {
-
     let interval, timer;
 
     timer = setTimeout(() => {
-
       if (videoLoad) {
         setLoadingPage(false);
       } else {
-
         interval = setInterval(() => {
-
           if (videoLoad) {
             setLoadingPage(false);
-            clearInterval(interval)
+            clearInterval(interval);
           }
-
         }, 100);
       }
     }, 1000);
 
     return () => {
-      clearTimeout(timer)
-      clearInterval(interval)
-    }
-
+      clearTimeout(timer);
+      clearInterval(interval);
+    };
   }, [videoLoad]);
 
   return (
     <Layout>
       <Helmet>
-        <title>{content.title.replace('{company}', company)}</title>
+        <title>{content.title.replace("{company}", company)}</title>
       </Helmet>
       <main className={styles.fullpage}>
         <section className={styles.section_hero}>
-          <Hero isLoadVideo={() => { setVideoLoad(true) }} />
+          <Hero
+            isLoadVideo={() => {
+              setVideoLoad(true);
+            }}
+          />
         </section>
         <section className={styles.section_banner} data-aos="fade-right">
           <Banner />
         </section>
-        <section
-          className={styles.section_bannerinformative}
-          data-aos="fade-left"
-        >
-          <BannerInformative />
+        <section>
+          <Details />
+        </section>
+        <section className={styles.section_bannerinformative}>
+          <BannerInformativeDelivery />
         </section>
         <section className={styles.section_callaction} data-aos="fade-left">
           <CallAction />
         </section>
-
-        {/* <Details3 /> */}
         <section className={styles.application} data-aos="fade-right">
           <Application />
         </section>
