@@ -70,12 +70,16 @@ const Home = () => {
         <section className={styles.section_bannerinformative}>
           <BannerInformativeDelivery />
         </section>
+        <section>
+          <Details3 />
+        </section>
         <section className={styles.section_callaction} data-aos="fade-left">
           <CallAction />
         </section>
         <section className={styles.application} data-aos="fade-right">
           <Application />
         </section>
+
         <HireMessage />
         <Testimonial />
         <Fundation />

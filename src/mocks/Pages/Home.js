@@ -1018,6 +1018,34 @@ export const BannerInformativeText = {
 	},
 }
 
+export const BannerInformativeAnimalesText = {
+	es: {
+		title: "¡Descubre nuestras especialidades no incluidas!",
+		description: "¡ Consigue /*hasta un 40% de descuento*/ en las especialidades, pruebas de diagnóstico, e intervenciones no gratuitas y además contarás con /*financiación de hasta 36 meses*/ para cualquier prueba médica o estética !",
+		button_text: 'Ver Especialidades'
+	},
+	en: {
+		title: "Discover our non-included specialties!",
+		description: "Get /*up to 40% discount*/ on specialties, diagnostic tests, and non-free interventions, and also you will have /*financing up to 36 months*/ for any medical or aesthetic test!",
+		button_text: 'View Specialties'
+	},
+	hi: {
+		title: "हमारे शामिल नहीं किए गए विशेषज्ञताओं की खोज करें!",
+		description: "विशेषताओं, निदान परीक्षणों, और नि:शुल्क हस्तक्षेपों पर /*अधिकतम 40% छूट*/ प्राप्त करें, और साथ ही आपके पास किसी भी चिकित्सा या सौंदर्य परीक्षण के लिए /*36 महीने तक की वित्तपोषण*/ होगी!",
+		button_text: 'विशेषताओं का दृश्य'
+	},
+	pt: {
+		title: "Descubra nossas especialidades não incluídas!",
+		description: "Consiga /*até 40% de desconto*/ em especialidades, testes de diagnóstico e intervenções não gratuitas, e ainda terá /*financiamento de até 36 meses*/ para qualquer teste médico ou estético!",
+		button_text: 'Ver Especialidades'
+	},
+	ar: {
+		title: "اكتشف تخصصاتنا غير المدرجة!",
+		description: "احصل على /*خصم يصل إلى 40٪*/ على التخصصات والاختبارات التشخيصية والتدخلات غير المجانية، وسوف تتوفر لديك أيضًا /*تمويل يصل إلى 36 شهرًا*/ لأي اختبار طبي أو جمالي!",
+		button_text: 'عرض التخصصات'
+	},
+}
+
 export const BannerInformativeTextDelivery = {
 	es: {
 		title: "¡Descubre nuestras especialidades no incluidas!",
