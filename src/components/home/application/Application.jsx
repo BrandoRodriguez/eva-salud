@@ -7,16 +7,23 @@ export const Application = () => {
   const { language } = useLanguage();
   const content = AplicationText[language];
 
+  const getImg = () => {
+    switch (language) {
+      case 'hi':
+        return "phone_hindi.webp"
+    
+      default:
+        return "phone.webp"
+    }
+  }
+
   return (
     <>
       <div className={`${styles.Appsection} container`}>
-        <div className={styles.appImage}>
-          {/* <div className={styles.scanQR}>
-                    <img src="./images/application/logoBlue.png" className={styles.logo}/>
-                    <p>{content.qr_title}</p>
-                    <img src="./images/application/qr.png" className={styles.qr}/>
-                </div> */}
+
+        <div className={styles.appImage} style={{ backgroundImage: `url("/images/application/${getImg()}")` }}>
         </div>
+
         <div className={styles.appDescription}>
           <h2 data-aos='fade-right'>
             {processBoldText(content.title).map(({ type, content }, index) => {

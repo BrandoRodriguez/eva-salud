@@ -12,7 +12,20 @@ export const CardSmall = ({
   const { language } = useLanguage();
   const content = HeroText[language];
 
-  price = language === "hi" ? "00₹" : "00€";
+  const getPrice = () => {
+    if (language === "hi"){
+      return "00₹"
+    }
+    else if (language === "ar"){
+      return "00د.إ"
+    }
+    else {
+      return "00€"
+    }
+  }
+
+  price = getPrice()
+
 
   return (
     <div className={styles.freespecialties} data-aos="fade-down">

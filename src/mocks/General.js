@@ -426,7 +426,7 @@ export const AtencionTelefonicaText = {
 		title: 'Consultor de Eva Saúde'
 	},
 	ar: {
-		title: 'مستشار Evasvaasth'
+		title: 'مستشار SehaHawae'
 	},
 }
 
