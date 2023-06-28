@@ -1021,28 +1021,28 @@ export const BannerInformativeText = {
 export const BannerInformativeAnimalesText = {
 	es: {
 		title: "¡Descubre nuestras especialidades no incluidas!",
-		description: "El bienestar de tu mascotas en lo más importante para Eva Salud, por ese motivo te ofrecemos grandes descuentos en clínicas veterinarias y servicios para tu mascota.",
-		button_text: 'Ver Especialidades'
+		description: "El bienestar de tu mascota es lo más importante para Eva Salud, por ese motivo te ofrecemos grandes descuentos en clínicas veterinarias y servicios para tu mascota.",
+		button_text: 'Más información'
 	},
 	en: {
-		title: "Discover our not included specialties!",
-		description: "Your pet's wellbeing is the most important thing for Eva Health, that's why we offer you great discounts in veterinary clinics and services for your pet.",
-		button_text: 'See Specialties'
+		title: "Discover our non-included specialties!",
+		description: "Your pet's well-being is most important for Eva Health, for this reason we offer great discounts at veterinary clinics and services for your pet.",
+		button_text: 'More information'
 	},
 	hi: {
-		title: "हमारी शामिल नहीं की गई विशेषताओं की खोज करें!",
-		description: "आपके पालतू जानवर की खुशहाली ईवा स्वास्थ्य के लिए सबसे महत्वपूर्ण है, इसलिए हम आपको पशु चिकित्सा क्लिनिकों और आपके पालतू जानवर के लिए सेवाओं में बड़े छूट देते हैं।",
-		button_text: 'विशेषताओं देखें'
+		title: "हमारे शामिल नहीं होने वाले विशेषताओं की खोज करें!",
+		description: "आपके पालतू जानवर की भलाई Eva Health के लिए सबसे महत्वपूर्ण है, इसलिए हम पशु चिकित्सा क्लिनिकों और आपके पालतू जानवर के लिए सेवाओं पर बड़े छूट देते हैं।",
+		button_text: 'अधिक जानकारी'
 	},
 	pt: {
 		title: "Descubra nossas especialidades não incluídas!",
-		description: "O bem-estar do seu animal de estimação é a coisa mais importante para Eva Saúde, por isso oferecemos grandes descontos em clínicas veterinárias e serviços para o seu animal de estimação.",
-		button_text: 'Ver Especialidades'
+		description: "O bem-estar do seu animal de estimação é o mais importante para a Eva Saúde, por isso oferecemos grandes descontos em clínicas veterinárias e serviços para o seu animal de estimação.",
+		button_text: 'Mais informações'
 	},
 	ar: {
 		title: "اكتشف تخصصاتنا غير المدرجة!",
-		description: "رفاهية حيوانك الأليف هي الأهم بالنسبة لإيفا الصحة، ولهذا السبب نقدم لك خصومات كبيرة في العيادات البيطرية والخدمات لحيوانك الأليف.",
-		button_text: 'مشاهدة التخصصات'
+		description: "رفاهية حيوانك الأليف هي الأهم بالنسبة لـ Eva Health، ولهذا السبب نقدم خصومات كبيرة في العيادات البيطرية والخدمات المقدمة لحيوانك الأليف.",
+		button_text: 'مزيد من المعلومات'
 	},
 }
 

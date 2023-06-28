@@ -4,8 +4,8 @@ export function getVersion(){
 
 export function getLanguage(language = 'es') {
 
-	let domain = window.location.hostname;
-	let url, domainIndex;
+	let domainURL = window.location.hostname;
+	let url, domainIndex, domain;
 
 	console.log('lenguage inicial', language)
 
@@ -47,32 +47,32 @@ export function getLanguage(language = 'es') {
 		url = '/spanish/get_spanish_document'
 		domainIndex = 1
 		language = 'es'
-		console.log('cambiando a español')
+		domain = domainURL
 	}
 	else if (window.location.hostname.includes('evacard.com')) {
 		url = '/euskera/get_euskera_document'
 		domainIndex = 2
 		language = 'en'
+		domain = domainURL
 	}
 	else if (window.location.hostname.includes('evasvaasth.com')) {
 		url = '/hindi/get_euskera_document'
 		domainIndex = 3
 		language = 'hi'
-		console.log('cambiando a hindiiiiiiiiii')
+		domain = domainURL
 	}
 	else if (window.location.hostname.includes('evasaude.com')) {
 		url = '/portugues/portugues_document'
 		domainIndex = 4
 		language = 'pt'
+		domain = domainURL
 	}
 	else if (window.location.hostname.includes('sehahawae.com')) {
 		url = '/arabe/arabe_document'
 		domainIndex = 5
 		language = 'ar'
-		console.log('cambiando a arabe')
+		domain = domainURL
 	}
-
-	console.log('lenguage final', language)
 
 	domain = domain.replace('www.', '')
 

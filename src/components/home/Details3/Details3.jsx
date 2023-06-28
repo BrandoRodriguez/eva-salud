@@ -15,7 +15,7 @@ const Details3 = () => {
           <div className={styles.content}>
             {/* <Title45>Titulo Prueba</Title45> */}
             <p>{content.description}</p>
-            {/* <button className={styles.viewCenter}>{content.button_text}</button> */}
+            <button className={styles.viewCenter}>{content.button_text}</button>
 
             {/* <DetailsOptions
               options={[
